@@ -20,5 +20,14 @@ for my $epithet_i ( 0..10 ) {
 #for my $epithet_i ( 0..747 ) {
 	my $epithet_bytes = substr( $blob, $EPITHETS_OFFSET + $epithet_i * $EPITHET_LENGTH, $EPITHET_LENGTH );
 	my ( $name_offset, @rest ) = unpack 'L'.('S'x14), $epithet_bytes;
-	printf "%3d: 0x%04x  %s\n", $epithet_i, $name_offset, "@rest";
+	my $name = get_cstring( $blob, $name_offset - $IMAGEBASE_OFFSET - 0x40000000 );
+
+	printf "%3d: %s (0x%x)\n", $epithet_i, $name, $name_offset;
+	printf "     @rest\n\n";
+}
+
+sub get_cstring {
+	my ( $blob, $start ) = @_;
+	my $end = index( $blob, chr(0), $start );
+	return substr( $blob, $start, $end-$start );
 }
