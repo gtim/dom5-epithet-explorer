@@ -17,7 +17,7 @@ my $EPITHET_LENGTH = 0x20;
 my $blob = read_binary( $FILENAME_EXE_X64 );
 
 for my $epithet_i ( 0..10 ) {
-#for my $epithet_i ( 0..747 ) {
+#for my $epithet_i ( 0..745 ) {
 	my $epithet_bytes = substr( $blob, $EPITHETS_OFFSET + $epithet_i * $EPITHET_LENGTH, $EPITHET_LENGTH );
 	my ( $name_offset, @rest ) = unpack 'L'.('S'x14), $epithet_bytes;
 	my $name = get_cstring( $blob, $name_offset - $IMAGEBASE_OFFSET - 0x40000000 );
@@ -29,5 +29,7 @@ for my $epithet_i ( 0..10 ) {
 sub get_cstring {
 	my ( $blob, $start ) = @_;
 	my $end = index( $blob, chr(0), $start );
+	die "could not find end of c string" if $end == -1;
+	die "suspiciously long epithet (".($end-$start).")" if $end - $start > 70;
 	return substr( $blob, $start, $end-$start );
 }
