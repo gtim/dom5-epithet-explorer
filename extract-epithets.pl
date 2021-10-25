@@ -64,14 +64,22 @@ for my $epithet_i ( 0..20, 323 ) {
 # misc stuff
 
 {
-	# TC male titles
-	say join ', ', get_titles( $blob, 0x135f650, 5 );
-	# TC female titles
-	say join ', ', get_titles( $blob, 0x135f678, 5 );
-	# Yomi/shinu/jomon male titles
-	say join ', ', get_titles( $blob, 0x135f6a0, 5 );
-	# Yomi/shinu/jomon female titles
-	say join ', ', get_titles( $blob, 0x135f6c8, 5 );
+	# Titles in front of epithets.
+	# Available to all: God, Lord, Master (male) and Goddess, Lady, Mistress
+	# Available to TC (any age): Emperor, Minister and Empress, Minister
+	# Available to Yomi/Shinuyama/Jomon: Emperor, Emperor and Empress, Empress (i.e. twice the chance)
+	# Available to those not TC or Yomi/Shinu/Jomon: King, Prince and Queen, Princess
+
+	# Tien Chi titles
+	say join ', ', get_titles( $blob, 0x135f650, 5 ); # male
+	say join ', ', get_titles( $blob, 0x135f678, 5 ); # female
+	# Yomi/shinu/jomon titles
+	say join ', ', get_titles( $blob, 0x135f6a0, 5 ); # male
+	say join ', ', get_titles( $blob, 0x135f6c8, 5 ); # female
+	# All other nations' titles
+	say join ', ', get_titles( $blob, 0x135f600, 5 ); # male
+	say join ', ', get_titles( $blob, 0x135f628, 5 ); # female
+
 }
 
 sub get_titles {
