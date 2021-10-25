@@ -60,6 +60,21 @@ for my $epithet_i ( 0..20, 323 ) {
 	print "\n";
 }
 
+
+# misc stuff
+
+{
+	# TC male titles
+	my @TC_titles_male   = unpack 'Q<'x5, substr($blob, 0x135f650-$IMAGEBASE_OFFSET, 8*6  );
+	say get_cstring( $blob, $_ - $IMAGEBASE_OFFSET - 0x140000000 ) for ( @TC_titles_male   );
+
+	# TC female titles
+	my @TC_titles_female = unpack 'Q<'x5, substr($blob, 0x135f678-$IMAGEBASE_OFFSET, 8*6  );
+	say get_cstring( $blob, $_ - $IMAGEBASE_OFFSET - 0x140000000 ) for ( @TC_titles_female );
+}
+
+# convenience functions
+
 sub get_cstring {
 	my ( $blob, $start ) = @_;
 	my $end = index( $blob, chr(0), $start );
