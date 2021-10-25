@@ -65,12 +65,20 @@ for my $epithet_i ( 0..20, 323 ) {
 
 {
 	# TC male titles
-	my @TC_titles_male   = unpack 'Q<'x5, substr($blob, 0x135f650-$IMAGEBASE_OFFSET, 8*6  );
-	say get_cstring( $blob, $_ - $IMAGEBASE_OFFSET - 0x140000000 ) for ( @TC_titles_male   );
-
+	say join ', ', get_titles( $blob, 0x135f650, 5 );
 	# TC female titles
-	my @TC_titles_female = unpack 'Q<'x5, substr($blob, 0x135f678-$IMAGEBASE_OFFSET, 8*6  );
-	say get_cstring( $blob, $_ - $IMAGEBASE_OFFSET - 0x140000000 ) for ( @TC_titles_female );
+	say join ', ', get_titles( $blob, 0x135f678, 5 );
+	# Yomi/shinu/jomon male titles
+	say join ', ', get_titles( $blob, 0x135f6a0, 5 );
+	# Yomi/shinu/jomon female titles
+	say join ', ', get_titles( $blob, 0x135f6c8, 5 );
+}
+
+sub get_titles {
+	my ( $blob, $start, $num_titles ) = @_;
+	my @title_offsets = unpack 'Q<'x5, substr($blob, $start - $IMAGEBASE_OFFSET, 8*$num_titles  );
+	my @titles = map { get_cstring( $blob, $_ - $IMAGEBASE_OFFSET - 0x140000000 ) } @title_offsets;
+	return @titles;
 }
 
 # convenience functions
