@@ -80,6 +80,10 @@ for my $epithet_i ( 0..20, 323 ) {
 	say join ', ', get_titles( $blob, 0x135f600, 5 ); # male
 	say join ', ', get_titles( $blob, 0x135f628, 5 ); # female
 
+
+	# Ruler of Nothing: no epithets found after 10,000 tries
+	say get_cstring( $blob, 0x135f5e8 - $IMAGEBASE_OFFSET );
+
 }
 
 sub get_titles {
