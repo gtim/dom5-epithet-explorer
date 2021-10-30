@@ -17,8 +17,8 @@ my $EPITHET_LENGTH = 0x20;
 
 my $blob = read_binary( $FILENAME_EXE_X64 );
 
-for my $epithet_i ( 0..20, 323 ) {
-#for my $epithet_i ( 0..745 ) {
+#for my $epithet_i ( 0..10, 323 ) {
+for my $epithet_i ( 0..745 ) {
 	my $epithet_bytes = substr( $blob, $EPITHETS_OFFSET + $epithet_i * $EPITHET_LENGTH, $EPITHET_LENGTH );
 	my ( $name_offset, @conditions_and_values ) = unpack 'Q<'.('S<'x12), $epithet_bytes;
 	my $name = get_cstring( $blob, $name_offset - $IMAGEBASE_OFFSET - 0x140000000 );
@@ -26,7 +26,8 @@ for my $epithet_i ( 0..20, 323 ) {
 	my @conditions = @conditions_and_values[0..5];
 	my @values = @conditions_and_values[6..11];
 
-	printf "%3d: %s\n", $epithet_i, $name;
+	my $pret_str = sprintf "%3d: %s\n", $epithet_i, $name;
+	my $print = 0;
 	for my $con_i ( 0..5 ) {
 		my ( $con, $val ) = ( $conditions[$con_i], $values[$con_i] );
 		my $constr;
@@ -36,6 +37,9 @@ for my $epithet_i ( 0..20, 323 ) {
 
 			when (   1) { $constr = "Dom. Str.  >= $val"; }
 			# when (   4) { say $val; } # unknown? val is 0..26 except 7, 9, 21, 25
+
+			# 20: only "The Many Eyed #" with value 3. Maybe unsurroundable? Or num. eyes?
+			when (  20) { $constr = "?Eye-something $val?"; }
 
 			when (1000) { $constr = "Fire       >= $val"; }
 			when (1001) { $constr = "Air        >= $val"; }
@@ -55,15 +59,16 @@ for my $epithet_i ( 0..20, 323 ) {
 
 			default { $constr = sprintf "?? %d: %d", $con, $val; }
 		}
-		say '     '.$constr;
+		$pret_str .= '     '.$constr."\n";
+		$print++ if $con == 20;
 	}
-	print "\n";
+	say $pret_str if $print
 }
 
 
 # misc stuff
 
-{
+if(0){
 	# Titles in front of epithets.
 	# Available to all: God, Lord, Master (male) and Goddess, Lady, Mistress
 	# Available to TC (any age): Emperor, Minister and Empress, Minister
