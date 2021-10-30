@@ -36,8 +36,18 @@ for my $epithet_i ( 0..745 ) {
 			when (0) { next }
 
 			when (   1) { $constr = "Dom. Str.  >= $val"; }
+			when (   2) {
+				if ( $val == 0 ) {
+					$constr = "Female";
+				} elsif ( $val == 1 ) {
+					$constr = "Male";
+				} else { die "invalid val"; }
+			}
 			when (   4) { $constr = "No other epithets in class $val"; }
-
+			when (  17) {
+				die "invalid val" unless $val == 1;
+				$constr = "Disciple";
+			}
 			when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
 
 			when (1000) { $constr = "Fire       >= $val"; }
