@@ -59,8 +59,13 @@ for my $epithet_i ( 0..745 ) {
 			}
 			when (  18) { $constr = "Unit ID:   $val"; }
 			when (  19) {
-				die "invalid val" unless $val == 0 || $val == 1;
-				$constr = "??disciple-related (19:$val)";
+				if ( $val == 0 ) {
+					$constr = "Disciple to a female pretender";
+				} elsif ( $val == 1 ) {
+					$constr = "Disciple to a male pretender";
+				} else {
+					die "invalid val";
+				}
 			}
 			when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
 
