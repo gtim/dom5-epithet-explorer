@@ -38,8 +38,7 @@ for my $epithet_i ( 0..745 ) {
 			when (   1) { $constr = "Dom. Str.  >= $val"; }
 			# when (   4) { say $val; } # unknown? val is 0..26 except 7, 9, 21, 25
 
-			# 20: only "The Many Eyed #" with value 3. Maybe unsurroundable? Or num. eyes?
-			when (  20) { $constr = "?Eye-something $val?"; }
+			when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
 
 			when (1000) { $constr = "Fire       >= $val"; }
 			when (1001) { $constr = "Air        >= $val"; }
@@ -60,7 +59,7 @@ for my $epithet_i ( 0..745 ) {
 			default { $constr = sprintf "?? %d: %d", $con, $val; }
 		}
 		$pret_str .= '     '.$constr."\n";
-		$print++ if $con == 20;
+		$print++ if $con == 5;
 	}
 	say $pret_str if $print
 }
