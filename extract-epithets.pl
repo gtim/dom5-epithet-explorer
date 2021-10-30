@@ -70,6 +70,10 @@ for my $epithet_i ( 0..745 ) {
 			when (1006) { $constr = "Nature     >= $val"; }
 			when (1007) { $constr = "Blood      >= $val"; }
 
+			when (1051) { $constr = "Each FAWE  >= $val"; }
+			when (1052) { $constr = "Each SDNB  >= $val"; }
+			when (1053) { $constr = "Each magic path >= $val"; }
+
 			when (2000) { $constr = "Turmoil    >= $val"; }
 			when (2001) { $constr = "Sloth      >= $val"; }
 			when (2002) { $constr = "Cold       >= $val"; }
