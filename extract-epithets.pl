@@ -48,6 +48,10 @@ for my $epithet_i ( 0..745 ) {
 				die "invalid val" unless $val == 1;
 				$constr = "Disciple";
 			}
+			when (  19) {
+				die "invalid val" unless $val == 0 || $val == 1;
+				$constr = "??disciple-related (19:$val)";
+			}
 			when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
 
 			when (1000) { $constr = "Fire       >= $val"; }
