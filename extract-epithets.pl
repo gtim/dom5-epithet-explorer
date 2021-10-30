@@ -44,10 +44,17 @@ for my $epithet_i ( 0..745 ) {
 				} else { die "invalid val"; }
 			}
 			when (   4) { $constr = "No other epithets in class $val"; }
+			when (   3) { $constr = "Nation:    $val"; }
+			when (  11) { $constr = "Undead:    $val"; }
+			when (  12) { $constr = "Demon:     $val"; }
+			when (  14) { $constr = "Immortal:  $val"; }
+			when (  15) { $constr = "Immobile:  $val"; }
+			when (  16) { $constr = "Inanimate: $val"; }
 			when (  17) {
 				die "invalid val" unless $val == 1;
 				$constr = "Disciple";
 			}
+			when (  18) { $constr = "Unit ID:   $val"; }
 			when (  19) {
 				die "invalid val" unless $val == 0 || $val == 1;
 				$constr = "??disciple-related (19:$val)";
