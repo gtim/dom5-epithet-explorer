@@ -43,8 +43,8 @@ for my $epithet_i ( 0..745 ) {
 					$constr = "Male";
 				} else { die "invalid val"; }
 			}
-			when (   4) { $constr = "No other epithets in class $val"; }
 			when (   3) { $constr = "Nation:    $val"; }
+			when (   4) { $constr = "No other epithets in class $val"; }
 			when (  11) { $constr = "Undead:    $val"; }
 			when (  12) { $constr = "Demon:     $val"; }
 			when (  14) { $constr = "Immortal:  $val"; }
@@ -69,6 +69,13 @@ for my $epithet_i ( 0..745 ) {
 			when (1005) { $constr = "Death      >= $val"; }
 			when (1006) { $constr = "Nature     >= $val"; }
 			when (1007) { $constr = "Blood      >= $val"; }
+
+			when (2000) { $constr = "Turmoil    >= $val"; }
+			when (2001) { $constr = "Sloth      >= $val"; }
+			when (2002) { $constr = "Cold       >= $val"; }
+			when (2003) { $constr = "Death scale>= $val"; }
+			when (2004) { $constr = "Misfortune >= $val"; }
+			when (2005) { $constr = "Drain      >= $val"; }
 
 			when (2100) { $constr = "Order      >= $val"; }
 			when (2101) { $constr = "Production >= $val"; }
