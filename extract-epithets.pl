@@ -45,6 +45,9 @@ for my $epithet_i ( 0..745 ) {
 			}
 			when (   3) { $constr = "Nation:    $val"; }
 			when (   4) { $constr = "No other epithets in class $val"; }
+			when (   5) { $constr = "Fear       >= $val"; }
+			when (   6) { $constr = "Awe        >= $val"; }
+			when (   7) { $constr = "Strength   >= $val"; }
 			when (  11) { $constr = "Undead:    $val"; }
 			when (  12) { $constr = "Demon:     $val"; }
 			when (  14) { $constr = "Immortal:  $val"; }
@@ -88,11 +91,11 @@ for my $epithet_i ( 0..745 ) {
 			when (2104) { $constr = "Luck       >= $val"; }
 			when (2105) { $constr = "Magic      >= $val"; }
 
-			default { $constr = sprintf "?? %d: %d", $con, $val; $print++ }
+			default { $constr = sprintf "?? %d: %d", $con, $val }
 		}
 		$pret_str .= '     '.$constr."\n";
 	}
-	say $pret_str if $print
+	say $pret_str 
 }
 
 
