@@ -36,7 +36,7 @@ for my $epithet_i ( 0..745 ) {
 			when (0) { next }
 
 			when (   1) { $constr = "Dom. Str.  >= $val"; }
-			# when (   4) { say $val; } # unknown? val is 0..26 except 7, 9, 21, 25
+			when (   4) { $constr = "No other epithets in class $val"; }
 
 			when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
 
@@ -56,10 +56,9 @@ for my $epithet_i ( 0..745 ) {
 			when (2104) { $constr = "Luck       >= $val"; }
 			when (2105) { $constr = "Magic      >= $val"; }
 
-			default { $constr = sprintf "?? %d: %d", $con, $val; }
+			default { $constr = sprintf "?? %d: %d", $con, $val; $print++ }
 		}
 		$pret_str .= '     '.$constr."\n";
-		$print++ if $con == 5;
 	}
 	say $pret_str if $print
 }
