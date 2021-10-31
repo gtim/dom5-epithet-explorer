@@ -4,7 +4,7 @@
 	import * as eps from './epithets.json';
 
 	let selectedEpithet;
-	let selectedEpithets = [eps.epithets[0], eps.epithets[200]];
+	let selectedEpithets = [eps.epithets[0], eps.epithets[200], eps.epithets[8] ];
 
 	$: if ( selectedEpithet ) {
 		selectedEpithets.push( selectedEpithet );
@@ -15,15 +15,24 @@
 </script>
 
 <main>
-	<AutoComplete 
-		items={eps.epithets} bind:selectedItem={selectedEpithet}
-		labelFieldName="string"
-		valueFieldName="id"
-	/>
+	<div style="text-align:center;">
+		<AutoComplete 
+			items={eps.epithets} bind:selectedItem={selectedEpithet}
+			labelFieldName="string"
+			valueFieldName="id"
+		/>
+	</div>
 
 	<div class="epithet_cards">
 		{#each selectedEpithets as ep}
-			<div class="epithet_card">{ep.string}</div>
+			<div class="epithet_card">
+				<span class="string">{ep.string}</span>
+				<ul>
+				{#each ep.constraints as constraint}
+					<li>{constraint.field}: {constraint.value}</li>
+				{/each}
+				</ul>
+			</div>
 		{/each}
 	</div>
 
@@ -40,8 +49,10 @@
 		padding:8px;
 		margin:12px;
 	}
+	div.epithet_card span.string {
+		font-weight:bold;
+	}
 	main {
-		text-align: center;
 		padding: 1em;
 		max-width: 480px;
 		margin: 0 auto;

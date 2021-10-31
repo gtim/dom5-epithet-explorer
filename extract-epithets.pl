@@ -31,7 +31,7 @@ for my $epithet_i ( 0..745 ) {
 	my @values = @conditions_and_values[6..11];
 
 	my $pret_str = sprintf "%3d: %s\n", $epithet_i, $name;
-	my $epithet = { id => $epithet_i, string => $name }; 
+	my $epithet = { id => $epithet_i, string => $name, constraints => [] }; 
 	for my $con_i ( 0..5 ) {
 		my ( $con, $val ) = ( $conditions[$con_i], $values[$con_i] );
 		my $constr;
@@ -73,14 +73,14 @@ for my $epithet_i ( 0..745 ) {
 			}
 			when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
 
-			when (1000) { $constr = "Fire       >= $val"; }
-			when (1001) { $constr = "Air        >= $val"; }
-			when (1002) { $constr = "Water      >= $val"; }
-			when (1003) { $constr = "Earth      >= $val"; }
-			when (1004) { $constr = "Astral     >= $val"; }
-			when (1005) { $constr = "Death      >= $val"; }
-			when (1006) { $constr = "Nature     >= $val"; }
-			when (1007) { $constr = "Blood      >= $val"; }
+			when (1000) { $constr = "Fire       >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'F', 'value' => $val }; }
+			when (1001) { $constr = "Air        >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'A', 'value' => $val }; }
+			when (1002) { $constr = "Water      >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'W', 'value' => $val }; }
+			when (1003) { $constr = "Earth      >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'E', 'value' => $val }; }
+			when (1004) { $constr = "Astral     >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'S', 'value' => $val }; }
+			when (1005) { $constr = "Death      >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'D', 'value' => $val }; }
+			when (1006) { $constr = "Nature     >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'N', 'value' => $val }; }
+			when (1007) { $constr = "Blood      >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'B', 'value' => $val }; }
 
 			when (1051) { $constr = "Each FAWE  >= $val"; }
 			when (1052) { $constr = "Each SDNB  >= $val"; }

@@ -1,2986 +1,6896 @@
 {
    "epithets" : [
       {
+         "constraints" : [],
          "id" : 0,
          "string" : "! Who Stole the Fire"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 1,
          "string" : "# of Every Flame"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 2,
          "string" : "# of Flames"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 3,
          "string" : "the Flame of Evil"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 4,
          "string" : "# of Fires"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 5,
          "string" : "# of Ashes"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 6,
          "string" : "# of Fires of the Earth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 7,
          "string" : "# of Volcanoes"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 8,
          "string" : "# of Magma"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 9,
          "string" : "# of Brilliance"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 10,
          "string" : "# of Fever"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 11,
          "string" : "# of the Desert Sun"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 12,
          "string" : "# of Heavenly Fires"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 13,
          "string" : "the Brilliant God"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 14,
          "string" : "the Everburning One"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 15,
          "string" : "the Loyal Master"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 16,
          "string" : "# of the Dawn"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 17,
          "string" : "Feeder on Impurity"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 18,
          "string" : "the Burning Soul"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 19,
          "string" : "# of Light"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "9"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 20,
          "string" : "# of the Sun"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "9"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 21,
          "string" : "Regent of the Sun"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "5"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 22,
          "string" : "# of Volcanic Fire"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 23,
          "string" : "# of Spring and Sunlight"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 24,
          "string" : "# of Penitential Torture"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 25,
          "string" : "Enemy of Darkness"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 26,
          "string" : "Eater of Filth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 27,
          "string" : "Devourer of Sins"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 28,
          "string" : "the Great Sun of Life"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 29,
          "string" : "the Consuming Fire"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "6"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 30,
          "string" : "! Who has the Sun as Eye"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 31,
          "string" : "# of Air"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 32,
          "string" : "# of Clouds"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 33,
          "string" : "Rider of the Clouds"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 34,
          "string" : "# of Mists"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 35,
          "string" : "Holder of the Windbag"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 36,
          "string" : "# of the Winds"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 37,
          "string" : "# of the Wind and of the Hoe"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 38,
          "string" : "# of the Scorching Winds"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 39,
          "string" : "# of the Freezing Winds"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 40,
          "string" : "# of the Four Winds"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 41,
          "string" : "# of the North Wind"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 42,
          "string" : "# of the South Wind"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 43,
          "string" : "# of the East Wind"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 44,
          "string" : "# of the West Wind"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 45,
          "string" : "# of the Black Wind"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 46,
          "string" : "# of the Desert Wind"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 47,
          "string" : "# of Thunder and Lightning"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 48,
          "string" : "# of the Thundershowers and of the Plow"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 49,
          "string" : "the Pillar that is Purity"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 50,
          "string" : "Reaver of the Skies"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 51,
          "string" : "Warrior in the Gale"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 52,
          "string" : "Supreme Messenger Herald of the Gods"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 53,
          "string" : "Messenger of Gods"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 54,
          "string" : "# of Illusion and Masquerade"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 55,
          "string" : "# of Storms"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 56,
          "string" : "Maker of the Storms"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "9"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 57,
          "string" : "# of Heaven"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 58,
          "string" : "# of the Sky"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 59,
          "string" : "Sky of all the People"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 60,
          "string" : "! who Mounts the Clouds"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 61,
          "string" : "Great Hurricane of the Heavens"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "5"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 62,
          "string" : "# of the Breath of Life"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 63,
          "string" : "# of Wind on the Waters"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 64,
          "string" : "the Breathmaker"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 65,
          "string" : "Bull of the Storms"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 66,
          "string" : "the # of the Power of the Air"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 67,
          "string" : "the Great Deceiver"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 68,
          "string" : "the One Far Above"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 69,
          "string" : "# of Water"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 70,
          "string" : "the # Knowing the Waters"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 71,
          "string" : "# of Deadly Waters"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 72,
          "string" : "# of Fishermen"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 73,
          "string" : "Harvester of Sailors"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 74,
          "string" : "Friend of Sailors"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 75,
          "string" : "Divine Inspector of Canals"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 76,
          "string" : "# of Navigation"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 77,
          "string" : "# of Rivers"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 78,
          "string" : "# of Rain"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 79,
          "string" : "the Boiling Spirit"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 80,
          "string" : "Beverage"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 81,
          "string" : "# of the Raging Seas"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 82,
          "string" : "# of the Eternal Sea"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 83,
          "string" : "# of the Waves"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 84,
          "string" : "# of Frost"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 85,
          "string" : "# of Ice"
       },
       {
+         "constraints" : [],
          "id" : 86,
          "string" : "# of Winter"
       },
       {
+         "constraints" : [],
          "id" : 87,
          "string" : "the Long Winter"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 88,
          "string" : "# of the Winter Realms"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 89,
          "string" : "# of the Frozen Waste"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 90,
          "string" : "Turner of the Flood"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 91,
          "string" : "# of the Ocean Underneath"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 92,
          "string" : "Keeper of the Water Dead"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 93,
          "string" : "# of the Oceans"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 94,
          "string" : "# of Primordial Waters"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 95,
          "string" : "# of Primeval Depths"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 96,
          "string" : "# of all Sources of Water"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 97,
          "string" : "the Sea Mother"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 98,
          "string" : "the Whirlpool"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 99,
          "string" : "Ruler of the Ocean's Surface"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 100,
          "string" : "Mother of Fishes"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 101,
          "string" : "Opener of the Wells"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 102,
          "string" : "Smotherer of Life"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 103,
          "string" : "the Embracer"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 104,
          "string" : "Lady of Embracing"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 105,
          "string" : "She who Embraces"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 106,
          "string" : "! who Strangles"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 107,
          "string" : "! who Shoots Forth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 108,
          "string" : "! who Runs like an Arrow"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 109,
          "string" : "Fountain of All Waters"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 110,
          "string" : "Lady of Shipwrecks"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 111,
          "string" : "Patron of Smiths"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 112,
          "string" : "the Divine Smith"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 113,
          "string" : "# of Forgiving"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 114,
          "string" : "the Coppercaster of the Gods"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "2"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 115,
          "string" : "# of Bricks"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 116,
          "string" : "# of the Foothills"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 117,
          "string" : "# of the Soil"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 118,
          "string" : "# of the Stony Ground"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 119,
          "string" : "# of Mountains"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 120,
          "string" : "# of Metals"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 121,
          "string" : "# of Inventions"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 122,
          "string" : "the Inventor of Science"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 123,
          "string" : "# of the Crafts"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 124,
          "string" : "# of Earthquakes"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 125,
          "string" : "the Earth Monster"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 126,
          "string" : "the Armorer"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 127,
          "string" : "the Unmoving Master"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 128,
          "string" : "the Unshakable"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 129,
          "string" : "# of Tremors"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 130,
          "string" : "# of Might"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 131,
          "string" : "# of Strength"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 132,
          "string" : "the Personification of Strength"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 133,
          "string" : "the Fortifier"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 134,
          "string" : "the Hammer of Gaia"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 135,
          "string" : "the Mountain Lord"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 136,
          "string" : "Guardian of Existence"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 137,
          "string" : "! Who Seals the Gates of Death"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 138,
          "string" : "Patron of Artisans"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 139,
          "string" : "the Hungry Earth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 140,
          "string" : "the Maker of Mountains"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 141,
          "string" : "# of the Forges"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 142,
          "string" : "! Who Tempers the Spirit"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 143,
          "string" : "Earth Mother"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 144,
          "string" : "the Rock"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 145,
          "string" : "# of the Rock"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 146,
          "string" : "the One who Contains Everything"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 147,
          "string" : "# of the Mountain Springs"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 148,
          "string" : "# of the Greater Earth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 149,
          "string" : "Protector of the Holy Mountain"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 150,
          "string" : "# of Dirt"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 151,
          "string" : "! who is on the Mountain"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "2"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "2"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 152,
          "string" : "the Great Potter"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 153,
          "string" : "Great # of the Earth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "5"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "5"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 154,
          "string" : "the Soul Forger"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 155,
          "string" : "Warrior Against the Sun"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "5"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 156,
          "string" : "! who Hungers for the Sun"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 157,
          "string" : "# of Darkness"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 158,
          "string" : "the Shadow Over All"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 159,
          "string" : "! Who Loves not the Light"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 160,
          "string" : "# of Shadows"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 161,
          "string" : "# of Disease"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 162,
          "string" : "! who Gave Birth to Death"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 163,
          "string" : "# of the Dead"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 164,
          "string" : "Guardian of the Dead"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 165,
          "string" : "# of Famine"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 166,
          "string" : "# of Plagues"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 167,
          "string" : "Mother of the Plague"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 168,
          "string" : "# of Pestilence"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 169,
          "string" : "# of Death and Rebirth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 170,
          "string" : "# of Decay"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 171,
          "string" : "# of Corruption"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 172,
          "string" : "# of the Night Sky"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 173,
          "string" : "the Eternal Judge"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 174,
          "string" : "Judge of the Dead"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 175,
          "string" : "the Watcher of the Gallows"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 176,
          "string" : "# of Dark Magics"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 177,
          "string" : "the King at the Crossroads"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 178,
          "string" : "the Lady at the Crossroads"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 179,
          "string" : "# of Terror"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 180,
          "string" : "the Harvester"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 181,
          "string" : "# of Untimely Death"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 182,
          "string" : "# of Suicides"
       },
       {
+         "constraints" : [],
          "id" : 183,
          "string" : "the Terror of the Tomb"
       },
       {
+         "constraints" : [],
          "id" : 184,
          "string" : "the Lurker in the Crypt"
       },
       {
+         "constraints" : [],
          "id" : 185,
          "string" : "the Collector of Souls"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 186,
          "string" : "Guide of Souls"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 187,
          "string" : "Star of the Dead"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "10"
+            }
+         ],
          "id" : 188,
          "string" : "the Personification of Death"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 189,
          "string" : "# of Death"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 190,
          "string" : "# of the Afterlife"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "7"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 191,
          "string" : "# of the Underworld"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 192,
          "string" : "the Dead and Undying God"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 193,
          "string" : "the Dead and Undying Goddess"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 194,
          "string" : "# of Darkness and Destruction"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 195,
          "string" : "Patron of Necromancers"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 196,
          "string" : "the Grey One"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 197,
          "string" : "the One Always at the Shoulder"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 198,
          "string" : "the Shadow"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 199,
          "string" : "the Pockmarked Savior"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 200,
          "string" : "Gatherer of the Dead"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 201,
          "string" : "Friend of the Dead"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 202,
          "string" : "the Stealer of Corpses"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 203,
          "string" : "Persecutor and Destroyer of Youth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 204,
          "string" : "# of the City of the Dead"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 205,
          "string" : "Foremost of the Westerners"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 206,
          "string" : "the Shadow of Death"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 207,
          "string" : "the Old Quiet Lady"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 208,
          "string" : "Pure Queen of Them Below"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 209,
          "string" : "# of Eclipses"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 210,
          "string" : "the Evening Star"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 211,
          "string" : "the Morning Star"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 212,
          "string" : "Divine Scribe"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 213,
          "string" : "Crystallizer of Dreams"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 214,
          "string" : "the Maker of Moons"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 215,
          "string" : "the Maker of Moons"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "7"
+            },
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 216,
          "string" : "Father of Horrors"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 217,
          "string" : "Most Evil Mind"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 218,
          "string" : "# of Insanity"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 219,
          "string" : "Protector from Insanity"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 220,
          "string" : "# of the Void"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 221,
          "string" : "Shining Boat of Heaven"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 222,
          "string" : "# of the Barge of Heaven"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 223,
          "string" : "Opener of the Ways"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 224,
          "string" : "# of Fortune"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 225,
          "string" : "Keeper of the Celestial Records"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 226,
          "string" : "# of Arcane Mysteries"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 227,
          "string" : "Lord of Luck"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 228,
          "string" : "Lady of Luck"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 229,
          "string" : "# of Stellar Lights"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 230,
          "string" : "the Afterthought"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 231,
          "string" : "# of Dreams"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 232,
          "string" : "# of Astral Fires"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 233,
          "string" : "Dispenser of Fate"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 234,
          "string" : "# of the Celestial Bodies"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 235,
          "string" : "# of the Heavenly Fires"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 236,
          "string" : "Guardian of the Tablets of Destiny"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 237,
          "string" : "# of Destiny"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 238,
          "string" : "# of Fate"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 239,
          "string" : "Director of the World"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 240,
          "string" : "! Who Holds the Fate of All"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 241,
          "string" : "# of Immortal Wisdom"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "10"
+            }
+         ],
          "id" : 242,
          "string" : "! who Gave Birth to Fate"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "10"
+            }
+         ],
          "id" : 243,
          "string" : "! who Gave Birth to Time"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 244,
          "string" : "the Undeceivable God"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 245,
          "string" : "the Baleful Eye"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 246,
          "string" : "Pivot of the Universe"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "7"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 247,
          "string" : "the Creator of all Life and Existence"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "7"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 248,
          "string" : "Maker of Everlasting Worlds"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 249,
          "string" : "# of the Pole Star"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 250,
          "string" : "# of Men's Fates"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 251,
          "string" : "# of the Sacred Eye"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 252,
          "string" : "Creator of the Calendar"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 253,
          "string" : "the Far Traveler"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 254,
          "string" : "! who Confuses the Way"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 255,
          "string" : "! who Makes Clear the Way"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 256,
          "string" : "the Persuasive One"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 257,
          "string" : "the Fate of the World"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 258,
          "string" : "# of Doors and Beginnings and Endings"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 259,
          "string" : "Guardian of the Bridge"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "1"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 260,
          "string" : "the Face Painted with Bells"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 261,
          "string" : "Star of the Sea"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 262,
          "string" : "the Brilliant One in the Sky"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 263,
          "string" : "Light-Giver of Heaven"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 264,
          "string" : "the Remote and Inaccessible #"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 265,
          "string" : "Ruler of the 365 Heavens"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 266,
          "string" : "# of the Healing Arts"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 267,
          "string" : "# of Nature"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 268,
          "string" : "the Carpenter of the Insides"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 269,
          "string" : "Goddess of Birth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 270,
          "string" : "the Womb"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 271,
          "string" : "the Mother of All Children"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 272,
          "string" : "# of Growth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 273,
          "string" : "# of Fertility"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 274,
          "string" : "# of the Forest"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 275,
          "string" : "# of Animals"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 276,
          "string" : "# of Vegetation"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 277,
          "string" : "# of Verdure"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 278,
          "string" : "# of Grasses, Grain and Reed"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 279,
          "string" : "# of Plants and Trees"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 280,
          "string" : "the Howler"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 281,
          "string" : "the Wild Bull who has Lain Down"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 282,
          "string" : "Fecund Breed-Bull"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 283,
          "string" : "# of the Wild Cows"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 284,
          "string" : "# of the Dying Forests"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 285,
          "string" : "the Unsleeping God"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 286,
          "string" : "the Unsleeping Goddess"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 287,
          "string" : "# of the Wildlife"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 288,
          "string" : "# of Beauty and Charm"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 289,
          "string" : "# of Poetry and Song"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 290,
          "string" : "the Creator of Wine"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 291,
          "string" : "# of Revelry"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 292,
          "string" : "# of the Hunt"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 293,
          "string" : "Herder of Men"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 294,
          "string" : "# of the Blessed Lands"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 295,
          "string" : "Patron of Herbalists"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "6"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 296,
          "string" : "Healer of the Lands"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 297,
          "string" : "First Born of Gaia"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 298,
          "string" : "Patron of Berserkers"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 299,
          "string" : "the Hidden One"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 300,
          "string" : "# of the Forest that Thirsts"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 301,
          "string" : "He Who Felled the First Tree"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 302,
          "string" : "# of the Eternal Forest"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "2"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 303,
          "string" : "# of Birds and Parrots"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 304,
          "string" : "the Essence of Fertility"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 305,
          "string" : "the King of Berries"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 306,
          "string" : "Lady Precious Green"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 307,
          "string" : "# of all Young and Growing Things"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 308,
          "string" : "Personification of Youthful Vitality and Violence"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 309,
          "string" : "the Old Old One"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 310,
          "string" : "Bringer of Abundance"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 311,
          "string" : "# of Eloquence"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 312,
          "string" : "the Leaflord"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 313,
          "string" : "# of Insects"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 314,
          "string" : "the Divine Shepherd"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 315,
          "string" : "# of Horses"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 316,
          "string" : "# of Hunting"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 317,
          "string" : "Patron of Huntsmen"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 318,
          "string" : "# of the Spring"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 319,
          "string" : "# of Flowers and Spring"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 320,
          "string" : "Midwife of the Gods"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 321,
          "string" : "Gardener of Happiness"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 322,
          "string" : "Keeper of the Gardens of Delight"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 323,
          "string" : "the One who Purifies Everyone by the very Utterance of !! Name"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 324,
          "string" : "# of Forbidden Love"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 325,
          "string" : "Goddess of Spring and Eternal Youth"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 326,
          "string" : "# of Afar"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 327,
          "string" : "the Queen that Hungers"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 328,
          "string" : "the Death Caused by Lust"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 329,
          "string" : "# of Immortal Evils"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 330,
          "string" : "Eater of Children"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 331,
          "string" : "the Evil Prince"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 332,
          "string" : "the Evil Princess"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 333,
          "string" : "Patron of Human Sacrifice"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 334,
          "string" : "# of Blood"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 335,
          "string" : "# of Blood and Perfume "
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 336,
          "string" : "# of Pain"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 337,
          "string" : "Sovereign of Sin"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 338,
          "string" : "Lord of Flies"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 339,
          "string" : "Enemy of Infants"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 340,
          "string" : "the Power Perverse"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 341,
          "string" : "# of Taint"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 342,
          "string" : "# of Suffering"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 343,
          "string" : "Bane of Men"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 344,
          "string" : "the Leech"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 345,
          "string" : "the Leeching Darkness"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 346,
          "string" : "the Bloodlusting Lord"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 347,
          "string" : "Seducer of Life"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 348,
          "string" : "# of Evil"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "6"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 349,
          "string" : "Mother of Demons"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 350,
          "string" : "God of Unnatural Lust"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 351,
          "string" : "Goddess of Unnatural Lust"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "5"
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "5"
+            }
+         ],
          "id" : 352,
          "string" : "the Infernal Sovereign"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 353,
          "string" : "Drinker of Blood"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "6"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 354,
          "string" : "Lord of Kokytos"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "10"
+            }
+         ],
          "id" : 355,
          "string" : "# of the Abyss"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "8"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 356,
          "string" : "# of Horrors"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 357,
          "string" : "the Man Eater"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 358,
          "string" : "Tamer of Demons"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 359,
          "string" : "Tower of Strength"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 360,
          "string" : "Lord of Madness"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 361,
          "string" : "the Merchant of Souls"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 362,
          "string" : "Goddess of Eternal Youth"
       },
       {
+         "constraints" : [],
          "id" : 363,
          "string" : "Left Hand of Knowledge"
       },
       {
+         "constraints" : [],
          "id" : 364,
          "string" : "# of Wisdom"
       },
       {
+         "constraints" : [],
          "id" : 365,
          "string" : "the Mighty One of Words of Power"
       },
       {
+         "constraints" : [],
          "id" : 366,
          "string" : "# of the Elements"
       },
       {
+         "constraints" : [],
          "id" : 367,
          "string" : "! who is Crowned with Wisdom"
       },
       {
+         "constraints" : [],
          "id" : 368,
          "string" : "Master of Magic"
       },
       {
+         "constraints" : [],
          "id" : 369,
          "string" : "Mistress of Magic"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 370,
          "string" : "# of Rainbows"
       },
       {
+         "constraints" : [],
          "id" : 371,
          "string" : "# of Witchcraft"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "7"
+            }
+         ],
          "id" : 372,
          "string" : "! who has Infinite Power"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 373,
          "string" : "the Cat of Slime"
       },
       {
+         "constraints" : [],
          "id" : 374,
          "string" : "the Vessel of Might"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 375,
          "string" : "Exalted Above and Below"
       },
       {
+         "constraints" : [],
          "id" : 376,
          "string" : "King of Kings"
       },
       {
+         "constraints" : [],
          "id" : 377,
          "string" : "the Most High"
       },
       {
+         "constraints" : [],
          "id" : 378,
          "string" : "August #"
       },
       {
+         "constraints" : [],
          "id" : 379,
          "string" : "Lord of Fear and Trembling"
       },
       {
+         "constraints" : [],
          "id" : 380,
          "string" : "Father of Gods"
       },
       {
+         "constraints" : [],
          "id" : 381,
          "string" : "Mother of Gods"
       },
       {
+         "constraints" : [],
          "id" : 382,
          "string" : "Prince of Majesty"
       },
       {
+         "constraints" : [],
          "id" : 383,
          "string" : "Queen of Majesty"
       },
       {
+         "constraints" : [],
          "id" : 384,
          "string" : "God of Invincible Power"
       },
       {
+         "constraints" : [],
          "id" : 385,
          "string" : "God of Gods"
       },
       {
+         "constraints" : [],
          "id" : 386,
          "string" : "the Beginning and the End"
       },
       {
+         "constraints" : [],
          "id" : 387,
          "string" : "He who Is at the Center"
       },
       {
+         "constraints" : [],
          "id" : 388,
          "string" : "the God above All"
       },
       {
+         "constraints" : [],
          "id" : 389,
          "string" : "# of Many Names"
       },
       {
+         "constraints" : [],
          "id" : 390,
          "string" : "# of this World"
       },
       {
+         "constraints" : [],
          "id" : 391,
          "string" : "# who Knows All Things"
       },
       {
+         "constraints" : [],
          "id" : 392,
          "string" : "Author and Finisher of Our Faith"
       },
       {
+         "constraints" : [],
          "id" : 393,
          "string" : "the Everlasting Father"
       },
       {
+         "constraints" : [],
          "id" : 394,
          "string" : "the Everlasting Mother"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "0"
+            }
+         ],
          "id" : 395,
          "string" : "the Destroyer"
       },
       {
+         "constraints" : [],
          "id" : 396,
          "string" : "Patron of Thieves"
       },
       {
+         "constraints" : [],
          "id" : 397,
          "string" : "# of Beggars"
       },
       {
+         "constraints" : [],
          "id" : 398,
          "string" : "Patron of Beggars"
       },
       {
+         "constraints" : [],
          "id" : 399,
          "string" : "# of Fraud and Theft"
       },
       {
+         "constraints" : [],
          "id" : 400,
          "string" : "Patron of Injustice"
       },
       {
+         "constraints" : [],
          "id" : 401,
          "string" : "# of Tyrants"
       },
       {
+         "constraints" : [],
          "id" : 402,
          "string" : "# of Insolence"
       },
       {
+         "constraints" : [],
          "id" : 403,
          "string" : "# of War"
       },
       {
+         "constraints" : [],
          "id" : 404,
          "string" : "Bringer of War"
       },
       {
+         "constraints" : [],
          "id" : 405,
          "string" : "the Lover of War"
       },
       {
+         "constraints" : [],
          "id" : 406,
          "string" : "the Angry Face"
       },
       {
+         "constraints" : [],
          "id" : 407,
          "string" : "# of Chaos"
       },
       {
+         "constraints" : [],
          "id" : 408,
          "string" : "# of Turmoil"
       },
       {
+         "constraints" : [],
          "id" : 409,
          "string" : "# of Spontaneity"
       },
       {
+         "constraints" : [],
          "id" : 410,
          "string" : "# of Unexpected Pleasure and Sorrow"
       },
       {
+         "constraints" : [],
          "id" : 411,
          "string" : "Enemy of Reason"
       },
       {
+         "constraints" : [],
          "id" : 412,
          "string" : "the God with Backward Feet"
       },
       {
+         "constraints" : [],
          "id" : 413,
          "string" : "Patron of Liars"
       },
       {
+         "constraints" : [],
          "id" : 414,
          "string" : "# of Mischief"
       },
       {
+         "constraints" : [],
          "id" : 415,
          "string" : "Bringer of Discord"
       },
       {
+         "constraints" : [],
          "id" : 416,
          "string" : "the Jealous #"
       },
       {
+         "constraints" : [],
          "id" : 417,
          "string" : "# of Bloodshed and Conflict"
       },
       {
+         "constraints" : [],
          "id" : 418,
          "string" : "the Enemy of Both Sides"
       },
       {
+         "constraints" : [],
          "id" : 419,
          "string" : "the Two-Faced #"
       },
       {
+         "constraints" : [],
          "id" : 420,
          "string" : "She of Two Faces"
       },
       {
+         "constraints" : [],
          "id" : 421,
          "string" : "# of Two Faces"
       },
       {
+         "constraints" : [],
          "id" : 422,
          "string" : "Creator of the Ends of the World"
       },
       {
+         "constraints" : [],
          "id" : 423,
          "string" : "# of Civilization"
       },
       {
+         "constraints" : [],
          "id" : 424,
          "string" : "Gate of Peace"
       },
       {
+         "constraints" : [],
          "id" : 425,
          "string" : "# of the Open Road"
       },
       {
+         "constraints" : [],
          "id" : 426,
          "string" : "Patron of Merchants"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 427,
          "string" : "the Divine Architect"
       },
       {
+         "constraints" : [],
          "id" : 428,
          "string" : "# of the Hierarchs"
       },
       {
+         "constraints" : [],
          "id" : 429,
          "string" : "# of Order"
       },
       {
+         "constraints" : [],
          "id" : 430,
          "string" : "# of Patience"
       },
       {
+         "constraints" : [],
          "id" : 431,
          "string" : "# of Discipline"
       },
       {
+         "constraints" : [],
          "id" : 432,
          "string" : "# of Ostentatious Ornament"
       },
       {
+         "constraints" : [],
          "id" : 433,
          "string" : "the Fountainhead of Order"
       },
       {
+         "constraints" : [],
          "id" : 434,
          "string" : "# of Wealth and Power"
       },
       {
+         "constraints" : [],
          "id" : 435,
          "string" : "# of Writing and Speech"
       },
       {
+         "constraints" : [],
          "id" : 436,
          "string" : "Friend of All"
       },
       {
+         "constraints" : [],
          "id" : 437,
          "string" : "Patron of the Rich"
       },
       {
+         "constraints" : [],
          "id" : 438,
          "string" : "God of the City"
       },
       {
+         "constraints" : [],
          "id" : 439,
          "string" : "Commander of Truth"
       },
       {
+         "constraints" : [],
          "id" : 440,
          "string" : "Patron of Arbitrators"
       },
       {
+         "constraints" : [],
          "id" : 441,
          "string" : "Protector of Oaths"
       },
       {
+         "constraints" : [],
          "id" : 442,
          "string" : "# of Oaths and Friendship"
       },
       {
+         "constraints" : [],
          "id" : 443,
          "string" : "Guardian of the Law"
       },
       {
+         "constraints" : [],
          "id" : 444,
          "string" : "the Kindly One"
       },
       {
+         "constraints" : [],
          "id" : 445,
          "string" : "# of Excellence"
       },
       {
+         "constraints" : [],
          "id" : 446,
          "string" : "the Beloved Father"
       },
       {
+         "constraints" : [],
          "id" : 447,
          "string" : "the Symbol of Unification"
       },
       {
+         "constraints" : [],
          "id" : 448,
          "string" : "Great Defender"
       },
       {
+         "constraints" : [],
          "id" : 449,
          "string" : "# of Marriage"
       },
       {
+         "constraints" : [],
          "id" : 450,
          "string" : "# of Chastity"
       },
       {
+         "constraints" : [],
          "id" : 451,
          "string" : "the Peacemaker"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 452,
          "string" : "Destroyer of Demons"
       },
       {
+         "constraints" : [],
          "id" : 453,
          "string" : "! whose Work is Perfect"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 454,
          "string" : "the Foundation"
       },
       {
+         "constraints" : [],
          "id" : 455,
          "string" : "# of the Harvest"
       },
       {
+         "constraints" : [],
          "id" : 456,
          "string" : "the Giver of Food"
       },
       {
+         "constraints" : [],
          "id" : 457,
          "string" : "Giver of Life"
       },
       {
+         "constraints" : [],
          "id" : 458,
          "string" : "Nourisher of the Fields"
       },
       {
+         "constraints" : [],
          "id" : 459,
          "string" : "# of Fruit Trees"
       },
       {
+         "constraints" : [],
          "id" : 460,
          "string" : "Author of Life"
       },
       {
+         "constraints" : [],
          "id" : 461,
          "string" : "# of Vultures"
       },
       {
+         "constraints" : [],
          "id" : 462,
          "string" : "# of the Scorched Earth"
       },
       {
+         "constraints" : [],
          "id" : 463,
          "string" : "# of Hope"
       },
       {
+         "constraints" : [],
          "id" : 464,
          "string" : "Patron of Outcasts"
       },
       {
+         "constraints" : [],
          "id" : 465,
          "string" : "Patron of Heroes"
       },
       {
+         "constraints" : [],
          "id" : 466,
          "string" : "Guide of Heroes"
       },
       {
+         "constraints" : [],
          "id" : 467,
          "string" : "the Compassionate"
       },
       {
+         "constraints" : [],
          "id" : 468,
          "string" : "Goddess of Mercy"
       },
       {
+         "constraints" : [],
          "id" : 469,
          "string" : "# of Gambling"
       },
       {
+         "constraints" : [],
          "id" : 470,
          "string" : "Patron of Gamblers"
       },
       {
+         "constraints" : [],
          "id" : 471,
          "string" : "Bestower of Good Gifts"
       },
       {
+         "constraints" : [],
          "id" : 472,
          "string" : "Bringer of Misfortune"
       },
       {
+         "constraints" : [],
          "id" : 473,
          "string" : "She Who Opened the Box of Woe"
       },
       {
+         "constraints" : [],
          "id" : 474,
          "string" : "Enforcer of Misfortune"
       },
       {
+         "constraints" : [],
          "id" : 475,
          "string" : "the Narrow Face"
       },
       {
+         "constraints" : [],
          "id" : 476,
          "string" : "Giver of Riches"
       },
       {
+         "constraints" : [],
          "id" : 477,
          "string" : "# of Greed"
       },
       {
+         "constraints" : [],
          "id" : 478,
          "string" : "the Eternal Poet"
       },
       {
+         "constraints" : [],
          "id" : 479,
          "string" : "the Teacher of Philosophy"
       },
       {
+         "constraints" : [],
          "id" : 480,
          "string" : "# of Education and Science"
       },
       {
+         "constraints" : [],
          "id" : 481,
          "string" : "# of Love"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 482,
          "string" : "Cow of Plenty"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 483,
          "string" : "Wish-fulfilling Cow"
       },
       {
+         "constraints" : [],
          "id" : 484,
          "string" : "Mother of all Cows"
       },
       {
+         "constraints" : [],
          "id" : 485,
          "string" : "the Battle Crow"
       },
       {
+         "constraints" : [],
          "id" : 486,
          "string" : "the Wheel-God"
       },
       {
+         "constraints" : [],
          "id" : 487,
          "string" : "# of the Turning Year"
       },
       {
+         "constraints" : [],
          "id" : 488,
          "string" : "the Three Heads of Doom"
       },
       {
+         "constraints" : [],
          "id" : 489,
          "string" : "the Huntress"
       },
       {
+         "constraints" : [],
          "id" : 490,
          "string" : "the Virgin Goddess"
       },
       {
+         "constraints" : [],
          "id" : 491,
          "string" : "Protector of Virgins"
       },
       {
+         "constraints" : [],
          "id" : 492,
          "string" : "the Fire of Hatred"
       },
       {
+         "constraints" : [],
          "id" : 493,
          "string" : "# of the Wastes"
       },
       {
+         "constraints" : [],
          "id" : 494,
          "string" : "the Raging #"
       },
       {
+         "constraints" : [],
          "id" : 495,
          "string" : "Enemy of Man"
       },
       {
+         "constraints" : [],
          "id" : 496,
          "string" : "the Fire of Hatred"
       },
       {
+         "constraints" : [],
          "id" : 497,
          "string" : "# of the Wastes"
       },
       {
+         "constraints" : [],
          "id" : 498,
          "string" : "the Raging #"
       },
       {
+         "constraints" : [],
          "id" : 499,
          "string" : "Enemy of Man"
       },
       {
+         "constraints" : [],
          "id" : 500,
          "string" : "Lord of the Smouldercone"
       },
       {
+         "constraints" : [],
          "id" : 501,
          "string" : "Lord of the Smouldercone"
       },
       {
+         "constraints" : [],
          "id" : 502,
          "string" : "the Raging #"
       },
       {
+         "constraints" : [],
          "id" : 503,
          "string" : "# of the Deeps"
       },
       {
+         "constraints" : [],
          "id" : 504,
          "string" : "the Basalt #"
       },
       {
+         "constraints" : [],
          "id" : 505,
          "string" : "Master of the Coral Towers"
       },
       {
+         "constraints" : [],
          "id" : 506,
          "string" : "Mistress of the Coral Towers"
       },
       {
+         "constraints" : [],
          "id" : 507,
          "string" : "# of the Deeps"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "9"
+            }
+         ],
          "id" : 508,
          "string" : "Eater of the Lands"
       },
       {
+         "constraints" : [],
          "id" : 509,
          "string" : "! of the Bountiful Tent"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "2"
+            }
+         ],
          "id" : 510,
          "string" : "the Pearled #"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 511,
          "string" : "Mother of Pearls"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 512,
          "string" : "Harvester of Sailors"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 513,
          "string" : "# of Stormy Coasts"
       },
       {
+         "constraints" : [],
          "id" : 514,
          "string" : "the Proud Emperor"
       },
       {
+         "constraints" : [],
          "id" : 515,
          "string" : "# of the Emerald Throne"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 516,
          "string" : "# of the Spheres"
       },
       {
+         "constraints" : [],
          "id" : 517,
          "string" : "the Eternal Emperor"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 518,
          "string" : "# of the Fay"
       },
       {
+         "constraints" : [],
          "id" : 519,
          "string" : "the Once and Future King"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 520,
          "string" : "Lady of the Lake"
       },
       {
+         "constraints" : [],
          "id" : 521,
          "string" : "Mistress of Avalon"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 522,
          "string" : "# of Iron and Machines"
       },
       {
+         "constraints" : [],
          "id" : 523,
          "string" : "# of the Swamp"
       },
       {
+         "constraints" : [],
          "id" : 524,
          "string" : "the Serpent Mind"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 525,
          "string" : "Lord of Poison"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 526,
          "string" : "# of Choking Moisture"
       },
       {
+         "constraints" : [],
          "id" : 527,
          "string" : "the Entombed #"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 528,
          "string" : "# of a Thousand Stars"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "8"
+            }
+         ],
          "id" : 529,
          "string" : "# of Time"
       },
       {
+         "constraints" : [],
          "id" : 530,
          "string" : "the Savior"
       },
       {
+         "constraints" : [],
          "id" : 531,
          "string" : "the Shroud"
       },
       {
+         "constraints" : [],
          "id" : 532,
          "string" : "the Eternal Emperor"
       },
       {
+         "constraints" : [],
          "id" : 533,
          "string" : "Enemy of Life"
       },
       {
+         "constraints" : [],
          "id" : 534,
          "string" : "the Adversary"
       },
       {
+         "constraints" : [],
          "id" : 535,
          "string" : "Soul of Darkness"
       },
       {
+         "constraints" : [],
          "id" : 536,
          "string" : "the Stillness of Death"
       },
       {
+         "constraints" : [],
          "id" : 537,
          "string" : "the Eternal Emperor"
       },
       {
+         "constraints" : [],
          "id" : 538,
          "string" : "Enemy of Life"
       },
       {
+         "constraints" : [],
          "id" : 539,
          "string" : "the Adversary"
       },
       {
+         "constraints" : [],
          "id" : 540,
          "string" : "Soul of Darkness"
       },
       {
+         "constraints" : [],
          "id" : 541,
          "string" : "the Stillness of Death"
       },
       {
+         "constraints" : [],
          "id" : 542,
          "string" : "Master of the Seraphim"
       },
       {
+         "constraints" : [],
          "id" : 543,
          "string" : "Mistress of the Seraphim"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 544,
          "string" : "the Storm Herald"
       },
       {
+         "constraints" : [],
          "id" : 545,
          "string" : "the Blizzard King"
       },
       {
+         "constraints" : [],
          "id" : 546,
          "string" : "# of the Morning"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 547,
          "string" : "Marshal of the Host"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 548,
          "string" : "# of Justice"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 549,
          "string" : "Soldier of the Sun"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 550,
          "string" : "Bright Sun of Justice"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 551,
          "string" : "the King Unjust"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 552,
          "string" : "the Fallen #"
       },
       {
+         "constraints" : [],
          "id" : 553,
          "string" : "the Beast"
       },
       {
+         "constraints" : [],
          "id" : 554,
          "string" : "the Beast #"
       },
       {
+         "constraints" : [],
          "id" : 555,
          "string" : "# of the Wild"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 556,
          "string" : "# of the Gallows"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 557,
          "string" : "the Hanged God"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 558,
          "string" : "Hangatyr"
       },
       {
+         "constraints" : [],
          "id" : 559,
          "string" : "Father of Ages"
       },
       {
+         "constraints" : [],
          "id" : 560,
          "string" : "Mother of the Vanir"
       },
       {
+         "constraints" : [],
          "id" : 561,
          "string" : "Father of Ages"
       },
       {
+         "constraints" : [],
          "id" : 562,
          "string" : "Mother of the Vanir"
       },
       {
+         "constraints" : [],
          "id" : 563,
          "string" : "Fimbultyr"
       },
       {
+         "constraints" : [],
          "id" : 564,
          "string" : "Lord of Niefel"
       },
       {
+         "constraints" : [],
          "id" : 565,
          "string" : "Lady of Niefel"
       },
       {
+         "constraints" : [],
          "id" : 566,
          "string" : "the Hunger Without Thought"
       },
       {
+         "constraints" : [],
          "id" : 567,
          "string" : "the Lurker at the Threshold"
       },
       {
+         "constraints" : [],
          "id" : 568,
          "string" : "He Who Should not be Named"
       },
       {
+         "constraints" : [],
          "id" : 569,
          "string" : "the Key and the Gate"
       },
       {
+         "constraints" : [],
          "id" : 570,
          "string" : "the Future Past"
       },
       {
+         "constraints" : [],
          "id" : 571,
          "string" : "the Hunger Without Thought"
       },
       {
+         "constraints" : [],
          "id" : 572,
          "string" : "the Lurker at the Threshold"
       },
       {
+         "constraints" : [],
          "id" : 573,
          "string" : "He Who Should not be Named"
       },
       {
+         "constraints" : [],
          "id" : 574,
          "string" : "She of the Jade Skirt"
       },
       {
+         "constraints" : [],
          "id" : 575,
          "string" : "Jaguar King"
       },
       {
+         "constraints" : [],
          "id" : 576,
          "string" : "the Bloody Mistress"
       },
       {
+         "constraints" : [],
          "id" : 577,
          "string" : "the Eater of Hearts"
       },
       {
+         "constraints" : [],
          "id" : 578,
          "string" : "Patron of Cannibalism"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 579,
          "string" : "the Twisted Obsidian One"
       },
       {
+         "constraints" : [],
          "id" : 580,
          "string" : "# of the Obsidian Blade"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 581,
          "string" : "the Obsidian Butterfly"
       },
       {
+         "constraints" : [],
          "id" : 582,
          "string" : "Jaguar King"
       },
       {
+         "constraints" : [],
          "id" : 583,
          "string" : "the Bloody Mistress"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 584,
          "string" : "the Eater of Hearts"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 585,
          "string" : "the Twisted Obsidian One"
       },
       {
+         "constraints" : [],
          "id" : 586,
          "string" : "# of the Obsidian Blade"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 587,
          "string" : "the Obsidian Butterfly"
       },
       {
+         "constraints" : [],
          "id" : 588,
          "string" : "the Lawgiver"
       },
       {
+         "constraints" : [],
          "id" : 589,
          "string" : "the Corn #"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 590,
          "string" : "Minister of the Celestial Bureaucracy"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 591,
          "string" : "Minister of the Five Elements"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 592,
          "string" : "Minister of the Eight Winds"
       },
       {
+         "constraints" : [],
          "id" : 593,
          "string" : "God of Luck Through Hard Work"
       },
       {
+         "constraints" : [],
          "id" : 594,
          "string" : "God of Luck Through Hard Work"
       },
       {
+         "constraints" : [],
          "id" : 595,
          "string" : "God of Luck Through Hard Work"
       },
       {
+         "constraints" : [],
          "id" : 596,
          "string" : "the Rice #"
       },
       {
+         "constraints" : [],
          "id" : 597,
          "string" : "the Rice #"
       },
       {
+         "constraints" : [],
          "id" : 598,
          "string" : "the Rice #"
       },
       {
+         "constraints" : [],
          "id" : 599,
          "string" : "the Rice #"
       },
       {
+         "constraints" : [],
          "id" : 600,
          "string" : "# of Medicine"
       },
       {
+         "constraints" : [],
          "id" : 601,
          "string" : "# of Medicine"
       },
       {
+         "constraints" : [],
          "id" : 602,
          "string" : "# of Medicine"
       },
       {
+         "constraints" : [],
          "id" : 603,
          "string" : "# of Medicine"
       },
       {
+         "constraints" : [],
          "id" : 604,
          "string" : "# of Medicine"
       },
       {
+         "constraints" : [],
          "id" : 605,
          "string" : "# of Medical Arts"
       },
       {
+         "constraints" : [],
          "id" : 606,
          "string" : "# of Medical Arts"
       },
       {
+         "constraints" : [],
          "id" : 607,
          "string" : "# of Medical Arts"
       },
       {
+         "constraints" : [],
          "id" : 608,
          "string" : "# of Medical Arts"
       },
       {
+         "constraints" : [],
          "id" : 609,
          "string" : "# of Medical Arts"
       },
       {
+         "constraints" : [],
          "id" : 610,
          "string" : "the Summer Lord"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 611,
          "string" : "the Heart of Darkness"
       },
       {
+         "constraints" : [],
          "id" : 612,
          "string" : "# of Spiders"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 613,
          "string" : "the God in the Mountain"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 614,
          "string" : "the Goddess in the Forest"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 615,
          "string" : "the Wheel"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "0"
+            }
+         ],
          "id" : 616,
          "string" : "# of the Apes"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 617,
          "string" : "the Wheel"
       },
       {
+         "constraints" : [],
          "id" : 618,
          "string" : "# of the Apes"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 619,
          "string" : "the Wheel"
       },
       {
+         "constraints" : [],
          "id" : 620,
          "string" : "# of the Apes"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 621,
          "string" : "the Hunger Below"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "6"
+            }
+         ],
          "id" : 622,
          "string" : "the Maker of the Seal"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 623,
          "string" : "the Obsidian Mind"
       },
       {
+         "constraints" : [],
          "id" : 624,
          "string" : "# of Opulent Halls"
       },
       {
+         "constraints" : [],
          "id" : 625,
          "string" : "# of Opulent Halls"
       },
       {
+         "constraints" : [],
          "id" : 626,
          "string" : "the Golem #"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 627,
          "string" : "# of the Tombs Underneath"
       },
       {
+         "constraints" : [],
          "id" : 628,
          "string" : "# of the Bakemono"
       },
       {
+         "constraints" : [],
          "id" : 629,
          "string" : "# of the Oni"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 630,
          "string" : "# of the Date Clusters"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 631,
          "string" : "House of the Date Clusters"
       },
       {
+         "constraints" : [],
          "id" : 632,
          "string" : "Lady of the Bountiful Tent"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 633,
          "string" : "# of the Date Clusters"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "4"
+            }
+         ],
          "id" : 634,
          "string" : "House of the Date Clusters"
       },
       {
+         "constraints" : [],
          "id" : 635,
          "string" : "Mistress of the Bountiful House"
       },
       {
+         "constraints" : [],
          "id" : 636,
          "string" : "the Lamenting #"
       },
       {
+         "constraints" : [],
          "id" : 637,
          "string" : "the Lamenting #"
       },
       {
+         "constraints" : [],
          "id" : 638,
          "string" : "the God-slayer"
       },
       {
+         "constraints" : [],
          "id" : 639,
          "string" : "# of Near and Close"
       },
       {
+         "constraints" : [],
          "id" : 640,
          "string" : "the Self Created Master"
       },
       {
+         "constraints" : [],
          "id" : 641,
          "string" : "Sword of Balance"
       },
       {
+         "constraints" : [],
          "id" : 642,
          "string" : "the Awesome"
       },
       {
+         "constraints" : [],
          "id" : 643,
          "string" : "Symbol of Unchallenged Victory"
       },
       {
+         "constraints" : [],
          "id" : 644,
          "string" : "the Invincible and Ever-triumphant"
       },
       {
+         "constraints" : [],
          "id" : 645,
          "string" : "Patron of Soldiers"
       },
       {
+         "constraints" : [],
          "id" : 646,
          "string" : "Patron of Languages"
       },
       {
+         "constraints" : [],
          "id" : 647,
          "string" : "# of Courage"
       },
       {
+         "constraints" : [],
          "id" : 648,
          "string" : "# of Agriculture"
       },
       {
+         "constraints" : [],
          "id" : 649,
          "string" : "Patron of Farmers"
       },
       {
+         "constraints" : [],
          "id" : 650,
          "string" : "the Unforgiving #"
       },
       {
+         "constraints" : [],
          "id" : 651,
          "string" : "Councilor of Gods"
       },
       {
+         "constraints" : [],
          "id" : 652,
          "string" : "# of the Cold North"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 653,
          "string" : "# of the Frozen Marches"
       },
       {
+         "constraints" : [],
          "id" : 654,
          "string" : "# of Gluttony"
       },
       {
+         "constraints" : [],
          "id" : 655,
          "string" : "He Who Waits"
       },
       {
+         "constraints" : [],
          "id" : 656,
          "string" : "Grand Vizier of the Lands of Woe"
       },
       {
+         "constraints" : [],
          "id" : 657,
          "string" : "the Night Hag"
       },
       {
+         "constraints" : [],
          "id" : 658,
          "string" : "Duke of Hell"
       },
       {
+         "constraints" : [],
          "id" : 659,
          "string" : "Fiend of the Wounding Spear"
       },
       {
+         "constraints" : [],
          "id" : 660,
          "string" : "Monster of Confusion and Disorder"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 661,
          "string" : "# of Silence"
       },
       {
+         "constraints" : [],
          "id" : 662,
          "string" : "# of Desire and Grace"
       },
       {
+         "constraints" : [],
          "id" : 663,
          "string" : "Lady of the Obscure"
       },
       {
+         "constraints" : [],
          "id" : 664,
          "string" : "Lady of the Creamery"
       },
       {
+         "constraints" : [],
          "id" : 665,
          "string" : "the Great Leap Forward"
       },
       {
+         "constraints" : [],
          "id" : 666,
          "string" : "Desire of All Nations"
       },
       {
+         "constraints" : [],
          "id" : 667,
          "string" : "the Born God"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "0"
+            }
+         ],
          "id" : 668,
          "string" : "the Unborn"
       },
       {
+         "constraints" : [],
          "id" : 669,
          "string" : "the Self-Manifested #"
       },
       {
+         "constraints" : [],
          "id" : 670,
          "string" : "Collector of Things Lost"
       },
       {
+         "constraints" : [],
          "id" : 671,
          "string" : "Banner of Victory"
       },
       {
+         "constraints" : [],
          "id" : 672,
          "string" : "The Many Eyed #"
       },
       {
+         "constraints" : [],
          "id" : 673,
          "string" : "Patron of all Bards"
       },
       {
+         "constraints" : [],
          "id" : 674,
          "string" : "the Mouth of $"
       },
       {
+         "constraints" : [],
          "id" : 675,
          "string" : "the Voice of $"
       },
       {
+         "constraints" : [],
          "id" : 676,
          "string" : "the Will of $"
       },
       {
+         "constraints" : [],
          "id" : 677,
          "string" : "the Fist of $"
       },
       {
+         "constraints" : [],
          "id" : 678,
          "string" : "the Herald of $"
       },
       {
+         "constraints" : [],
          "id" : 679,
          "string" : "the Messenger of $"
       },
       {
+         "constraints" : [],
          "id" : 680,
          "string" : "the Chaplain of $"
       },
       {
+         "constraints" : [],
          "id" : 681,
          "string" : "the House of $"
       },
       {
+         "constraints" : [],
          "id" : 682,
          "string" : "the First General of $"
       },
       {
+         "constraints" : [],
          "id" : 683,
          "string" : "the First Minister of $"
       },
       {
+         "constraints" : [],
          "id" : 684,
          "string" : "the Eternal Bookkeeper of $"
       },
       {
+         "constraints" : [],
          "id" : 685,
          "string" : "the Right Hand of $"
       },
       {
+         "constraints" : [],
          "id" : 686,
          "string" : "the Left Hand of $"
       },
       {
+         "constraints" : [],
          "id" : 687,
          "string" : "! who is Always Behind $"
       },
       {
+         "constraints" : [],
          "id" : 688,
          "string" : "Firstborn of $"
       },
       {
+         "constraints" : [],
          "id" : 689,
          "string" : "the First Follower of $"
       },
       {
+         "constraints" : [],
          "id" : 690,
          "string" : "the Second Follower of $"
       },
       {
+         "constraints" : [],
          "id" : 691,
          "string" : "the Son of $"
       },
       {
+         "constraints" : [],
          "id" : 692,
          "string" : "the Daughter of $"
       },
       {
+         "constraints" : [],
          "id" : 693,
          "string" : "! who Aided $ to Victory"
       },
       {
+         "constraints" : [],
          "id" : 694,
          "string" : "! who Saw $ First"
       },
       {
+         "constraints" : [],
          "id" : 695,
          "string" : "! who Heard $ First"
       },
       {
+         "constraints" : [],
          "id" : 696,
          "string" : "! who Betrayed $ and Survived"
       },
       {
+         "constraints" : [],
          "id" : 697,
          "string" : "the Guardian of the Servants of $"
       },
       {
+         "constraints" : [],
          "id" : 698,
          "string" : "the Most Devout Follower of $"
       },
       {
+         "constraints" : [],
          "id" : 699,
          "string" : "the Most Eloquent Follower of $"
       },
       {
+         "constraints" : [],
          "id" : 700,
          "string" : "the Most Important Follower of $"
       },
       {
+         "constraints" : [],
          "id" : 701,
          "string" : "the Joy of $"
       },
       {
+         "constraints" : [],
          "id" : 702,
          "string" : "the Seed of $"
       },
       {
+         "constraints" : [],
          "id" : 703,
          "string" : "the Housekeeper of $"
       },
       {
+         "constraints" : [],
          "id" : 704,
          "string" : "! who Walks Before $"
       },
       {
+         "constraints" : [],
          "id" : 705,
          "string" : "Guardian of the Vestibule of $"
       },
       {
+         "constraints" : [],
          "id" : 706,
          "string" : "Vanquisher of the Enemies of $"
       },
       {
+         "constraints" : [],
          "id" : 707,
          "string" : "First Soldier of the Empire of $"
       },
       {
+         "constraints" : [],
          "id" : 708,
          "string" : "Foremost of $'s servants"
       },
       {
+         "constraints" : [],
          "id" : 709,
          "string" : "the Slave of $"
       },
       {
+         "constraints" : [],
          "id" : 710,
          "string" : "the Marshal of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 711,
          "string" : "the Flame of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 712,
          "string" : "! who Carries the Flame of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 713,
          "string" : "the Light of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 714,
          "string" : "the Wrath of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 715,
          "string" : "the Breath of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 716,
          "string" : "the Keeper of the Storm of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 717,
          "string" : "the Keeper of the Flood of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 718,
          "string" : "the Boatkeeper of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 719,
          "string" : "the Wallkeeper of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 720,
          "string" : "the Hammer of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 721,
          "string" : "the Anvil of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 722,
          "string" : "the Forester of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 723,
          "string" : "the Dark Hand of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 724,
          "string" : "the Shadow of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 725,
          "string" : "the Star of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 726,
          "string" : "the Bright Mind of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "B",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 727,
          "string" : "the Slaver of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 728,
          "string" : "the Spirit of the Fear of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 729,
          "string" : "the Judge of $"
       },
       {
+         "constraints" : [],
          "id" : 730,
          "string" : "the First Priest of $"
       },
       {
+         "constraints" : [],
          "id" : 731,
          "string" : "Enforcer of $'s Prophecies"
       },
       {
+         "constraints" : [],
          "id" : 732,
          "string" : "Protector of $'s Name"
       },
       {
+         "constraints" : [],
          "id" : 733,
          "string" : "$'s Shield Man"
       },
       {
+         "constraints" : [],
          "id" : 734,
          "string" : "Mighty One of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 735,
          "string" : "Star Out of $"
       },
       {
+         "constraints" : [],
          "id" : 736,
          "string" : "Only Potentate of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "3"
+            }
+         ],
          "id" : 737,
          "string" : "Branch of $"
       },
       {
+         "constraints" : [],
          "id" : 738,
          "string" : "Counselor of $"
       },
       {
+         "constraints" : [],
          "id" : 739,
          "string" : "! who Gives Advice to $"
       },
       {
+         "constraints" : [],
          "id" : 740,
          "string" : "First-begotten of $"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "1"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "1"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 741,
          "string" : "! who even $ himself would consult"
       },
       {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : "1"
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : "1"
+            },
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : "1"
+            }
+         ],
          "id" : 742,
          "string" : "! who even $ herself would consult"
       },
       {
+         "constraints" : [],
          "id" : 743,
          "string" : "Lover of $"
       },
       {
+         "constraints" : [],
          "id" : 744,
          "string" : "Lover of $"
       },
       {
+         "constraints" : [],
          "id" : 745,
          "string" : "Mistress of $"
       }
