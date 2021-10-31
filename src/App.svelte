@@ -9,6 +9,7 @@
 	$: if ( selectedEpithet ) {
 		selectedEpithets.push( selectedEpithet );
 		selectedEpithets = selectedEpithets;
+		selectedEpithet = '';
 	}
 
 </script>
