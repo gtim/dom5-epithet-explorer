@@ -19,17 +19,26 @@
 		labelFieldName="string"
 		valueFieldName="id"
 	/>
-	<div style="display:flex;justify-content:center;">
+
+	<div class="epithet_cards">
 		{#each selectedEpithets as ep}
-			<div style="flex-direction:row;">{ep.string}</div>
+			<div class="epithet_card">{ep.string}</div>
 		{/each}
-		<div>
-		</div>
 	</div>
 
 </main>
 
 <style>
+	div.epithet_cards {
+		display:flex;
+		justify-content:center;
+	}
+	div.epithet_card {
+		flex-direction:row;
+		border:1px solid black;
+		padding:8px;
+		margin:12px;
+	}
 	main {
 		text-align: center;
 		padding: 1em;
