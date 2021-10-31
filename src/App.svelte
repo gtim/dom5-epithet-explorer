@@ -1,10 +1,18 @@
 <script>
-	export let name;
+
+	import AutoComplete from "simple-svelte-autocomplete";
+	import * as eps from './epithets.json';
+
+	let selectedEpithet;
+
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<AutoComplete 
+	  items={eps.epithets} bind:selectedItem={selectedEpithet}
+	  labelFieldName="string"
+	  valueFieldName="id"
+	/>
 </main>
 
 <style>
@@ -13,13 +21,6 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
 	}
 
 	@media (min-width: 640px) {

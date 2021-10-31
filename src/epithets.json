@@ -1,0 +1,2988 @@
+{
+   "epithets" : [
+      {
+         "id" : 0,
+         "string" : "! Who Stole the Fire"
+      },
+      {
+         "id" : 1,
+         "string" : "# of Every Flame"
+      },
+      {
+         "id" : 2,
+         "string" : "# of Flames"
+      },
+      {
+         "id" : 3,
+         "string" : "the Flame of Evil"
+      },
+      {
+         "id" : 4,
+         "string" : "# of Fires"
+      },
+      {
+         "id" : 5,
+         "string" : "# of Ashes"
+      },
+      {
+         "id" : 6,
+         "string" : "# of Fires of the Earth"
+      },
+      {
+         "id" : 7,
+         "string" : "# of Volcanoes"
+      },
+      {
+         "id" : 8,
+         "string" : "# of Magma"
+      },
+      {
+         "id" : 9,
+         "string" : "# of Brilliance"
+      },
+      {
+         "id" : 10,
+         "string" : "# of Fever"
+      },
+      {
+         "id" : 11,
+         "string" : "# of the Desert Sun"
+      },
+      {
+         "id" : 12,
+         "string" : "# of Heavenly Fires"
+      },
+      {
+         "id" : 13,
+         "string" : "the Brilliant God"
+      },
+      {
+         "id" : 14,
+         "string" : "the Everburning One"
+      },
+      {
+         "id" : 15,
+         "string" : "the Loyal Master"
+      },
+      {
+         "id" : 16,
+         "string" : "# of the Dawn"
+      },
+      {
+         "id" : 17,
+         "string" : "Feeder on Impurity"
+      },
+      {
+         "id" : 18,
+         "string" : "the Burning Soul"
+      },
+      {
+         "id" : 19,
+         "string" : "# of Light"
+      },
+      {
+         "id" : 20,
+         "string" : "# of the Sun"
+      },
+      {
+         "id" : 21,
+         "string" : "Regent of the Sun"
+      },
+      {
+         "id" : 22,
+         "string" : "# of Volcanic Fire"
+      },
+      {
+         "id" : 23,
+         "string" : "# of Spring and Sunlight"
+      },
+      {
+         "id" : 24,
+         "string" : "# of Penitential Torture"
+      },
+      {
+         "id" : 25,
+         "string" : "Enemy of Darkness"
+      },
+      {
+         "id" : 26,
+         "string" : "Eater of Filth"
+      },
+      {
+         "id" : 27,
+         "string" : "Devourer of Sins"
+      },
+      {
+         "id" : 28,
+         "string" : "the Great Sun of Life"
+      },
+      {
+         "id" : 29,
+         "string" : "the Consuming Fire"
+      },
+      {
+         "id" : 30,
+         "string" : "! Who has the Sun as Eye"
+      },
+      {
+         "id" : 31,
+         "string" : "# of Air"
+      },
+      {
+         "id" : 32,
+         "string" : "# of Clouds"
+      },
+      {
+         "id" : 33,
+         "string" : "Rider of the Clouds"
+      },
+      {
+         "id" : 34,
+         "string" : "# of Mists"
+      },
+      {
+         "id" : 35,
+         "string" : "Holder of the Windbag"
+      },
+      {
+         "id" : 36,
+         "string" : "# of the Winds"
+      },
+      {
+         "id" : 37,
+         "string" : "# of the Wind and of the Hoe"
+      },
+      {
+         "id" : 38,
+         "string" : "# of the Scorching Winds"
+      },
+      {
+         "id" : 39,
+         "string" : "# of the Freezing Winds"
+      },
+      {
+         "id" : 40,
+         "string" : "# of the Four Winds"
+      },
+      {
+         "id" : 41,
+         "string" : "# of the North Wind"
+      },
+      {
+         "id" : 42,
+         "string" : "# of the South Wind"
+      },
+      {
+         "id" : 43,
+         "string" : "# of the East Wind"
+      },
+      {
+         "id" : 44,
+         "string" : "# of the West Wind"
+      },
+      {
+         "id" : 45,
+         "string" : "# of the Black Wind"
+      },
+      {
+         "id" : 46,
+         "string" : "# of the Desert Wind"
+      },
+      {
+         "id" : 47,
+         "string" : "# of Thunder and Lightning"
+      },
+      {
+         "id" : 48,
+         "string" : "# of the Thundershowers and of the Plow"
+      },
+      {
+         "id" : 49,
+         "string" : "the Pillar that is Purity"
+      },
+      {
+         "id" : 50,
+         "string" : "Reaver of the Skies"
+      },
+      {
+         "id" : 51,
+         "string" : "Warrior in the Gale"
+      },
+      {
+         "id" : 52,
+         "string" : "Supreme Messenger Herald of the Gods"
+      },
+      {
+         "id" : 53,
+         "string" : "Messenger of Gods"
+      },
+      {
+         "id" : 54,
+         "string" : "# of Illusion and Masquerade"
+      },
+      {
+         "id" : 55,
+         "string" : "# of Storms"
+      },
+      {
+         "id" : 56,
+         "string" : "Maker of the Storms"
+      },
+      {
+         "id" : 57,
+         "string" : "# of Heaven"
+      },
+      {
+         "id" : 58,
+         "string" : "# of the Sky"
+      },
+      {
+         "id" : 59,
+         "string" : "Sky of all the People"
+      },
+      {
+         "id" : 60,
+         "string" : "! who Mounts the Clouds"
+      },
+      {
+         "id" : 61,
+         "string" : "Great Hurricane of the Heavens"
+      },
+      {
+         "id" : 62,
+         "string" : "# of the Breath of Life"
+      },
+      {
+         "id" : 63,
+         "string" : "# of Wind on the Waters"
+      },
+      {
+         "id" : 64,
+         "string" : "the Breathmaker"
+      },
+      {
+         "id" : 65,
+         "string" : "Bull of the Storms"
+      },
+      {
+         "id" : 66,
+         "string" : "the # of the Power of the Air"
+      },
+      {
+         "id" : 67,
+         "string" : "the Great Deceiver"
+      },
+      {
+         "id" : 68,
+         "string" : "the One Far Above"
+      },
+      {
+         "id" : 69,
+         "string" : "# of Water"
+      },
+      {
+         "id" : 70,
+         "string" : "the # Knowing the Waters"
+      },
+      {
+         "id" : 71,
+         "string" : "# of Deadly Waters"
+      },
+      {
+         "id" : 72,
+         "string" : "# of Fishermen"
+      },
+      {
+         "id" : 73,
+         "string" : "Harvester of Sailors"
+      },
+      {
+         "id" : 74,
+         "string" : "Friend of Sailors"
+      },
+      {
+         "id" : 75,
+         "string" : "Divine Inspector of Canals"
+      },
+      {
+         "id" : 76,
+         "string" : "# of Navigation"
+      },
+      {
+         "id" : 77,
+         "string" : "# of Rivers"
+      },
+      {
+         "id" : 78,
+         "string" : "# of Rain"
+      },
+      {
+         "id" : 79,
+         "string" : "the Boiling Spirit"
+      },
+      {
+         "id" : 80,
+         "string" : "Beverage"
+      },
+      {
+         "id" : 81,
+         "string" : "# of the Raging Seas"
+      },
+      {
+         "id" : 82,
+         "string" : "# of the Eternal Sea"
+      },
+      {
+         "id" : 83,
+         "string" : "# of the Waves"
+      },
+      {
+         "id" : 84,
+         "string" : "# of Frost"
+      },
+      {
+         "id" : 85,
+         "string" : "# of Ice"
+      },
+      {
+         "id" : 86,
+         "string" : "# of Winter"
+      },
+      {
+         "id" : 87,
+         "string" : "the Long Winter"
+      },
+      {
+         "id" : 88,
+         "string" : "# of the Winter Realms"
+      },
+      {
+         "id" : 89,
+         "string" : "# of the Frozen Waste"
+      },
+      {
+         "id" : 90,
+         "string" : "Turner of the Flood"
+      },
+      {
+         "id" : 91,
+         "string" : "# of the Ocean Underneath"
+      },
+      {
+         "id" : 92,
+         "string" : "Keeper of the Water Dead"
+      },
+      {
+         "id" : 93,
+         "string" : "# of the Oceans"
+      },
+      {
+         "id" : 94,
+         "string" : "# of Primordial Waters"
+      },
+      {
+         "id" : 95,
+         "string" : "# of Primeval Depths"
+      },
+      {
+         "id" : 96,
+         "string" : "# of all Sources of Water"
+      },
+      {
+         "id" : 97,
+         "string" : "the Sea Mother"
+      },
+      {
+         "id" : 98,
+         "string" : "the Whirlpool"
+      },
+      {
+         "id" : 99,
+         "string" : "Ruler of the Ocean's Surface"
+      },
+      {
+         "id" : 100,
+         "string" : "Mother of Fishes"
+      },
+      {
+         "id" : 101,
+         "string" : "Opener of the Wells"
+      },
+      {
+         "id" : 102,
+         "string" : "Smotherer of Life"
+      },
+      {
+         "id" : 103,
+         "string" : "the Embracer"
+      },
+      {
+         "id" : 104,
+         "string" : "Lady of Embracing"
+      },
+      {
+         "id" : 105,
+         "string" : "She who Embraces"
+      },
+      {
+         "id" : 106,
+         "string" : "! who Strangles"
+      },
+      {
+         "id" : 107,
+         "string" : "! who Shoots Forth"
+      },
+      {
+         "id" : 108,
+         "string" : "! who Runs like an Arrow"
+      },
+      {
+         "id" : 109,
+         "string" : "Fountain of All Waters"
+      },
+      {
+         "id" : 110,
+         "string" : "Lady of Shipwrecks"
+      },
+      {
+         "id" : 111,
+         "string" : "Patron of Smiths"
+      },
+      {
+         "id" : 112,
+         "string" : "the Divine Smith"
+      },
+      {
+         "id" : 113,
+         "string" : "# of Forgiving"
+      },
+      {
+         "id" : 114,
+         "string" : "the Coppercaster of the Gods"
+      },
+      {
+         "id" : 115,
+         "string" : "# of Bricks"
+      },
+      {
+         "id" : 116,
+         "string" : "# of the Foothills"
+      },
+      {
+         "id" : 117,
+         "string" : "# of the Soil"
+      },
+      {
+         "id" : 118,
+         "string" : "# of the Stony Ground"
+      },
+      {
+         "id" : 119,
+         "string" : "# of Mountains"
+      },
+      {
+         "id" : 120,
+         "string" : "# of Metals"
+      },
+      {
+         "id" : 121,
+         "string" : "# of Inventions"
+      },
+      {
+         "id" : 122,
+         "string" : "the Inventor of Science"
+      },
+      {
+         "id" : 123,
+         "string" : "# of the Crafts"
+      },
+      {
+         "id" : 124,
+         "string" : "# of Earthquakes"
+      },
+      {
+         "id" : 125,
+         "string" : "the Earth Monster"
+      },
+      {
+         "id" : 126,
+         "string" : "the Armorer"
+      },
+      {
+         "id" : 127,
+         "string" : "the Unmoving Master"
+      },
+      {
+         "id" : 128,
+         "string" : "the Unshakable"
+      },
+      {
+         "id" : 129,
+         "string" : "# of Tremors"
+      },
+      {
+         "id" : 130,
+         "string" : "# of Might"
+      },
+      {
+         "id" : 131,
+         "string" : "# of Strength"
+      },
+      {
+         "id" : 132,
+         "string" : "the Personification of Strength"
+      },
+      {
+         "id" : 133,
+         "string" : "the Fortifier"
+      },
+      {
+         "id" : 134,
+         "string" : "the Hammer of Gaia"
+      },
+      {
+         "id" : 135,
+         "string" : "the Mountain Lord"
+      },
+      {
+         "id" : 136,
+         "string" : "Guardian of Existence"
+      },
+      {
+         "id" : 137,
+         "string" : "! Who Seals the Gates of Death"
+      },
+      {
+         "id" : 138,
+         "string" : "Patron of Artisans"
+      },
+      {
+         "id" : 139,
+         "string" : "the Hungry Earth"
+      },
+      {
+         "id" : 140,
+         "string" : "the Maker of Mountains"
+      },
+      {
+         "id" : 141,
+         "string" : "# of the Forges"
+      },
+      {
+         "id" : 142,
+         "string" : "! Who Tempers the Spirit"
+      },
+      {
+         "id" : 143,
+         "string" : "Earth Mother"
+      },
+      {
+         "id" : 144,
+         "string" : "the Rock"
+      },
+      {
+         "id" : 145,
+         "string" : "# of the Rock"
+      },
+      {
+         "id" : 146,
+         "string" : "the One who Contains Everything"
+      },
+      {
+         "id" : 147,
+         "string" : "# of the Mountain Springs"
+      },
+      {
+         "id" : 148,
+         "string" : "# of the Greater Earth"
+      },
+      {
+         "id" : 149,
+         "string" : "Protector of the Holy Mountain"
+      },
+      {
+         "id" : 150,
+         "string" : "# of Dirt"
+      },
+      {
+         "id" : 151,
+         "string" : "! who is on the Mountain"
+      },
+      {
+         "id" : 152,
+         "string" : "the Great Potter"
+      },
+      {
+         "id" : 153,
+         "string" : "Great # of the Earth"
+      },
+      {
+         "id" : 154,
+         "string" : "the Soul Forger"
+      },
+      {
+         "id" : 155,
+         "string" : "Warrior Against the Sun"
+      },
+      {
+         "id" : 156,
+         "string" : "! who Hungers for the Sun"
+      },
+      {
+         "id" : 157,
+         "string" : "# of Darkness"
+      },
+      {
+         "id" : 158,
+         "string" : "the Shadow Over All"
+      },
+      {
+         "id" : 159,
+         "string" : "! Who Loves not the Light"
+      },
+      {
+         "id" : 160,
+         "string" : "# of Shadows"
+      },
+      {
+         "id" : 161,
+         "string" : "# of Disease"
+      },
+      {
+         "id" : 162,
+         "string" : "! who Gave Birth to Death"
+      },
+      {
+         "id" : 163,
+         "string" : "# of the Dead"
+      },
+      {
+         "id" : 164,
+         "string" : "Guardian of the Dead"
+      },
+      {
+         "id" : 165,
+         "string" : "# of Famine"
+      },
+      {
+         "id" : 166,
+         "string" : "# of Plagues"
+      },
+      {
+         "id" : 167,
+         "string" : "Mother of the Plague"
+      },
+      {
+         "id" : 168,
+         "string" : "# of Pestilence"
+      },
+      {
+         "id" : 169,
+         "string" : "# of Death and Rebirth"
+      },
+      {
+         "id" : 170,
+         "string" : "# of Decay"
+      },
+      {
+         "id" : 171,
+         "string" : "# of Corruption"
+      },
+      {
+         "id" : 172,
+         "string" : "# of the Night Sky"
+      },
+      {
+         "id" : 173,
+         "string" : "the Eternal Judge"
+      },
+      {
+         "id" : 174,
+         "string" : "Judge of the Dead"
+      },
+      {
+         "id" : 175,
+         "string" : "the Watcher of the Gallows"
+      },
+      {
+         "id" : 176,
+         "string" : "# of Dark Magics"
+      },
+      {
+         "id" : 177,
+         "string" : "the King at the Crossroads"
+      },
+      {
+         "id" : 178,
+         "string" : "the Lady at the Crossroads"
+      },
+      {
+         "id" : 179,
+         "string" : "# of Terror"
+      },
+      {
+         "id" : 180,
+         "string" : "the Harvester"
+      },
+      {
+         "id" : 181,
+         "string" : "# of Untimely Death"
+      },
+      {
+         "id" : 182,
+         "string" : "# of Suicides"
+      },
+      {
+         "id" : 183,
+         "string" : "the Terror of the Tomb"
+      },
+      {
+         "id" : 184,
+         "string" : "the Lurker in the Crypt"
+      },
+      {
+         "id" : 185,
+         "string" : "the Collector of Souls"
+      },
+      {
+         "id" : 186,
+         "string" : "Guide of Souls"
+      },
+      {
+         "id" : 187,
+         "string" : "Star of the Dead"
+      },
+      {
+         "id" : 188,
+         "string" : "the Personification of Death"
+      },
+      {
+         "id" : 189,
+         "string" : "# of Death"
+      },
+      {
+         "id" : 190,
+         "string" : "# of the Afterlife"
+      },
+      {
+         "id" : 191,
+         "string" : "# of the Underworld"
+      },
+      {
+         "id" : 192,
+         "string" : "the Dead and Undying God"
+      },
+      {
+         "id" : 193,
+         "string" : "the Dead and Undying Goddess"
+      },
+      {
+         "id" : 194,
+         "string" : "# of Darkness and Destruction"
+      },
+      {
+         "id" : 195,
+         "string" : "Patron of Necromancers"
+      },
+      {
+         "id" : 196,
+         "string" : "the Grey One"
+      },
+      {
+         "id" : 197,
+         "string" : "the One Always at the Shoulder"
+      },
+      {
+         "id" : 198,
+         "string" : "the Shadow"
+      },
+      {
+         "id" : 199,
+         "string" : "the Pockmarked Savior"
+      },
+      {
+         "id" : 200,
+         "string" : "Gatherer of the Dead"
+      },
+      {
+         "id" : 201,
+         "string" : "Friend of the Dead"
+      },
+      {
+         "id" : 202,
+         "string" : "the Stealer of Corpses"
+      },
+      {
+         "id" : 203,
+         "string" : "Persecutor and Destroyer of Youth"
+      },
+      {
+         "id" : 204,
+         "string" : "# of the City of the Dead"
+      },
+      {
+         "id" : 205,
+         "string" : "Foremost of the Westerners"
+      },
+      {
+         "id" : 206,
+         "string" : "the Shadow of Death"
+      },
+      {
+         "id" : 207,
+         "string" : "the Old Quiet Lady"
+      },
+      {
+         "id" : 208,
+         "string" : "Pure Queen of Them Below"
+      },
+      {
+         "id" : 209,
+         "string" : "# of Eclipses"
+      },
+      {
+         "id" : 210,
+         "string" : "the Evening Star"
+      },
+      {
+         "id" : 211,
+         "string" : "the Morning Star"
+      },
+      {
+         "id" : 212,
+         "string" : "Divine Scribe"
+      },
+      {
+         "id" : 213,
+         "string" : "Crystallizer of Dreams"
+      },
+      {
+         "id" : 214,
+         "string" : "the Maker of Moons"
+      },
+      {
+         "id" : 215,
+         "string" : "the Maker of Moons"
+      },
+      {
+         "id" : 216,
+         "string" : "Father of Horrors"
+      },
+      {
+         "id" : 217,
+         "string" : "Most Evil Mind"
+      },
+      {
+         "id" : 218,
+         "string" : "# of Insanity"
+      },
+      {
+         "id" : 219,
+         "string" : "Protector from Insanity"
+      },
+      {
+         "id" : 220,
+         "string" : "# of the Void"
+      },
+      {
+         "id" : 221,
+         "string" : "Shining Boat of Heaven"
+      },
+      {
+         "id" : 222,
+         "string" : "# of the Barge of Heaven"
+      },
+      {
+         "id" : 223,
+         "string" : "Opener of the Ways"
+      },
+      {
+         "id" : 224,
+         "string" : "# of Fortune"
+      },
+      {
+         "id" : 225,
+         "string" : "Keeper of the Celestial Records"
+      },
+      {
+         "id" : 226,
+         "string" : "# of Arcane Mysteries"
+      },
+      {
+         "id" : 227,
+         "string" : "Lord of Luck"
+      },
+      {
+         "id" : 228,
+         "string" : "Lady of Luck"
+      },
+      {
+         "id" : 229,
+         "string" : "# of Stellar Lights"
+      },
+      {
+         "id" : 230,
+         "string" : "the Afterthought"
+      },
+      {
+         "id" : 231,
+         "string" : "# of Dreams"
+      },
+      {
+         "id" : 232,
+         "string" : "# of Astral Fires"
+      },
+      {
+         "id" : 233,
+         "string" : "Dispenser of Fate"
+      },
+      {
+         "id" : 234,
+         "string" : "# of the Celestial Bodies"
+      },
+      {
+         "id" : 235,
+         "string" : "# of the Heavenly Fires"
+      },
+      {
+         "id" : 236,
+         "string" : "Guardian of the Tablets of Destiny"
+      },
+      {
+         "id" : 237,
+         "string" : "# of Destiny"
+      },
+      {
+         "id" : 238,
+         "string" : "# of Fate"
+      },
+      {
+         "id" : 239,
+         "string" : "Director of the World"
+      },
+      {
+         "id" : 240,
+         "string" : "! Who Holds the Fate of All"
+      },
+      {
+         "id" : 241,
+         "string" : "# of Immortal Wisdom"
+      },
+      {
+         "id" : 242,
+         "string" : "! who Gave Birth to Fate"
+      },
+      {
+         "id" : 243,
+         "string" : "! who Gave Birth to Time"
+      },
+      {
+         "id" : 244,
+         "string" : "the Undeceivable God"
+      },
+      {
+         "id" : 245,
+         "string" : "the Baleful Eye"
+      },
+      {
+         "id" : 246,
+         "string" : "Pivot of the Universe"
+      },
+      {
+         "id" : 247,
+         "string" : "the Creator of all Life and Existence"
+      },
+      {
+         "id" : 248,
+         "string" : "Maker of Everlasting Worlds"
+      },
+      {
+         "id" : 249,
+         "string" : "# of the Pole Star"
+      },
+      {
+         "id" : 250,
+         "string" : "# of Men's Fates"
+      },
+      {
+         "id" : 251,
+         "string" : "# of the Sacred Eye"
+      },
+      {
+         "id" : 252,
+         "string" : "Creator of the Calendar"
+      },
+      {
+         "id" : 253,
+         "string" : "the Far Traveler"
+      },
+      {
+         "id" : 254,
+         "string" : "! who Confuses the Way"
+      },
+      {
+         "id" : 255,
+         "string" : "! who Makes Clear the Way"
+      },
+      {
+         "id" : 256,
+         "string" : "the Persuasive One"
+      },
+      {
+         "id" : 257,
+         "string" : "the Fate of the World"
+      },
+      {
+         "id" : 258,
+         "string" : "# of Doors and Beginnings and Endings"
+      },
+      {
+         "id" : 259,
+         "string" : "Guardian of the Bridge"
+      },
+      {
+         "id" : 260,
+         "string" : "the Face Painted with Bells"
+      },
+      {
+         "id" : 261,
+         "string" : "Star of the Sea"
+      },
+      {
+         "id" : 262,
+         "string" : "the Brilliant One in the Sky"
+      },
+      {
+         "id" : 263,
+         "string" : "Light-Giver of Heaven"
+      },
+      {
+         "id" : 264,
+         "string" : "the Remote and Inaccessible #"
+      },
+      {
+         "id" : 265,
+         "string" : "Ruler of the 365 Heavens"
+      },
+      {
+         "id" : 266,
+         "string" : "# of the Healing Arts"
+      },
+      {
+         "id" : 267,
+         "string" : "# of Nature"
+      },
+      {
+         "id" : 268,
+         "string" : "the Carpenter of the Insides"
+      },
+      {
+         "id" : 269,
+         "string" : "Goddess of Birth"
+      },
+      {
+         "id" : 270,
+         "string" : "the Womb"
+      },
+      {
+         "id" : 271,
+         "string" : "the Mother of All Children"
+      },
+      {
+         "id" : 272,
+         "string" : "# of Growth"
+      },
+      {
+         "id" : 273,
+         "string" : "# of Fertility"
+      },
+      {
+         "id" : 274,
+         "string" : "# of the Forest"
+      },
+      {
+         "id" : 275,
+         "string" : "# of Animals"
+      },
+      {
+         "id" : 276,
+         "string" : "# of Vegetation"
+      },
+      {
+         "id" : 277,
+         "string" : "# of Verdure"
+      },
+      {
+         "id" : 278,
+         "string" : "# of Grasses, Grain and Reed"
+      },
+      {
+         "id" : 279,
+         "string" : "# of Plants and Trees"
+      },
+      {
+         "id" : 280,
+         "string" : "the Howler"
+      },
+      {
+         "id" : 281,
+         "string" : "the Wild Bull who has Lain Down"
+      },
+      {
+         "id" : 282,
+         "string" : "Fecund Breed-Bull"
+      },
+      {
+         "id" : 283,
+         "string" : "# of the Wild Cows"
+      },
+      {
+         "id" : 284,
+         "string" : "# of the Dying Forests"
+      },
+      {
+         "id" : 285,
+         "string" : "the Unsleeping God"
+      },
+      {
+         "id" : 286,
+         "string" : "the Unsleeping Goddess"
+      },
+      {
+         "id" : 287,
+         "string" : "# of the Wildlife"
+      },
+      {
+         "id" : 288,
+         "string" : "# of Beauty and Charm"
+      },
+      {
+         "id" : 289,
+         "string" : "# of Poetry and Song"
+      },
+      {
+         "id" : 290,
+         "string" : "the Creator of Wine"
+      },
+      {
+         "id" : 291,
+         "string" : "# of Revelry"
+      },
+      {
+         "id" : 292,
+         "string" : "# of the Hunt"
+      },
+      {
+         "id" : 293,
+         "string" : "Herder of Men"
+      },
+      {
+         "id" : 294,
+         "string" : "# of the Blessed Lands"
+      },
+      {
+         "id" : 295,
+         "string" : "Patron of Herbalists"
+      },
+      {
+         "id" : 296,
+         "string" : "Healer of the Lands"
+      },
+      {
+         "id" : 297,
+         "string" : "First Born of Gaia"
+      },
+      {
+         "id" : 298,
+         "string" : "Patron of Berserkers"
+      },
+      {
+         "id" : 299,
+         "string" : "the Hidden One"
+      },
+      {
+         "id" : 300,
+         "string" : "# of the Forest that Thirsts"
+      },
+      {
+         "id" : 301,
+         "string" : "He Who Felled the First Tree"
+      },
+      {
+         "id" : 302,
+         "string" : "# of the Eternal Forest"
+      },
+      {
+         "id" : 303,
+         "string" : "# of Birds and Parrots"
+      },
+      {
+         "id" : 304,
+         "string" : "the Essence of Fertility"
+      },
+      {
+         "id" : 305,
+         "string" : "the King of Berries"
+      },
+      {
+         "id" : 306,
+         "string" : "Lady Precious Green"
+      },
+      {
+         "id" : 307,
+         "string" : "# of all Young and Growing Things"
+      },
+      {
+         "id" : 308,
+         "string" : "Personification of Youthful Vitality and Violence"
+      },
+      {
+         "id" : 309,
+         "string" : "the Old Old One"
+      },
+      {
+         "id" : 310,
+         "string" : "Bringer of Abundance"
+      },
+      {
+         "id" : 311,
+         "string" : "# of Eloquence"
+      },
+      {
+         "id" : 312,
+         "string" : "the Leaflord"
+      },
+      {
+         "id" : 313,
+         "string" : "# of Insects"
+      },
+      {
+         "id" : 314,
+         "string" : "the Divine Shepherd"
+      },
+      {
+         "id" : 315,
+         "string" : "# of Horses"
+      },
+      {
+         "id" : 316,
+         "string" : "# of Hunting"
+      },
+      {
+         "id" : 317,
+         "string" : "Patron of Huntsmen"
+      },
+      {
+         "id" : 318,
+         "string" : "# of the Spring"
+      },
+      {
+         "id" : 319,
+         "string" : "# of Flowers and Spring"
+      },
+      {
+         "id" : 320,
+         "string" : "Midwife of the Gods"
+      },
+      {
+         "id" : 321,
+         "string" : "Gardener of Happiness"
+      },
+      {
+         "id" : 322,
+         "string" : "Keeper of the Gardens of Delight"
+      },
+      {
+         "id" : 323,
+         "string" : "the One who Purifies Everyone by the very Utterance of !! Name"
+      },
+      {
+         "id" : 324,
+         "string" : "# of Forbidden Love"
+      },
+      {
+         "id" : 325,
+         "string" : "Goddess of Spring and Eternal Youth"
+      },
+      {
+         "id" : 326,
+         "string" : "# of Afar"
+      },
+      {
+         "id" : 327,
+         "string" : "the Queen that Hungers"
+      },
+      {
+         "id" : 328,
+         "string" : "the Death Caused by Lust"
+      },
+      {
+         "id" : 329,
+         "string" : "# of Immortal Evils"
+      },
+      {
+         "id" : 330,
+         "string" : "Eater of Children"
+      },
+      {
+         "id" : 331,
+         "string" : "the Evil Prince"
+      },
+      {
+         "id" : 332,
+         "string" : "the Evil Princess"
+      },
+      {
+         "id" : 333,
+         "string" : "Patron of Human Sacrifice"
+      },
+      {
+         "id" : 334,
+         "string" : "# of Blood"
+      },
+      {
+         "id" : 335,
+         "string" : "# of Blood and Perfume "
+      },
+      {
+         "id" : 336,
+         "string" : "# of Pain"
+      },
+      {
+         "id" : 337,
+         "string" : "Sovereign of Sin"
+      },
+      {
+         "id" : 338,
+         "string" : "Lord of Flies"
+      },
+      {
+         "id" : 339,
+         "string" : "Enemy of Infants"
+      },
+      {
+         "id" : 340,
+         "string" : "the Power Perverse"
+      },
+      {
+         "id" : 341,
+         "string" : "# of Taint"
+      },
+      {
+         "id" : 342,
+         "string" : "# of Suffering"
+      },
+      {
+         "id" : 343,
+         "string" : "Bane of Men"
+      },
+      {
+         "id" : 344,
+         "string" : "the Leech"
+      },
+      {
+         "id" : 345,
+         "string" : "the Leeching Darkness"
+      },
+      {
+         "id" : 346,
+         "string" : "the Bloodlusting Lord"
+      },
+      {
+         "id" : 347,
+         "string" : "Seducer of Life"
+      },
+      {
+         "id" : 348,
+         "string" : "# of Evil"
+      },
+      {
+         "id" : 349,
+         "string" : "Mother of Demons"
+      },
+      {
+         "id" : 350,
+         "string" : "God of Unnatural Lust"
+      },
+      {
+         "id" : 351,
+         "string" : "Goddess of Unnatural Lust"
+      },
+      {
+         "id" : 352,
+         "string" : "the Infernal Sovereign"
+      },
+      {
+         "id" : 353,
+         "string" : "Drinker of Blood"
+      },
+      {
+         "id" : 354,
+         "string" : "Lord of Kokytos"
+      },
+      {
+         "id" : 355,
+         "string" : "# of the Abyss"
+      },
+      {
+         "id" : 356,
+         "string" : "# of Horrors"
+      },
+      {
+         "id" : 357,
+         "string" : "the Man Eater"
+      },
+      {
+         "id" : 358,
+         "string" : "Tamer of Demons"
+      },
+      {
+         "id" : 359,
+         "string" : "Tower of Strength"
+      },
+      {
+         "id" : 360,
+         "string" : "Lord of Madness"
+      },
+      {
+         "id" : 361,
+         "string" : "the Merchant of Souls"
+      },
+      {
+         "id" : 362,
+         "string" : "Goddess of Eternal Youth"
+      },
+      {
+         "id" : 363,
+         "string" : "Left Hand of Knowledge"
+      },
+      {
+         "id" : 364,
+         "string" : "# of Wisdom"
+      },
+      {
+         "id" : 365,
+         "string" : "the Mighty One of Words of Power"
+      },
+      {
+         "id" : 366,
+         "string" : "# of the Elements"
+      },
+      {
+         "id" : 367,
+         "string" : "! who is Crowned with Wisdom"
+      },
+      {
+         "id" : 368,
+         "string" : "Master of Magic"
+      },
+      {
+         "id" : 369,
+         "string" : "Mistress of Magic"
+      },
+      {
+         "id" : 370,
+         "string" : "# of Rainbows"
+      },
+      {
+         "id" : 371,
+         "string" : "# of Witchcraft"
+      },
+      {
+         "id" : 372,
+         "string" : "! who has Infinite Power"
+      },
+      {
+         "id" : 373,
+         "string" : "the Cat of Slime"
+      },
+      {
+         "id" : 374,
+         "string" : "the Vessel of Might"
+      },
+      {
+         "id" : 375,
+         "string" : "Exalted Above and Below"
+      },
+      {
+         "id" : 376,
+         "string" : "King of Kings"
+      },
+      {
+         "id" : 377,
+         "string" : "the Most High"
+      },
+      {
+         "id" : 378,
+         "string" : "August #"
+      },
+      {
+         "id" : 379,
+         "string" : "Lord of Fear and Trembling"
+      },
+      {
+         "id" : 380,
+         "string" : "Father of Gods"
+      },
+      {
+         "id" : 381,
+         "string" : "Mother of Gods"
+      },
+      {
+         "id" : 382,
+         "string" : "Prince of Majesty"
+      },
+      {
+         "id" : 383,
+         "string" : "Queen of Majesty"
+      },
+      {
+         "id" : 384,
+         "string" : "God of Invincible Power"
+      },
+      {
+         "id" : 385,
+         "string" : "God of Gods"
+      },
+      {
+         "id" : 386,
+         "string" : "the Beginning and the End"
+      },
+      {
+         "id" : 387,
+         "string" : "He who Is at the Center"
+      },
+      {
+         "id" : 388,
+         "string" : "the God above All"
+      },
+      {
+         "id" : 389,
+         "string" : "# of Many Names"
+      },
+      {
+         "id" : 390,
+         "string" : "# of this World"
+      },
+      {
+         "id" : 391,
+         "string" : "# who Knows All Things"
+      },
+      {
+         "id" : 392,
+         "string" : "Author and Finisher of Our Faith"
+      },
+      {
+         "id" : 393,
+         "string" : "the Everlasting Father"
+      },
+      {
+         "id" : 394,
+         "string" : "the Everlasting Mother"
+      },
+      {
+         "id" : 395,
+         "string" : "the Destroyer"
+      },
+      {
+         "id" : 396,
+         "string" : "Patron of Thieves"
+      },
+      {
+         "id" : 397,
+         "string" : "# of Beggars"
+      },
+      {
+         "id" : 398,
+         "string" : "Patron of Beggars"
+      },
+      {
+         "id" : 399,
+         "string" : "# of Fraud and Theft"
+      },
+      {
+         "id" : 400,
+         "string" : "Patron of Injustice"
+      },
+      {
+         "id" : 401,
+         "string" : "# of Tyrants"
+      },
+      {
+         "id" : 402,
+         "string" : "# of Insolence"
+      },
+      {
+         "id" : 403,
+         "string" : "# of War"
+      },
+      {
+         "id" : 404,
+         "string" : "Bringer of War"
+      },
+      {
+         "id" : 405,
+         "string" : "the Lover of War"
+      },
+      {
+         "id" : 406,
+         "string" : "the Angry Face"
+      },
+      {
+         "id" : 407,
+         "string" : "# of Chaos"
+      },
+      {
+         "id" : 408,
+         "string" : "# of Turmoil"
+      },
+      {
+         "id" : 409,
+         "string" : "# of Spontaneity"
+      },
+      {
+         "id" : 410,
+         "string" : "# of Unexpected Pleasure and Sorrow"
+      },
+      {
+         "id" : 411,
+         "string" : "Enemy of Reason"
+      },
+      {
+         "id" : 412,
+         "string" : "the God with Backward Feet"
+      },
+      {
+         "id" : 413,
+         "string" : "Patron of Liars"
+      },
+      {
+         "id" : 414,
+         "string" : "# of Mischief"
+      },
+      {
+         "id" : 415,
+         "string" : "Bringer of Discord"
+      },
+      {
+         "id" : 416,
+         "string" : "the Jealous #"
+      },
+      {
+         "id" : 417,
+         "string" : "# of Bloodshed and Conflict"
+      },
+      {
+         "id" : 418,
+         "string" : "the Enemy of Both Sides"
+      },
+      {
+         "id" : 419,
+         "string" : "the Two-Faced #"
+      },
+      {
+         "id" : 420,
+         "string" : "She of Two Faces"
+      },
+      {
+         "id" : 421,
+         "string" : "# of Two Faces"
+      },
+      {
+         "id" : 422,
+         "string" : "Creator of the Ends of the World"
+      },
+      {
+         "id" : 423,
+         "string" : "# of Civilization"
+      },
+      {
+         "id" : 424,
+         "string" : "Gate of Peace"
+      },
+      {
+         "id" : 425,
+         "string" : "# of the Open Road"
+      },
+      {
+         "id" : 426,
+         "string" : "Patron of Merchants"
+      },
+      {
+         "id" : 427,
+         "string" : "the Divine Architect"
+      },
+      {
+         "id" : 428,
+         "string" : "# of the Hierarchs"
+      },
+      {
+         "id" : 429,
+         "string" : "# of Order"
+      },
+      {
+         "id" : 430,
+         "string" : "# of Patience"
+      },
+      {
+         "id" : 431,
+         "string" : "# of Discipline"
+      },
+      {
+         "id" : 432,
+         "string" : "# of Ostentatious Ornament"
+      },
+      {
+         "id" : 433,
+         "string" : "the Fountainhead of Order"
+      },
+      {
+         "id" : 434,
+         "string" : "# of Wealth and Power"
+      },
+      {
+         "id" : 435,
+         "string" : "# of Writing and Speech"
+      },
+      {
+         "id" : 436,
+         "string" : "Friend of All"
+      },
+      {
+         "id" : 437,
+         "string" : "Patron of the Rich"
+      },
+      {
+         "id" : 438,
+         "string" : "God of the City"
+      },
+      {
+         "id" : 439,
+         "string" : "Commander of Truth"
+      },
+      {
+         "id" : 440,
+         "string" : "Patron of Arbitrators"
+      },
+      {
+         "id" : 441,
+         "string" : "Protector of Oaths"
+      },
+      {
+         "id" : 442,
+         "string" : "# of Oaths and Friendship"
+      },
+      {
+         "id" : 443,
+         "string" : "Guardian of the Law"
+      },
+      {
+         "id" : 444,
+         "string" : "the Kindly One"
+      },
+      {
+         "id" : 445,
+         "string" : "# of Excellence"
+      },
+      {
+         "id" : 446,
+         "string" : "the Beloved Father"
+      },
+      {
+         "id" : 447,
+         "string" : "the Symbol of Unification"
+      },
+      {
+         "id" : 448,
+         "string" : "Great Defender"
+      },
+      {
+         "id" : 449,
+         "string" : "# of Marriage"
+      },
+      {
+         "id" : 450,
+         "string" : "# of Chastity"
+      },
+      {
+         "id" : 451,
+         "string" : "the Peacemaker"
+      },
+      {
+         "id" : 452,
+         "string" : "Destroyer of Demons"
+      },
+      {
+         "id" : 453,
+         "string" : "! whose Work is Perfect"
+      },
+      {
+         "id" : 454,
+         "string" : "the Foundation"
+      },
+      {
+         "id" : 455,
+         "string" : "# of the Harvest"
+      },
+      {
+         "id" : 456,
+         "string" : "the Giver of Food"
+      },
+      {
+         "id" : 457,
+         "string" : "Giver of Life"
+      },
+      {
+         "id" : 458,
+         "string" : "Nourisher of the Fields"
+      },
+      {
+         "id" : 459,
+         "string" : "# of Fruit Trees"
+      },
+      {
+         "id" : 460,
+         "string" : "Author of Life"
+      },
+      {
+         "id" : 461,
+         "string" : "# of Vultures"
+      },
+      {
+         "id" : 462,
+         "string" : "# of the Scorched Earth"
+      },
+      {
+         "id" : 463,
+         "string" : "# of Hope"
+      },
+      {
+         "id" : 464,
+         "string" : "Patron of Outcasts"
+      },
+      {
+         "id" : 465,
+         "string" : "Patron of Heroes"
+      },
+      {
+         "id" : 466,
+         "string" : "Guide of Heroes"
+      },
+      {
+         "id" : 467,
+         "string" : "the Compassionate"
+      },
+      {
+         "id" : 468,
+         "string" : "Goddess of Mercy"
+      },
+      {
+         "id" : 469,
+         "string" : "# of Gambling"
+      },
+      {
+         "id" : 470,
+         "string" : "Patron of Gamblers"
+      },
+      {
+         "id" : 471,
+         "string" : "Bestower of Good Gifts"
+      },
+      {
+         "id" : 472,
+         "string" : "Bringer of Misfortune"
+      },
+      {
+         "id" : 473,
+         "string" : "She Who Opened the Box of Woe"
+      },
+      {
+         "id" : 474,
+         "string" : "Enforcer of Misfortune"
+      },
+      {
+         "id" : 475,
+         "string" : "the Narrow Face"
+      },
+      {
+         "id" : 476,
+         "string" : "Giver of Riches"
+      },
+      {
+         "id" : 477,
+         "string" : "# of Greed"
+      },
+      {
+         "id" : 478,
+         "string" : "the Eternal Poet"
+      },
+      {
+         "id" : 479,
+         "string" : "the Teacher of Philosophy"
+      },
+      {
+         "id" : 480,
+         "string" : "# of Education and Science"
+      },
+      {
+         "id" : 481,
+         "string" : "# of Love"
+      },
+      {
+         "id" : 482,
+         "string" : "Cow of Plenty"
+      },
+      {
+         "id" : 483,
+         "string" : "Wish-fulfilling Cow"
+      },
+      {
+         "id" : 484,
+         "string" : "Mother of all Cows"
+      },
+      {
+         "id" : 485,
+         "string" : "the Battle Crow"
+      },
+      {
+         "id" : 486,
+         "string" : "the Wheel-God"
+      },
+      {
+         "id" : 487,
+         "string" : "# of the Turning Year"
+      },
+      {
+         "id" : 488,
+         "string" : "the Three Heads of Doom"
+      },
+      {
+         "id" : 489,
+         "string" : "the Huntress"
+      },
+      {
+         "id" : 490,
+         "string" : "the Virgin Goddess"
+      },
+      {
+         "id" : 491,
+         "string" : "Protector of Virgins"
+      },
+      {
+         "id" : 492,
+         "string" : "the Fire of Hatred"
+      },
+      {
+         "id" : 493,
+         "string" : "# of the Wastes"
+      },
+      {
+         "id" : 494,
+         "string" : "the Raging #"
+      },
+      {
+         "id" : 495,
+         "string" : "Enemy of Man"
+      },
+      {
+         "id" : 496,
+         "string" : "the Fire of Hatred"
+      },
+      {
+         "id" : 497,
+         "string" : "# of the Wastes"
+      },
+      {
+         "id" : 498,
+         "string" : "the Raging #"
+      },
+      {
+         "id" : 499,
+         "string" : "Enemy of Man"
+      },
+      {
+         "id" : 500,
+         "string" : "Lord of the Smouldercone"
+      },
+      {
+         "id" : 501,
+         "string" : "Lord of the Smouldercone"
+      },
+      {
+         "id" : 502,
+         "string" : "the Raging #"
+      },
+      {
+         "id" : 503,
+         "string" : "# of the Deeps"
+      },
+      {
+         "id" : 504,
+         "string" : "the Basalt #"
+      },
+      {
+         "id" : 505,
+         "string" : "Master of the Coral Towers"
+      },
+      {
+         "id" : 506,
+         "string" : "Mistress of the Coral Towers"
+      },
+      {
+         "id" : 507,
+         "string" : "# of the Deeps"
+      },
+      {
+         "id" : 508,
+         "string" : "Eater of the Lands"
+      },
+      {
+         "id" : 509,
+         "string" : "! of the Bountiful Tent"
+      },
+      {
+         "id" : 510,
+         "string" : "the Pearled #"
+      },
+      {
+         "id" : 511,
+         "string" : "Mother of Pearls"
+      },
+      {
+         "id" : 512,
+         "string" : "Harvester of Sailors"
+      },
+      {
+         "id" : 513,
+         "string" : "# of Stormy Coasts"
+      },
+      {
+         "id" : 514,
+         "string" : "the Proud Emperor"
+      },
+      {
+         "id" : 515,
+         "string" : "# of the Emerald Throne"
+      },
+      {
+         "id" : 516,
+         "string" : "# of the Spheres"
+      },
+      {
+         "id" : 517,
+         "string" : "the Eternal Emperor"
+      },
+      {
+         "id" : 518,
+         "string" : "# of the Fay"
+      },
+      {
+         "id" : 519,
+         "string" : "the Once and Future King"
+      },
+      {
+         "id" : 520,
+         "string" : "Lady of the Lake"
+      },
+      {
+         "id" : 521,
+         "string" : "Mistress of Avalon"
+      },
+      {
+         "id" : 522,
+         "string" : "# of Iron and Machines"
+      },
+      {
+         "id" : 523,
+         "string" : "# of the Swamp"
+      },
+      {
+         "id" : 524,
+         "string" : "the Serpent Mind"
+      },
+      {
+         "id" : 525,
+         "string" : "Lord of Poison"
+      },
+      {
+         "id" : 526,
+         "string" : "# of Choking Moisture"
+      },
+      {
+         "id" : 527,
+         "string" : "the Entombed #"
+      },
+      {
+         "id" : 528,
+         "string" : "# of a Thousand Stars"
+      },
+      {
+         "id" : 529,
+         "string" : "# of Time"
+      },
+      {
+         "id" : 530,
+         "string" : "the Savior"
+      },
+      {
+         "id" : 531,
+         "string" : "the Shroud"
+      },
+      {
+         "id" : 532,
+         "string" : "the Eternal Emperor"
+      },
+      {
+         "id" : 533,
+         "string" : "Enemy of Life"
+      },
+      {
+         "id" : 534,
+         "string" : "the Adversary"
+      },
+      {
+         "id" : 535,
+         "string" : "Soul of Darkness"
+      },
+      {
+         "id" : 536,
+         "string" : "the Stillness of Death"
+      },
+      {
+         "id" : 537,
+         "string" : "the Eternal Emperor"
+      },
+      {
+         "id" : 538,
+         "string" : "Enemy of Life"
+      },
+      {
+         "id" : 539,
+         "string" : "the Adversary"
+      },
+      {
+         "id" : 540,
+         "string" : "Soul of Darkness"
+      },
+      {
+         "id" : 541,
+         "string" : "the Stillness of Death"
+      },
+      {
+         "id" : 542,
+         "string" : "Master of the Seraphim"
+      },
+      {
+         "id" : 543,
+         "string" : "Mistress of the Seraphim"
+      },
+      {
+         "id" : 544,
+         "string" : "the Storm Herald"
+      },
+      {
+         "id" : 545,
+         "string" : "the Blizzard King"
+      },
+      {
+         "id" : 546,
+         "string" : "# of the Morning"
+      },
+      {
+         "id" : 547,
+         "string" : "Marshal of the Host"
+      },
+      {
+         "id" : 548,
+         "string" : "# of Justice"
+      },
+      {
+         "id" : 549,
+         "string" : "Soldier of the Sun"
+      },
+      {
+         "id" : 550,
+         "string" : "Bright Sun of Justice"
+      },
+      {
+         "id" : 551,
+         "string" : "the King Unjust"
+      },
+      {
+         "id" : 552,
+         "string" : "the Fallen #"
+      },
+      {
+         "id" : 553,
+         "string" : "the Beast"
+      },
+      {
+         "id" : 554,
+         "string" : "the Beast #"
+      },
+      {
+         "id" : 555,
+         "string" : "# of the Wild"
+      },
+      {
+         "id" : 556,
+         "string" : "# of the Gallows"
+      },
+      {
+         "id" : 557,
+         "string" : "the Hanged God"
+      },
+      {
+         "id" : 558,
+         "string" : "Hangatyr"
+      },
+      {
+         "id" : 559,
+         "string" : "Father of Ages"
+      },
+      {
+         "id" : 560,
+         "string" : "Mother of the Vanir"
+      },
+      {
+         "id" : 561,
+         "string" : "Father of Ages"
+      },
+      {
+         "id" : 562,
+         "string" : "Mother of the Vanir"
+      },
+      {
+         "id" : 563,
+         "string" : "Fimbultyr"
+      },
+      {
+         "id" : 564,
+         "string" : "Lord of Niefel"
+      },
+      {
+         "id" : 565,
+         "string" : "Lady of Niefel"
+      },
+      {
+         "id" : 566,
+         "string" : "the Hunger Without Thought"
+      },
+      {
+         "id" : 567,
+         "string" : "the Lurker at the Threshold"
+      },
+      {
+         "id" : 568,
+         "string" : "He Who Should not be Named"
+      },
+      {
+         "id" : 569,
+         "string" : "the Key and the Gate"
+      },
+      {
+         "id" : 570,
+         "string" : "the Future Past"
+      },
+      {
+         "id" : 571,
+         "string" : "the Hunger Without Thought"
+      },
+      {
+         "id" : 572,
+         "string" : "the Lurker at the Threshold"
+      },
+      {
+         "id" : 573,
+         "string" : "He Who Should not be Named"
+      },
+      {
+         "id" : 574,
+         "string" : "She of the Jade Skirt"
+      },
+      {
+         "id" : 575,
+         "string" : "Jaguar King"
+      },
+      {
+         "id" : 576,
+         "string" : "the Bloody Mistress"
+      },
+      {
+         "id" : 577,
+         "string" : "the Eater of Hearts"
+      },
+      {
+         "id" : 578,
+         "string" : "Patron of Cannibalism"
+      },
+      {
+         "id" : 579,
+         "string" : "the Twisted Obsidian One"
+      },
+      {
+         "id" : 580,
+         "string" : "# of the Obsidian Blade"
+      },
+      {
+         "id" : 581,
+         "string" : "the Obsidian Butterfly"
+      },
+      {
+         "id" : 582,
+         "string" : "Jaguar King"
+      },
+      {
+         "id" : 583,
+         "string" : "the Bloody Mistress"
+      },
+      {
+         "id" : 584,
+         "string" : "the Eater of Hearts"
+      },
+      {
+         "id" : 585,
+         "string" : "the Twisted Obsidian One"
+      },
+      {
+         "id" : 586,
+         "string" : "# of the Obsidian Blade"
+      },
+      {
+         "id" : 587,
+         "string" : "the Obsidian Butterfly"
+      },
+      {
+         "id" : 588,
+         "string" : "the Lawgiver"
+      },
+      {
+         "id" : 589,
+         "string" : "the Corn #"
+      },
+      {
+         "id" : 590,
+         "string" : "Minister of the Celestial Bureaucracy"
+      },
+      {
+         "id" : 591,
+         "string" : "Minister of the Five Elements"
+      },
+      {
+         "id" : 592,
+         "string" : "Minister of the Eight Winds"
+      },
+      {
+         "id" : 593,
+         "string" : "God of Luck Through Hard Work"
+      },
+      {
+         "id" : 594,
+         "string" : "God of Luck Through Hard Work"
+      },
+      {
+         "id" : 595,
+         "string" : "God of Luck Through Hard Work"
+      },
+      {
+         "id" : 596,
+         "string" : "the Rice #"
+      },
+      {
+         "id" : 597,
+         "string" : "the Rice #"
+      },
+      {
+         "id" : 598,
+         "string" : "the Rice #"
+      },
+      {
+         "id" : 599,
+         "string" : "the Rice #"
+      },
+      {
+         "id" : 600,
+         "string" : "# of Medicine"
+      },
+      {
+         "id" : 601,
+         "string" : "# of Medicine"
+      },
+      {
+         "id" : 602,
+         "string" : "# of Medicine"
+      },
+      {
+         "id" : 603,
+         "string" : "# of Medicine"
+      },
+      {
+         "id" : 604,
+         "string" : "# of Medicine"
+      },
+      {
+         "id" : 605,
+         "string" : "# of Medical Arts"
+      },
+      {
+         "id" : 606,
+         "string" : "# of Medical Arts"
+      },
+      {
+         "id" : 607,
+         "string" : "# of Medical Arts"
+      },
+      {
+         "id" : 608,
+         "string" : "# of Medical Arts"
+      },
+      {
+         "id" : 609,
+         "string" : "# of Medical Arts"
+      },
+      {
+         "id" : 610,
+         "string" : "the Summer Lord"
+      },
+      {
+         "id" : 611,
+         "string" : "the Heart of Darkness"
+      },
+      {
+         "id" : 612,
+         "string" : "# of Spiders"
+      },
+      {
+         "id" : 613,
+         "string" : "the God in the Mountain"
+      },
+      {
+         "id" : 614,
+         "string" : "the Goddess in the Forest"
+      },
+      {
+         "id" : 615,
+         "string" : "the Wheel"
+      },
+      {
+         "id" : 616,
+         "string" : "# of the Apes"
+      },
+      {
+         "id" : 617,
+         "string" : "the Wheel"
+      },
+      {
+         "id" : 618,
+         "string" : "# of the Apes"
+      },
+      {
+         "id" : 619,
+         "string" : "the Wheel"
+      },
+      {
+         "id" : 620,
+         "string" : "# of the Apes"
+      },
+      {
+         "id" : 621,
+         "string" : "the Hunger Below"
+      },
+      {
+         "id" : 622,
+         "string" : "the Maker of the Seal"
+      },
+      {
+         "id" : 623,
+         "string" : "the Obsidian Mind"
+      },
+      {
+         "id" : 624,
+         "string" : "# of Opulent Halls"
+      },
+      {
+         "id" : 625,
+         "string" : "# of Opulent Halls"
+      },
+      {
+         "id" : 626,
+         "string" : "the Golem #"
+      },
+      {
+         "id" : 627,
+         "string" : "# of the Tombs Underneath"
+      },
+      {
+         "id" : 628,
+         "string" : "# of the Bakemono"
+      },
+      {
+         "id" : 629,
+         "string" : "# of the Oni"
+      },
+      {
+         "id" : 630,
+         "string" : "# of the Date Clusters"
+      },
+      {
+         "id" : 631,
+         "string" : "House of the Date Clusters"
+      },
+      {
+         "id" : 632,
+         "string" : "Lady of the Bountiful Tent"
+      },
+      {
+         "id" : 633,
+         "string" : "# of the Date Clusters"
+      },
+      {
+         "id" : 634,
+         "string" : "House of the Date Clusters"
+      },
+      {
+         "id" : 635,
+         "string" : "Mistress of the Bountiful House"
+      },
+      {
+         "id" : 636,
+         "string" : "the Lamenting #"
+      },
+      {
+         "id" : 637,
+         "string" : "the Lamenting #"
+      },
+      {
+         "id" : 638,
+         "string" : "the God-slayer"
+      },
+      {
+         "id" : 639,
+         "string" : "# of Near and Close"
+      },
+      {
+         "id" : 640,
+         "string" : "the Self Created Master"
+      },
+      {
+         "id" : 641,
+         "string" : "Sword of Balance"
+      },
+      {
+         "id" : 642,
+         "string" : "the Awesome"
+      },
+      {
+         "id" : 643,
+         "string" : "Symbol of Unchallenged Victory"
+      },
+      {
+         "id" : 644,
+         "string" : "the Invincible and Ever-triumphant"
+      },
+      {
+         "id" : 645,
+         "string" : "Patron of Soldiers"
+      },
+      {
+         "id" : 646,
+         "string" : "Patron of Languages"
+      },
+      {
+         "id" : 647,
+         "string" : "# of Courage"
+      },
+      {
+         "id" : 648,
+         "string" : "# of Agriculture"
+      },
+      {
+         "id" : 649,
+         "string" : "Patron of Farmers"
+      },
+      {
+         "id" : 650,
+         "string" : "the Unforgiving #"
+      },
+      {
+         "id" : 651,
+         "string" : "Councilor of Gods"
+      },
+      {
+         "id" : 652,
+         "string" : "# of the Cold North"
+      },
+      {
+         "id" : 653,
+         "string" : "# of the Frozen Marches"
+      },
+      {
+         "id" : 654,
+         "string" : "# of Gluttony"
+      },
+      {
+         "id" : 655,
+         "string" : "He Who Waits"
+      },
+      {
+         "id" : 656,
+         "string" : "Grand Vizier of the Lands of Woe"
+      },
+      {
+         "id" : 657,
+         "string" : "the Night Hag"
+      },
+      {
+         "id" : 658,
+         "string" : "Duke of Hell"
+      },
+      {
+         "id" : 659,
+         "string" : "Fiend of the Wounding Spear"
+      },
+      {
+         "id" : 660,
+         "string" : "Monster of Confusion and Disorder"
+      },
+      {
+         "id" : 661,
+         "string" : "# of Silence"
+      },
+      {
+         "id" : 662,
+         "string" : "# of Desire and Grace"
+      },
+      {
+         "id" : 663,
+         "string" : "Lady of the Obscure"
+      },
+      {
+         "id" : 664,
+         "string" : "Lady of the Creamery"
+      },
+      {
+         "id" : 665,
+         "string" : "the Great Leap Forward"
+      },
+      {
+         "id" : 666,
+         "string" : "Desire of All Nations"
+      },
+      {
+         "id" : 667,
+         "string" : "the Born God"
+      },
+      {
+         "id" : 668,
+         "string" : "the Unborn"
+      },
+      {
+         "id" : 669,
+         "string" : "the Self-Manifested #"
+      },
+      {
+         "id" : 670,
+         "string" : "Collector of Things Lost"
+      },
+      {
+         "id" : 671,
+         "string" : "Banner of Victory"
+      },
+      {
+         "id" : 672,
+         "string" : "The Many Eyed #"
+      },
+      {
+         "id" : 673,
+         "string" : "Patron of all Bards"
+      },
+      {
+         "id" : 674,
+         "string" : "the Mouth of $"
+      },
+      {
+         "id" : 675,
+         "string" : "the Voice of $"
+      },
+      {
+         "id" : 676,
+         "string" : "the Will of $"
+      },
+      {
+         "id" : 677,
+         "string" : "the Fist of $"
+      },
+      {
+         "id" : 678,
+         "string" : "the Herald of $"
+      },
+      {
+         "id" : 679,
+         "string" : "the Messenger of $"
+      },
+      {
+         "id" : 680,
+         "string" : "the Chaplain of $"
+      },
+      {
+         "id" : 681,
+         "string" : "the House of $"
+      },
+      {
+         "id" : 682,
+         "string" : "the First General of $"
+      },
+      {
+         "id" : 683,
+         "string" : "the First Minister of $"
+      },
+      {
+         "id" : 684,
+         "string" : "the Eternal Bookkeeper of $"
+      },
+      {
+         "id" : 685,
+         "string" : "the Right Hand of $"
+      },
+      {
+         "id" : 686,
+         "string" : "the Left Hand of $"
+      },
+      {
+         "id" : 687,
+         "string" : "! who is Always Behind $"
+      },
+      {
+         "id" : 688,
+         "string" : "Firstborn of $"
+      },
+      {
+         "id" : 689,
+         "string" : "the First Follower of $"
+      },
+      {
+         "id" : 690,
+         "string" : "the Second Follower of $"
+      },
+      {
+         "id" : 691,
+         "string" : "the Son of $"
+      },
+      {
+         "id" : 692,
+         "string" : "the Daughter of $"
+      },
+      {
+         "id" : 693,
+         "string" : "! who Aided $ to Victory"
+      },
+      {
+         "id" : 694,
+         "string" : "! who Saw $ First"
+      },
+      {
+         "id" : 695,
+         "string" : "! who Heard $ First"
+      },
+      {
+         "id" : 696,
+         "string" : "! who Betrayed $ and Survived"
+      },
+      {
+         "id" : 697,
+         "string" : "the Guardian of the Servants of $"
+      },
+      {
+         "id" : 698,
+         "string" : "the Most Devout Follower of $"
+      },
+      {
+         "id" : 699,
+         "string" : "the Most Eloquent Follower of $"
+      },
+      {
+         "id" : 700,
+         "string" : "the Most Important Follower of $"
+      },
+      {
+         "id" : 701,
+         "string" : "the Joy of $"
+      },
+      {
+         "id" : 702,
+         "string" : "the Seed of $"
+      },
+      {
+         "id" : 703,
+         "string" : "the Housekeeper of $"
+      },
+      {
+         "id" : 704,
+         "string" : "! who Walks Before $"
+      },
+      {
+         "id" : 705,
+         "string" : "Guardian of the Vestibule of $"
+      },
+      {
+         "id" : 706,
+         "string" : "Vanquisher of the Enemies of $"
+      },
+      {
+         "id" : 707,
+         "string" : "First Soldier of the Empire of $"
+      },
+      {
+         "id" : 708,
+         "string" : "Foremost of $'s servants"
+      },
+      {
+         "id" : 709,
+         "string" : "the Slave of $"
+      },
+      {
+         "id" : 710,
+         "string" : "the Marshal of $"
+      },
+      {
+         "id" : 711,
+         "string" : "the Flame of $"
+      },
+      {
+         "id" : 712,
+         "string" : "! who Carries the Flame of $"
+      },
+      {
+         "id" : 713,
+         "string" : "the Light of $"
+      },
+      {
+         "id" : 714,
+         "string" : "the Wrath of $"
+      },
+      {
+         "id" : 715,
+         "string" : "the Breath of $"
+      },
+      {
+         "id" : 716,
+         "string" : "the Keeper of the Storm of $"
+      },
+      {
+         "id" : 717,
+         "string" : "the Keeper of the Flood of $"
+      },
+      {
+         "id" : 718,
+         "string" : "the Boatkeeper of $"
+      },
+      {
+         "id" : 719,
+         "string" : "the Wallkeeper of $"
+      },
+      {
+         "id" : 720,
+         "string" : "the Hammer of $"
+      },
+      {
+         "id" : 721,
+         "string" : "the Anvil of $"
+      },
+      {
+         "id" : 722,
+         "string" : "the Forester of $"
+      },
+      {
+         "id" : 723,
+         "string" : "the Dark Hand of $"
+      },
+      {
+         "id" : 724,
+         "string" : "the Shadow of $"
+      },
+      {
+         "id" : 725,
+         "string" : "the Star of $"
+      },
+      {
+         "id" : 726,
+         "string" : "the Bright Mind of $"
+      },
+      {
+         "id" : 727,
+         "string" : "the Slaver of $"
+      },
+      {
+         "id" : 728,
+         "string" : "the Spirit of the Fear of $"
+      },
+      {
+         "id" : 729,
+         "string" : "the Judge of $"
+      },
+      {
+         "id" : 730,
+         "string" : "the First Priest of $"
+      },
+      {
+         "id" : 731,
+         "string" : "Enforcer of $'s Prophecies"
+      },
+      {
+         "id" : 732,
+         "string" : "Protector of $'s Name"
+      },
+      {
+         "id" : 733,
+         "string" : "$'s Shield Man"
+      },
+      {
+         "id" : 734,
+         "string" : "Mighty One of $"
+      },
+      {
+         "id" : 735,
+         "string" : "Star Out of $"
+      },
+      {
+         "id" : 736,
+         "string" : "Only Potentate of $"
+      },
+      {
+         "id" : 737,
+         "string" : "Branch of $"
+      },
+      {
+         "id" : 738,
+         "string" : "Counselor of $"
+      },
+      {
+         "id" : 739,
+         "string" : "! who Gives Advice to $"
+      },
+      {
+         "id" : 740,
+         "string" : "First-begotten of $"
+      },
+      {
+         "id" : 741,
+         "string" : "! who even $ himself would consult"
+      },
+      {
+         "id" : 742,
+         "string" : "! who even $ herself would consult"
+      },
+      {
+         "id" : 743,
+         "string" : "Lover of $"
+      },
+      {
+         "id" : 744,
+         "string" : "Lover of $"
+      },
+      {
+         "id" : 745,
+         "string" : "Mistress of $"
+      }
+   ]
+}

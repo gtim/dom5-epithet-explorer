@@ -7,15 +7,19 @@ use 5.26.0;
 use warnings;
 use experimental qw/switch/;
 
-use File::Slurper qw/read_binary/;
+use File::Slurper qw/read_binary write_text/;
+use JSON qw//;
 
 my $FILENAME_EXE_X64 = 'Dominions554-64.exe';
+my $FILENAME_EPITHETS_OUT = 'src/epithets.json';
 
 my $IMAGEBASE_OFFSET = 0x2200;
 my $EPITHETS_OFFSET = 0x13533b4+12 - $IMAGEBASE_OFFSET; 
 my $EPITHET_LENGTH = 0x20;
 
 my $blob = read_binary( $FILENAME_EXE_X64 );
+
+my @epithets;
 
 #for my $epithet_i ( 0..10, 323 ) {
 for my $epithet_i ( 0..745 ) {
@@ -27,7 +31,7 @@ for my $epithet_i ( 0..745 ) {
 	my @values = @conditions_and_values[6..11];
 
 	my $pret_str = sprintf "%3d: %s\n", $epithet_i, $name;
-	my $print = 0;
+	my $epithet = { id => $epithet_i, string => $name }; 
 	for my $con_i ( 0..5 ) {
 		my ( $con, $val ) = ( $conditions[$con_i], $values[$con_i] );
 		my $constr;
@@ -98,10 +102,13 @@ for my $epithet_i ( 0..745 ) {
 
 			default { $constr = sprintf "?? %d: %d", $con, $val }
 		}
-		$pret_str .= '     '.$constr."\n";
 	}
-	say $pret_str 
+	push @epithets, $epithet;
 }
+
+my $json = JSON->new->canonical->pretty;
+my $epithets_json = $json->encode( { epithets => \@epithets } );
+write_text( $FILENAME_EPITHETS_OUT, $epithets_json );
 
 
 # misc stuff
