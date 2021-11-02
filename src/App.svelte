@@ -34,20 +34,23 @@
 				{/each}
 			</div>
 		{/each}
+		<div style="clear: both;"></div>
 	</div>
 
 </main>
 
 <style>
 	div.epithet_cards {
-		display:flex;
-		justify-content:center;
+		/*background-color:#ccf;*/
+		text-align:center;
 	}
 	div.epithet_card {
-		flex-direction:row;
+		display:inline-block;
+		vertical-align:top;
 		padding:8px;
 		margin:12px;
-		background-color:#cfc;
+		/*background-color:#cfc;*/
+		min-height:120px;
 	}
 	div.epithet_card span.string {
 		font-weight:bold;

@@ -15,6 +15,6 @@
 		width:100%;
 		margin:0;
 		padding:8px;
-		background-color:#fcc;
+		/*background-color:#fcc;*/
 	}
 </style>
