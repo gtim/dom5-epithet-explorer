@@ -86,11 +86,6 @@ sub constraint_hash {
 		}
 		when (   3) { $constr = "Nation:    $val"; }
 		when (   4) { $constr = "No other epithets in class $val"; }
-		when (  11) { $constr = "Undead:    $val"; }
-		when (  12) { $constr = "Demon:     $val"; }
-		when (  14) { $constr = "Immortal:  $val"; }
-		when (  15) { $constr = "Immobile:  $val"; }
-		when (  16) { $constr = "Inanimate: $val"; }
 		when (  17) {
 			die "invalid val" unless $val == 1;
 			$constr = "Disciple";
@@ -109,6 +104,13 @@ sub constraint_hash {
 		when (1051) { $constr = "Each FAWE  >= $val"; }
 		when (1052) { $constr = "Each SDNB  >= $val"; }
 		when (1053) { $constr = "Each magic path >= $val"; }
+
+		# Boolean
+		when (  11) { return {'type' => 'boolean', 'field' => 'undead',    'value' => $val } }
+		when (  12) { return {'type' => 'boolean', 'field' => 'demon',     'value' => $val } }
+		when (  14) { return {'type' => 'boolean', 'field' => 'immortal',  'value' => $val } }
+		when (  15) { return {'type' => 'boolean', 'field' => 'immobile',  'value' => $val } }
+		when (  16) { return {'type' => 'boolean', 'field' => 'inanimate', 'value' => $val } }
 
 		# Misc.
 		when (   1) { return {'type' => 'misc minimum', field => 'dominion strength', 'value' => $val } }

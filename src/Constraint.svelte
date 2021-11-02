@@ -11,6 +11,8 @@
 		<img src="/img/Scale_{field.toLowerCase()}.png" style="height:32px;"/> {value}
 	{:else if type == "misc minimum"}
 		{field} &GreaterEqual; {value}
+	{:else if type == "boolean"}
+		{value ? "" : "not"} {field}
 	{:else}
 		[ {type} : {field} : {value} ]
 	{/if}

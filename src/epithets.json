@@ -1787,6 +1787,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "immobile",
+               "type" : "boolean",
+               "value" : 1
             }
          ],
          "id" : 127,
@@ -2190,6 +2195,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "immobile",
+               "type" : "boolean",
+               "value" : 0
             }
          ],
          "id" : 155,
@@ -2568,17 +2578,34 @@
          "string" : "# of Suicides"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 183,
          "string" : "the Terror of the Tomb"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 184,
          "string" : "the Lurker in the Crypt"
       },
       {
          "constraints" : [
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "Magic",
                "type" : "scale",
@@ -2690,6 +2717,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 8
+            },
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
             }
          ],
          "id" : 192,
@@ -2701,6 +2733,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 8
+            },
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
             }
          ],
          "id" : 193,
@@ -4386,6 +4423,11 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "inanimate",
+               "type" : "boolean",
+               "value" : 0
             }
          ],
          "id" : 308,
@@ -4675,6 +4717,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
             }
          ],
          "id" : 327,
@@ -4702,6 +4749,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
             },
             {
                "field" : "dominion strength",
@@ -6304,6 +6356,11 @@
                "value" : 1
             },
             {
+               "field" : "demon",
+               "type" : "boolean",
+               "value" : 0
+            },
+            {
                "field" : "F",
                "type" : "magic path",
                "value" : 4
@@ -6946,7 +7003,13 @@
          "string" : "# of the Fay"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "immobile",
+               "type" : "boolean",
+               "value" : 0
+            }
+         ],
          "id" : 519,
          "string" : "the Once and Future King"
       },
@@ -7015,7 +7078,13 @@
          "string" : "# of Choking Moisture"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 527,
          "string" : "the Entombed #"
       },
@@ -7072,7 +7141,13 @@
          "string" : "Soul of Darkness"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 536,
          "string" : "the Stillness of Death"
       },
@@ -7097,7 +7172,13 @@
          "string" : "Soul of Darkness"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 541,
          "string" : "the Stillness of Death"
       },
@@ -7154,6 +7235,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "immobile",
+               "type" : "boolean",
+               "value" : 0
             }
          ],
          "id" : 547,
@@ -7413,6 +7499,11 @@
       {
          "constraints" : [
             {
+               "field" : "inanimate",
+               "type" : "boolean",
+               "value" : 0
+            },
+            {
                "field" : "D",
                "type" : "magic path",
                "value" : 4
@@ -7465,6 +7556,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "inanimate",
+               "type" : "boolean",
+               "value" : 0
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -7887,7 +7983,13 @@
          "string" : "# of Opulent Halls"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "inanimate",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 626,
          "string" : "the Golem #"
       },
@@ -8019,7 +8121,18 @@
          "string" : "# of Near and Close"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "immobile",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "inanimate",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 640,
          "string" : "the Self Created Master"
       },
@@ -8181,22 +8294,45 @@
          "string" : "Grand Vizier of the Lands of Woe"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 657,
          "string" : "the Night Hag"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "demon",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 658,
          "string" : "Duke of Hell"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "demon",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 659,
          "string" : "Fiend of the Wounding Spear"
       },
       {
          "constraints" : [
+            {
+               "field" : "demon",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "Turmoil",
                "type" : "scale",
@@ -8276,6 +8412,16 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 0
+            },
+            {
+               "field" : "undead",
+               "type" : "boolean",
+               "value" : 0
+            },
+            {
+               "field" : "inanimate",
+               "type" : "boolean",
+               "value" : 0
             }
          ],
          "id" : 667,
@@ -8287,6 +8433,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 0
+            },
+            {
+               "field" : "inanimate",
+               "type" : "boolean",
+               "value" : 1
             }
          ],
          "id" : 668,
@@ -8495,7 +8646,13 @@
          "string" : "Vanquisher of the Enemies of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "immobile",
+               "type" : "boolean",
+               "value" : 0
+            }
+         ],
          "id" : 707,
          "string" : "First Soldier of the Empire of $"
       },
