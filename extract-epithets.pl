@@ -34,74 +34,8 @@ for my $epithet_i ( 0..745 ) {
 	my $epithet = { id => $epithet_i, string => $name, constraints => [] }; 
 	for my $con_i ( 0..5 ) {
 		my ( $con, $val ) = ( $conditions[$con_i], $values[$con_i] );
-		my $constr;
-		given ( $con ) {
-
-			when (0) { next }
-
-			when (   1) { $constr = "Dom. Str.  >= $val"; }
-			when (   2) {
-				if ( $val == 0 ) {
-					$constr = "Female";
-				} elsif ( $val == 1 ) {
-					$constr = "Male";
-				} else { die "invalid val"; }
-			}
-			when (   3) { $constr = "Nation:    $val"; }
-			when (   4) { $constr = "No other epithets in class $val"; }
-			when (   5) { $constr = "Fear       >= $val"; }
-			when (   6) { $constr = "Awe        >= $val"; }
-			when (   7) { $constr = "Strength   >= $val"; }
-			when (  11) { $constr = "Undead:    $val"; }
-			when (  12) { $constr = "Demon:     $val"; }
-			when (  14) { $constr = "Immortal:  $val"; }
-			when (  15) { $constr = "Immobile:  $val"; }
-			when (  16) { $constr = "Inanimate: $val"; }
-			when (  17) {
-				die "invalid val" unless $val == 1;
-				$constr = "Disciple";
-			}
-			when (  18) { $constr = "Unit ID:   $val"; }
-			when (  19) {
-				if ( $val == 0 ) {
-					$constr = "Disciple to a female pretender";
-				} elsif ( $val == 1 ) {
-					$constr = "Disciple to a male pretender";
-				} else {
-					die "invalid val";
-				}
-			}
-			when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
-
-			when (1000) { $constr = "Fire       >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'F', 'value' => $val }; }
-			when (1001) { $constr = "Air        >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'A', 'value' => $val }; }
-			when (1002) { $constr = "Water      >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'W', 'value' => $val }; }
-			when (1003) { $constr = "Earth      >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'E', 'value' => $val }; }
-			when (1004) { $constr = "Astral     >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'S', 'value' => $val }; }
-			when (1005) { $constr = "Death      >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'D', 'value' => $val }; }
-			when (1006) { $constr = "Nature     >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'N', 'value' => $val }; }
-			when (1007) { $constr = "Blood      >= $val"; push @{$epithet->{constraints}}, {'type' => 'magic path', 'field' => 'B', 'value' => $val }; }
-
-			when (1051) { $constr = "Each FAWE  >= $val"; }
-			when (1052) { $constr = "Each SDNB  >= $val"; }
-			when (1053) { $constr = "Each magic path >= $val"; }
-
-			when (2000) { $constr = "Turmoil    >= $val"; }
-			when (2001) { $constr = "Sloth      >= $val"; }
-			when (2002) { $constr = "Cold       >= $val"; }
-			when (2003) { $constr = "Death scale>= $val"; }
-			when (2004) { $constr = "Misfortune >= $val"; }
-			when (2005) { $constr = "Drain      >= $val"; }
-
-			when (2100) { $constr = "Order      >= $val"; }
-			when (2101) { $constr = "Production >= $val"; }
-			when (2102) { $constr = "Heat       >= $val"; }
-			when (2103) { $constr = "Growth     >= $val"; }
-			when (2104) { $constr = "Luck       >= $val"; }
-			when (2105) { $constr = "Magic      >= $val"; }
-
-			default { $constr = sprintf "?? %d: %d", $con, $val }
-		}
+		my $constr = constraint_hash( $con, $val );
+		push @{$epithet->{constraints}}, $constr if $constr;
 	}
 	push @epithets, $epithet;
 }
@@ -134,6 +68,80 @@ if(0){
 	# Ruler of Nothing: no epithets found after 10,000 tries
 	say get_cstring( $blob, 0x135f5e8 - $IMAGEBASE_OFFSET );
 
+}
+
+sub constraint_hash {
+	my ( $con, $val ) = @_;
+	my $constr; # placeholder while converting sub to return hashref
+	given ( $con ) {
+
+		when (0) { return () }
+
+		when (   1) { $constr = "Dom. Str.  >= $val"; }
+		when (   2) {
+			if ( $val == 0 ) {
+				$constr = "Female";
+			} elsif ( $val == 1 ) {
+				$constr = "Male";
+			} else { die "invalid val"; }
+		}
+		when (   3) { $constr = "Nation:    $val"; }
+		when (   4) { $constr = "No other epithets in class $val"; }
+		when (   5) { $constr = "Fear       >= $val"; }
+		when (   6) { $constr = "Awe        >= $val"; }
+		when (   7) { $constr = "Strength   >= $val"; }
+		when (  11) { $constr = "Undead:    $val"; }
+		when (  12) { $constr = "Demon:     $val"; }
+		when (  14) { $constr = "Immortal:  $val"; }
+		when (  15) { $constr = "Immobile:  $val"; }
+		when (  16) { $constr = "Inanimate: $val"; }
+		when (  17) {
+			die "invalid val" unless $val == 1;
+			$constr = "Disciple";
+		}
+		when (  18) { $constr = "Unit ID:   $val"; }
+		when (  19) {
+			if ( $val == 0 ) {
+				$constr = "Disciple to a female pretender";
+			} elsif ( $val == 1 ) {
+				$constr = "Disciple to a male pretender";
+			} else {
+				die "invalid val";
+			}
+		}
+		when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
+
+		# Minimum magic path
+		when (1000) { return {'type' => 'magic path', 'field' => 'F', 'value' => $val } }
+		when (1001) { return {'type' => 'magic path', 'field' => 'A', 'value' => $val } }
+		when (1002) { return {'type' => 'magic path', 'field' => 'W', 'value' => $val } }
+		when (1003) { return {'type' => 'magic path', 'field' => 'E', 'value' => $val } }
+		when (1004) { return {'type' => 'magic path', 'field' => 'S', 'value' => $val } }
+		when (1005) { return {'type' => 'magic path', 'field' => 'D', 'value' => $val } }
+		when (1006) { return {'type' => 'magic path', 'field' => 'N', 'value' => $val } }
+		when (1007) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
+
+		when (1051) { $constr = "Each FAWE  >= $val"; }
+		when (1052) { $constr = "Each SDNB  >= $val"; }
+		when (1053) { $constr = "Each magic path >= $val"; }
+
+		when (2000) { $constr = "Turmoil    >= $val"; }
+		when (2001) { $constr = "Sloth      >= $val"; }
+		when (2002) { $constr = "Cold       >= $val"; }
+		when (2003) { $constr = "Death scale>= $val"; }
+		when (2004) { $constr = "Misfortune >= $val"; }
+		when (2005) { $constr = "Drain      >= $val"; }
+
+		when (2100) { $constr = "Order      >= $val"; }
+		when (2101) { $constr = "Production >= $val"; }
+		when (2102) { $constr = "Heat       >= $val"; }
+		when (2103) { $constr = "Growth     >= $val"; }
+		when (2104) { $constr = "Luck       >= $val"; }
+		when (2105) { $constr = "Magic      >= $val"; }
+
+		default { $constr = sprintf "?? %d: %d", $con, $val }
+	}
+	return ();
 }
 
 sub get_titles {
