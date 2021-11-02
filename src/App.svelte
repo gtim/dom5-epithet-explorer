@@ -17,6 +17,7 @@
 </script>
 
 <main>
+	<h1>Dominions 5 Epithet Explorer</h1>
 	<div style="text-align:center;">
 		<AutoComplete 
 			items={eps.epithets} bind:selectedItem={selectedEpithet}
@@ -34,8 +35,14 @@
 </main>
 
 <style>
+	h1 {
+		text-align:center;
+		font-size:32px;
+		margin-top:0px;
+		margin-bottom:32px;
+	}
 	div.epithet_cards {
-		/*background-color:#ccf;*/
+		margin: 20px 0 0 0;
 		text-align:center;
 	}
 	main {
