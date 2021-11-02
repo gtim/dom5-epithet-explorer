@@ -151,6 +151,16 @@
                "field" : "F",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Heat",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 11,
@@ -200,6 +210,11 @@
                "field" : "F",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 15,
@@ -305,6 +320,11 @@
                "value" : 4
             },
             {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
@@ -319,6 +339,11 @@
                "field" : "F",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 24,
@@ -477,6 +502,16 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 3
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 37,
@@ -488,6 +523,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Heat",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 38,
@@ -499,6 +539,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 39,
@@ -521,6 +566,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 41,
@@ -532,6 +582,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Heat",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 42,
@@ -543,6 +598,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 43,
@@ -554,6 +614,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 44,
@@ -565,6 +630,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
             },
             {
                "field" : "D",
@@ -583,6 +653,11 @@
                "value" : 4
             },
             {
+               "field" : "Heat",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
                "field" : "F",
                "type" : "magic path",
                "value" : 1
@@ -597,6 +672,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 47,
@@ -613,6 +693,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 3
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 48,
@@ -624,6 +709,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 49,
@@ -635,6 +725,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 50,
@@ -646,6 +741,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 51,
@@ -679,6 +779,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 0
             }
          ],
          "id" : 54,
@@ -690,6 +795,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 7
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 55,
@@ -701,6 +811,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 7
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 56,
@@ -717,6 +832,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 57,
@@ -847,6 +967,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 5
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 67,
@@ -891,6 +1016,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 71,
@@ -944,6 +1074,16 @@
             {
                "field" : "W",
                "type" : "magic path",
+               "value" : 1
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
                "value" : 1
             }
          ],
@@ -1026,6 +1166,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 81,
@@ -1042,6 +1187,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 82,
@@ -1064,6 +1214,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 84,
@@ -1075,23 +1230,45 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 85,
          "string" : "# of Ice"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 86,
          "string" : "# of Winter"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 87,
          "string" : "the Long Winter"
       },
       {
          "constraints" : [
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 3
+            },
             {
                "field" : "W",
                "type" : "magic path",
@@ -1107,6 +1284,16 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 89,
@@ -1145,6 +1332,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 92,
@@ -1309,6 +1501,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 106,
@@ -1320,6 +1517,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 107,
@@ -1358,6 +1560,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 110,
@@ -1369,6 +1576,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 111,
@@ -1445,6 +1657,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 2
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 117,
@@ -1500,6 +1717,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Drain",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 122,
@@ -1566,6 +1788,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 128,
@@ -1577,6 +1804,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 129,
@@ -1686,6 +1918,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 2
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 138,
@@ -1729,6 +1966,11 @@
                "field" : "F",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 141,
@@ -1875,6 +2117,11 @@
                "field" : "F",
                "type" : "magic path",
                "value" : 2
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 152,
@@ -1907,6 +2154,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 5
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 154,
@@ -1967,6 +2219,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 159,
@@ -2038,6 +2295,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 165,
@@ -2049,6 +2311,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 5
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 166,
@@ -2060,6 +2327,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 5
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 167,
@@ -2071,6 +2343,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 168,
@@ -2082,6 +2359,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 169,
@@ -2093,6 +2375,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 170,
@@ -2141,6 +2428,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 173,
@@ -2152,6 +2444,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 174,
@@ -2174,6 +2471,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 176,
@@ -2256,7 +2558,13 @@
          "string" : "the Lurker in the Crypt"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 185,
          "string" : "the Collector of Souls"
       },
@@ -2266,6 +2574,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
             }
          ],
          "id" : 186,
@@ -2320,6 +2633,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 7
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 190,
@@ -2369,6 +2687,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 7
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 194,
@@ -2380,6 +2703,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
             }
          ],
          "id" : 195,
@@ -2429,6 +2757,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 199,
@@ -2478,6 +2811,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 5
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 203,
@@ -2485,6 +2823,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -2527,6 +2870,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 207,
@@ -2538,6 +2886,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 208,
@@ -2549,6 +2902,16 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 5
+            },
+            {
+               "field" : "Misfortune",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 209,
@@ -2582,6 +2945,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 1
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 212,
@@ -2593,6 +2961,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 213,
@@ -2668,6 +3041,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 218,
@@ -2679,6 +3057,16 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Drain",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 219,
@@ -2690,6 +3078,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "Drain",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 220,
@@ -2744,6 +3137,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 224,
@@ -2755,6 +3153,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 225,
@@ -2777,6 +3180,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 227,
@@ -2788,6 +3196,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 228,
@@ -2848,6 +3261,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 233,
@@ -2985,6 +3403,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 245,
@@ -3077,6 +3500,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 252,
@@ -3099,6 +3527,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 254,
@@ -3110,6 +3543,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 255,
@@ -3294,6 +3732,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 269,
@@ -3305,6 +3748,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 270,
@@ -3316,6 +3764,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 271,
@@ -3327,6 +3780,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 272,
@@ -3338,6 +3796,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 5
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 273,
@@ -3349,6 +3812,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
             }
          ],
          "id" : 274,
@@ -3371,6 +3839,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 276,
@@ -3382,6 +3855,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 277,
@@ -3393,6 +3871,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 278,
@@ -3404,6 +3887,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
             }
          ],
          "id" : 279,
@@ -3415,6 +3903,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 280,
@@ -3426,6 +3919,16 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 281,
@@ -3437,6 +3940,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 282,
@@ -3448,6 +3956,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 283,
@@ -3459,6 +3972,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 284,
@@ -3519,6 +4037,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 65535
             }
          ],
          "id" : 289,
@@ -3530,6 +4053,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 290,
@@ -3541,6 +4069,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 291,
@@ -3563,6 +4096,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 293,
@@ -3574,6 +4112,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 294,
@@ -3623,6 +4166,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 5
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 298,
@@ -3661,6 +4209,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 301,
@@ -3672,6 +4225,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 9
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
             }
          ],
          "id" : 302,
@@ -3688,6 +4246,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 2
+            },
+            {
+               "field" : "Heat",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 303,
@@ -3699,6 +4262,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 9
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 304,
@@ -3709,6 +4277,11 @@
             {
                "field" : "N",
                "type" : "magic path",
+               "value" : 1
+            },
+            {
+               "field" : "Cold",
+               "type" : "scale",
                "value" : 1
             }
          ],
@@ -3729,6 +4302,11 @@
       {
          "constraints" : [
             {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
@@ -3740,9 +4318,19 @@
       {
          "constraints" : [
             {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 308,
@@ -3770,6 +4358,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 310,
@@ -3781,6 +4374,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 3
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
             }
          ],
          "id" : 311,
@@ -3833,6 +4431,11 @@
       {
          "constraints" : [
             {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
@@ -3843,6 +4446,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -3858,6 +4466,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 318,
@@ -3865,6 +4478,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -3877,6 +4495,11 @@
       {
          "constraints" : [
             {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 6
@@ -3888,9 +4511,19 @@
       {
          "constraints" : [
             {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 321,
@@ -3898,6 +4531,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -3910,6 +4548,11 @@
       {
          "constraints" : [
             {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 6
@@ -3920,6 +4563,16 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -4082,6 +4735,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 337,
@@ -4120,6 +4778,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 340,
@@ -4136,6 +4799,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 341,
@@ -4218,6 +4886,16 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 348,
@@ -4309,6 +4987,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 354,
@@ -4320,6 +5003,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 10
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 355,
@@ -4336,6 +5024,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 8
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 356,
@@ -4385,6 +5078,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 3
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 360,
@@ -4392,6 +5090,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 1
+            },
             {
                "field" : "B",
                "type" : "magic path",
@@ -4602,17 +5305,34 @@
          "string" : "Author and Finisher of Our Faith"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 393,
          "string" : "the Everlasting Father"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 394,
          "string" : "the Everlasting Mother"
       },
       {
          "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -4623,157 +5343,388 @@
          "string" : "the Destroyer"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 396,
          "string" : "Patron of Thieves"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 397,
          "string" : "# of Beggars"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 398,
          "string" : "Patron of Beggars"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 399,
          "string" : "# of Fraud and Theft"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Misfortune",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 400,
          "string" : "Patron of Injustice"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Misfortune",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 401,
          "string" : "# of Tyrants"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 402,
          "string" : "# of Insolence"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 403,
          "string" : "# of War"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 404,
          "string" : "Bringer of War"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 405,
          "string" : "the Lover of War"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 406,
          "string" : "the Angry Face"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 407,
          "string" : "# of Chaos"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 408,
          "string" : "# of Turmoil"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 409,
          "string" : "# of Spontaneity"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 410,
          "string" : "# of Unexpected Pleasure and Sorrow"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 411,
          "string" : "Enemy of Reason"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 412,
          "string" : "the God with Backward Feet"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 413,
          "string" : "Patron of Liars"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 414,
          "string" : "# of Mischief"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 415,
          "string" : "Bringer of Discord"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 416,
          "string" : "the Jealous #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 417,
          "string" : "# of Bloodshed and Conflict"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 418,
          "string" : "the Enemy of Both Sides"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 419,
          "string" : "the Two-Faced #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 420,
          "string" : "She of Two Faces"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 421,
          "string" : "# of Two Faces"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 422,
          "string" : "Creator of the Ends of the World"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 423,
          "string" : "# of Civilization"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 424,
          "string" : "Gate of Peace"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 425,
          "string" : "# of the Open Road"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 426,
          "string" : "Patron of Merchants"
       },
@@ -4783,133 +5734,347 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 427,
          "string" : "the Divine Architect"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 428,
          "string" : "# of the Hierarchs"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 429,
          "string" : "# of Order"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 430,
          "string" : "# of Patience"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 431,
          "string" : "# of Discipline"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 432,
          "string" : "# of Ostentatious Ornament"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 433,
          "string" : "the Fountainhead of Order"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 434,
          "string" : "# of Wealth and Power"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 435,
          "string" : "# of Writing and Speech"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 436,
          "string" : "Friend of All"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 437,
          "string" : "Patron of the Rich"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 438,
          "string" : "God of the City"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 439,
          "string" : "Commander of Truth"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 440,
          "string" : "Patron of Arbitrators"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 441,
          "string" : "Protector of Oaths"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 442,
          "string" : "# of Oaths and Friendship"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 443,
          "string" : "Guardian of the Law"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 444,
          "string" : "the Kindly One"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 445,
          "string" : "# of Excellence"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 446,
          "string" : "the Beloved Father"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 447,
          "string" : "the Symbol of Unification"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 448,
          "string" : "Great Defender"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 449,
          "string" : "# of Marriage"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 450,
          "string" : "# of Chastity"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 451,
          "string" : "the Peacemaker"
       },
       {
          "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
             {
                "field" : "F",
                "type" : "magic path",
@@ -4920,12 +6085,28 @@
          "string" : "Destroyer of Demons"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 453,
          "string" : "! whose Work is Perfect"
       },
       {
          "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            },
             {
                "field" : "E",
                "type" : "magic path",
@@ -4936,132 +6117,353 @@
          "string" : "the Foundation"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 455,
          "string" : "# of the Harvest"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 456,
          "string" : "the Giver of Food"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 457,
          "string" : "Giver of Life"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 458,
          "string" : "Nourisher of the Fields"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 459,
          "string" : "# of Fruit Trees"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 460,
          "string" : "Author of Life"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 461,
          "string" : "# of Vultures"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
+               "field" : "Heat",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 462,
          "string" : "# of the Scorched Earth"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 463,
          "string" : "# of Hope"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 464,
          "string" : "Patron of Outcasts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 465,
          "string" : "Patron of Heroes"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 466,
          "string" : "Guide of Heroes"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 467,
          "string" : "the Compassionate"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 468,
          "string" : "Goddess of Mercy"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 469,
          "string" : "# of Gambling"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 470,
          "string" : "Patron of Gamblers"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 471,
          "string" : "Bestower of Good Gifts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Misfortune",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 472,
          "string" : "Bringer of Misfortune"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Misfortune",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 473,
          "string" : "She Who Opened the Box of Woe"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Misfortune",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 474,
          "string" : "Enforcer of Misfortune"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 475,
          "string" : "the Narrow Face"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 476,
          "string" : "Giver of Riches"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Productivity",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 477,
          "string" : "# of Greed"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 478,
          "string" : "the Eternal Poet"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 479,
          "string" : "the Teacher of Philosophy"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Magic",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 480,
          "string" : "# of Education and Science"
       },
@@ -5224,7 +6626,13 @@
          "string" : "Eater of the Lands"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 509,
          "string" : "! of the Bountiful Tent"
       },
@@ -5492,12 +6900,23 @@
          "string" : "the Blizzard King"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 546,
          "string" : "# of the Morning"
       },
       {
          "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
+            },
             {
                "field" : "F",
                "type" : "magic path",
@@ -5518,6 +6937,11 @@
                "field" : "F",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 548,
@@ -5545,6 +6969,11 @@
                "field" : "F",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 550,
@@ -5556,6 +6985,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
             }
          ],
          "id" : 551,
@@ -5646,12 +7080,24 @@
          "string" : "Fimbultyr"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 564,
          "string" : "Lord of Niefel"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 565,
          "string" : "Lady of Niefel"
       },
@@ -5806,17 +7252,34 @@
          "string" : "the Obsidian Butterfly"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 588,
          "string" : "the Lawgiver"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 589,
          "string" : "the Corn #"
       },
       {
          "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -5849,87 +7312,204 @@
          "string" : "Minister of the Eight Winds"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 593,
          "string" : "God of Luck Through Hard Work"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 594,
          "string" : "God of Luck Through Hard Work"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 3
+            },
+            {
+               "field" : "Luck",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 595,
          "string" : "God of Luck Through Hard Work"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 596,
          "string" : "the Rice #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 597,
          "string" : "the Rice #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 598,
          "string" : "the Rice #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 599,
          "string" : "the Rice #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 600,
          "string" : "# of Medicine"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 601,
          "string" : "# of Medicine"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 602,
          "string" : "# of Medicine"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 603,
          "string" : "# of Medicine"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 604,
          "string" : "# of Medicine"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 605,
          "string" : "# of Medical Arts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 606,
          "string" : "# of Medical Arts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 607,
          "string" : "# of Medical Arts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 608,
          "string" : "# of Medical Arts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 609,
          "string" : "# of Medical Arts"
       },
@@ -6110,6 +7690,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 630,
@@ -6121,13 +7706,24 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 631,
          "string" : "House of the Date Clusters"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 632,
          "string" : "Lady of the Bountiful Tent"
       },
@@ -6137,6 +7733,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 633,
@@ -6148,13 +7749,24 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 634,
          "string" : "House of the Date Clusters"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 635,
          "string" : "Mistress of the Bountiful House"
       },
@@ -6219,12 +7831,34 @@
          "string" : "# of Courage"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 648,
          "string" : "# of Agriculture"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 649,
          "string" : "Patron of Farmers"
       },
@@ -6239,7 +7873,13 @@
          "string" : "Councilor of Gods"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 652,
          "string" : "# of the Cold North"
       },
@@ -6254,23 +7894,56 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 3
+            },
+            {
+               "field" : "Cold",
+               "type" : "scale",
+               "value" : 3
             }
          ],
          "id" : 653,
          "string" : "# of the Frozen Marches"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 654,
          "string" : "# of Gluttony"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Sloth",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 655,
          "string" : "He Who Waits"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Death",
+               "type" : "scale",
+               "value" : 2
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
          "id" : 656,
          "string" : "Grand Vizier of the Lands of Woe"
       },
@@ -6290,12 +7963,23 @@
          "string" : "Fiend of the Wounding Spear"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 3
+            }
+         ],
          "id" : 660,
          "string" : "Monster of Confusion and Disorder"
       },
       {
          "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -6316,22 +8000,51 @@
          "string" : "Lady of the Obscure"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 664,
          "string" : "Lady of the Creamery"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 665,
          "string" : "the Great Leap Forward"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 0
+            },
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 666,
          "string" : "Desire of All Nations"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Growth",
+               "type" : "scale",
+               "value" : 0
+            }
+         ],
          "id" : 667,
          "string" : "the Born God"
       },
@@ -6352,7 +8065,13 @@
          "string" : "the Self-Manifested #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
          "id" : 670,
          "string" : "Collector of Things Lost"
       },

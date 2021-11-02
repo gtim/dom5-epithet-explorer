@@ -7,6 +7,8 @@
 <div class="constraint">
 	{#if type == "magic path"}
 		<img src="/img/Path_{field}.png" style="height:24px;"> {value}
+	{:else if type == "scale"}
+		<img src="/img/Scale_{field.toLowerCase()}.png" style="height:32px;"/> {value}
 	{:else}
 		[ {type} : {field} : {value} ]
 	{/if}

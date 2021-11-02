@@ -111,6 +111,10 @@ sub constraint_hash {
 		}
 		when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
 
+		when (1051) { $constr = "Each FAWE  >= $val"; }
+		when (1052) { $constr = "Each SDNB  >= $val"; }
+		when (1053) { $constr = "Each magic path >= $val"; }
+
 		# Minimum magic path
 		when (1000) { return {'type' => 'magic path', 'field' => 'F', 'value' => $val } }
 		when (1001) { return {'type' => 'magic path', 'field' => 'A', 'value' => $val } }
@@ -121,23 +125,21 @@ sub constraint_hash {
 		when (1006) { return {'type' => 'magic path', 'field' => 'N', 'value' => $val } }
 		when (1007) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
 
-		when (1051) { $constr = "Each FAWE  >= $val"; }
-		when (1052) { $constr = "Each SDNB  >= $val"; }
-		when (1053) { $constr = "Each magic path >= $val"; }
+		# Max scale
+		when (2000) { return { 'type' => 'scale', 'field' => 'Turmoil',      value => $val } }
+		when (2001) { return { 'type' => 'scale', 'field' => 'Sloth',        value => $val } }
+		when (2002) { return { 'type' => 'scale', 'field' => 'Cold',         value => $val } }
+		when (2003) { return { 'type' => 'scale', 'field' => 'Death',        value => $val } }
+		when (2004) { return { 'type' => 'scale', 'field' => 'Misfortune',   value => $val } }
+		when (2005) { return { 'type' => 'scale', 'field' => 'Drain',        value => $val } }
 
-		when (2000) { $constr = "Turmoil    >= $val"; }
-		when (2001) { $constr = "Sloth      >= $val"; }
-		when (2002) { $constr = "Cold       >= $val"; }
-		when (2003) { $constr = "Death scale>= $val"; }
-		when (2004) { $constr = "Misfortune >= $val"; }
-		when (2005) { $constr = "Drain      >= $val"; }
-
-		when (2100) { $constr = "Order      >= $val"; }
-		when (2101) { $constr = "Production >= $val"; }
-		when (2102) { $constr = "Heat       >= $val"; }
-		when (2103) { $constr = "Growth     >= $val"; }
-		when (2104) { $constr = "Luck       >= $val"; }
-		when (2105) { $constr = "Magic      >= $val"; }
+		# Min scale
+		when (2100) { return { 'type' => 'scale', 'field' => 'Order',        value => $val } }
+		when (2101) { return { 'type' => 'scale', 'field' => 'Productivity', value => $val } }
+		when (2102) { return { 'type' => 'scale', 'field' => 'Heat',         value => $val } }
+		when (2103) { return { 'type' => 'scale', 'field' => 'Growth',       value => $val } }
+		when (2104) { return { 'type' => 'scale', 'field' => 'Luck',         value => $val } }
+		when (2105) { return { 'type' => 'scale', 'field' => 'Magic',        value => $val } }
 
 		default { $constr = sprintf "?? %d: %d", $con, $val }
 	}
