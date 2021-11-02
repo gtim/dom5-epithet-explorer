@@ -72,12 +72,12 @@ if(0){
 
 sub constraint_hash {
 	my ( $con, $val ) = @_;
-	my $constr; # placeholder while converting sub to return hashref
 	given ( $con ) {
 
-		when (0) { return () }
+		when (0) { return; }
 
-		when (   4) { $constr = "No other epithets in class $val"; }
+		# Unique: No other epithets of this category can be chosen
+		when (   4) { return {'type' => 'unique', value => $val} }
 
 		# Nation
 		when (   3) { return {'type' => 'nation', value => $val } }
@@ -152,7 +152,6 @@ sub constraint_hash {
 
 		default { die "unhandled condition: $con=$val"; }
 	}
-	return ();
 }
 
 sub get_titles {

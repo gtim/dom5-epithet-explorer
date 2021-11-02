@@ -2,10 +2,26 @@
 
 	import * as nations from './nations.json';
 	import * as pretenders from './pretenders.json';
+	import * as epithets from './epithets.json';
 
 	export let type;
-	export let field;
+	export let field = "";
 	export let value;
+	export let epithet_id;
+
+	function unique_class_epithets( epithet_class ) {
+		var class_epithets = new Array();
+		epithets.epithets.forEach( epithet => {
+			epithet.constraints.forEach( constraint => {
+				if ( constraint.type == "unique"
+				     && constraint.value == epithet_class 
+				     && epithet.id != epithet_id ) {
+					class_epithets.push(epithet.string);
+				}
+			} );
+		} );
+		return class_epithets;
+	}
 </script>
 
 <div class="constraint">
@@ -30,8 +46,14 @@
 		{value}
 	{:else if type == "team leader gender"}
 		disciple to {value} pretender
+	{:else if type == "unique"}
+		{#if unique_class_epithets(value).length == 1}
+			not epithet {unique_class_epithets(value)[0]}
+		{:else}
+			not any of <span title="{unique_class_epithets(value).join(', ')}" class="unique_class_epithets_hover">these epithets</span>
+		{/if}
 	{:else}
-		[ invalid constraint "{type}:{field}:{value}", please report this bug! }
+		[ invalid constraint "{type}:{field}:{value}", please report this bug! ]
 	{/if}
 </div>
 
@@ -45,5 +67,8 @@
 		font-size:24px;
 		line-height:24px;
 		/*background-color:#fcc;*/
+	}
+	span.unique_class_epithets_hover {
+		text-decoration: underline black dashed;
 	}
 </style>

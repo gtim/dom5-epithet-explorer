@@ -6,7 +6,7 @@
 	import * as eps from './epithets.json';
 
 	let selectedEpithet;
-	let selectedEpithets = [eps.epithets[0], eps.epithets[200], eps.epithets[8], eps.epithets[111] ];
+	let selectedEpithets = [eps.epithets[361], eps.epithets[200], eps.epithets[8], eps.epithets[111] ];
 
 	$: if ( selectedEpithet ) {
 		selectedEpithets.push( selectedEpithet );
