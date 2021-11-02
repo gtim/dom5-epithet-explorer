@@ -53,9 +53,9 @@
 		disciple to {value} pretender
 	{:else if type == "unique"}
 		{#if unique_class_epithets(value).length == 1}
-			not <span title="{unique_class_epithets(value)[0]}" class="unique_class_epithets_hover">this epithet</span>
+			lacks <span title="{unique_class_epithets(value)[0]}" class="unique_class_epithets_hover">this epithet</span>
 		{:else}
-			not <span title="{unique_class_epithets(value).join(', ')}" class="unique_class_epithets_hover">these epithets</span>
+			lacks <span title="{unique_class_epithets(value).join(', ')}" class="unique_class_epithets_hover">these epithets</span>
 		{/if}
 	{:else}
 		[ invalid constraint "{type}:{field}:{value}", please report this bug! ]
