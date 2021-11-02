@@ -77,13 +77,15 @@ sub constraint_hash {
 
 		when (0) { return () }
 
-		when (   3) { $constr = "Nation:    $val"; }
 		when (   4) { $constr = "No other epithets in class $val"; }
 		when (  18) { $constr = "Unit ID:   $val"; }
 
 		when (1051) { $constr = "Each FAWE  >= $val"; }
 		when (1052) { $constr = "Each SDNB  >= $val"; }
 		when (1053) { $constr = "Each magic path >= $val"; }
+
+		# Nation
+		when (   3) { return {'type' => 'nation', value => $val } }
 
 		# Gender
 		when (   2) {

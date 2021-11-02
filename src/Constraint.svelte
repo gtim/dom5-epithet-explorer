@@ -1,4 +1,7 @@
 <script>
+
+	import * as nations from './nations.json';
+
 	export let type;
 	export let field;
 	export let value;
@@ -13,6 +16,8 @@
 		{field} &GreaterEqual; {value}
 	{:else if type == "boolean"}
 		{value ? "" : "not"} {field}
+	{:else if type == "nation"}
+		{nations.nations_by_id[value]}
 	{:else if type == "misc"}
 		{#if field == "gender"}
 			{value}

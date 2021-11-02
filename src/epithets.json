@@ -3139,6 +3139,10 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "type" : "nation",
+               "value" : 74
             }
          ],
          "id" : 214,
@@ -3155,6 +3159,10 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "type" : "nation",
+               "value" : 107
             }
          ],
          "id" : 215,
@@ -7199,47 +7207,91 @@
          "string" : "Protector of Virgins"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 13
+            }
+         ],
          "id" : 492,
          "string" : "the Fire of Hatred"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 13
+            }
+         ],
          "id" : 493,
          "string" : "# of the Wastes"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 13
+            }
+         ],
          "id" : 494,
          "string" : "the Raging #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 13
+            }
+         ],
          "id" : 495,
          "string" : "Enemy of Man"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 55
+            }
+         ],
          "id" : 496,
          "string" : "the Fire of Hatred"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 55
+            }
+         ],
          "id" : 497,
          "string" : "# of the Wastes"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 55
+            }
+         ],
          "id" : 498,
          "string" : "the Raging #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 55
+            }
+         ],
          "id" : 499,
          "string" : "Enemy of Man"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 55
+            },
             {
                "field" : "gender",
                "type" : "misc",
@@ -7252,6 +7304,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 91
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
@@ -7261,22 +7317,41 @@
          "string" : "Lord of the Smouldercone"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 91
+            }
+         ],
          "id" : 502,
          "string" : "the Raging #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 36
+            }
+         ],
          "id" : 503,
          "string" : "# of the Deeps"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 36
+            }
+         ],
          "id" : 504,
          "string" : "the Basalt #"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 73
+            },
             {
                "field" : "gender",
                "type" : "misc",
@@ -7289,6 +7364,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 73
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "female"
@@ -7298,12 +7377,21 @@
          "string" : "Mistress of the Coral Towers"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 73
+            }
+         ],
          "id" : 507,
          "string" : "# of the Deeps"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 73
+            },
             {
                "field" : "W",
                "type" : "magic path",
@@ -7316,6 +7404,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 106
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -7327,6 +7419,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 38
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 2
@@ -7337,6 +7433,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 38
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -7354,6 +7454,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 39
+            },
+            {
                "field" : "D",
                "type" : "magic path",
                "value" : 4
@@ -7364,6 +7468,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 39
+            },
             {
                "field" : "A",
                "type" : "magic path",
@@ -7376,6 +7484,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 46
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
@@ -7385,12 +7497,21 @@
          "string" : "the Proud Emperor"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 46
+            }
+         ],
          "id" : 515,
          "string" : "# of the Emerald Throne"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 46
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -7406,6 +7527,10 @@
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
+            },
+            {
+               "type" : "nation",
+               "value" : 46
             }
          ],
          "id" : 517,
@@ -7417,6 +7542,10 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "type" : "nation",
+               "value" : 48
             }
          ],
          "id" : 518,
@@ -7424,6 +7553,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 47
+            },
             {
                "field" : "immobile",
                "type" : "boolean",
@@ -7441,6 +7574,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 47
+            },
+            {
                "field" : "W",
                "type" : "magic path",
                "value" : 4
@@ -7457,6 +7594,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 47
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "female"
@@ -7468,6 +7609,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 49
+            },
+            {
                "field" : "E",
                "type" : "magic path",
                "value" : 4
@@ -7477,17 +7622,31 @@
          "string" : "# of Iron and Machines"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 15
+            }
+         ],
          "id" : 523,
          "string" : "# of the Swamp"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 15
+            }
+         ],
          "id" : 524,
          "string" : "the Serpent Mind"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 15
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -7505,6 +7664,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 57
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
@@ -7521,6 +7684,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 93
+            },
+            {
                "field" : "undead",
                "type" : "boolean",
                "value" : 1
@@ -7531,6 +7698,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 43
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -7543,6 +7714,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 43
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 8
@@ -7552,12 +7727,22 @@
          "string" : "# of Time"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 6
+            }
+         ],
          "id" : 530,
          "string" : "the Savior"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 6
+            }
+         ],
          "id" : 531,
          "string" : "the Shroud"
       },
@@ -7567,28 +7752,51 @@
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
+            },
+            {
+               "type" : "nation",
+               "value" : 44
             }
          ],
          "id" : 532,
          "string" : "the Eternal Emperor"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 44
+            }
+         ],
          "id" : 533,
          "string" : "Enemy of Life"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 44
+            }
+         ],
          "id" : 534,
          "string" : "the Adversary"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 44
+            }
+         ],
          "id" : 535,
          "string" : "Soul of Darkness"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 44
+            },
             {
                "field" : "undead",
                "type" : "boolean",
@@ -7604,28 +7812,51 @@
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
+            },
+            {
+               "type" : "nation",
+               "value" : 82
             }
          ],
          "id" : 537,
          "string" : "the Eternal Emperor"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 82
+            }
+         ],
          "id" : 538,
          "string" : "Enemy of Life"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 82
+            }
+         ],
          "id" : 539,
          "string" : "the Adversary"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 82
+            }
+         ],
          "id" : 540,
          "string" : "Soul of Darkness"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 82
+            },
             {
                "field" : "undead",
                "type" : "boolean",
@@ -7638,6 +7869,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 56
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
@@ -7648,6 +7883,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 56
+            },
             {
                "field" : "gender",
                "type" : "misc",
@@ -7660,6 +7899,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 56
+            },
+            {
                "field" : "A",
                "type" : "magic path",
                "value" : 6
@@ -7670,6 +7913,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 56
+            },
             {
                "field" : "gender",
                "type" : "misc",
@@ -7682,6 +7929,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 50
+            },
+            {
                "field" : "Order",
                "type" : "scale",
                "value" : 0
@@ -7692,6 +7943,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 50
+            },
             {
                "field" : "Order",
                "type" : "scale",
@@ -7719,6 +7974,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 50
+            },
+            {
                "field" : "F",
                "type" : "magic path",
                "value" : 4
@@ -7734,6 +7993,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 50
+            },
             {
                "field" : "F",
                "type" : "magic path",
@@ -7751,6 +8014,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 50
+            },
+            {
                "field" : "F",
                "type" : "magic path",
                "value" : 4
@@ -7766,6 +8033,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 85
+            },
             {
                "field" : "B",
                "type" : "magic path",
@@ -7788,6 +8059,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 85
+            },
+            {
                "field" : "B",
                "type" : "magic path",
                "value" : 4
@@ -7797,22 +8072,41 @@
          "string" : "the Fallen #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 16
+            }
+         ],
          "id" : 553,
          "string" : "the Beast"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 58
+            }
+         ],
          "id" : 554,
          "string" : "the Beast #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 58
+            }
+         ],
          "id" : 555,
          "string" : "# of the Wild"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 21
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -7825,6 +8119,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 21
+            },
+            {
                "field" : "D",
                "type" : "magic path",
                "value" : 4
@@ -7835,6 +8133,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 21
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -7847,6 +8149,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 20
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
@@ -7857,6 +8163,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 20
+            },
             {
                "field" : "gender",
                "type" : "misc",
@@ -7869,6 +8179,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 60
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
@@ -7880,6 +8194,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 60
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "female"
@@ -7889,12 +8207,21 @@
          "string" : "Mother of the Vanir"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 22
+            }
+         ],
          "id" : 563,
          "string" : "Fimbultyr"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 22
+            },
             {
                "field" : "gender",
                "type" : "misc",
@@ -7912,6 +8239,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 22
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "female"
@@ -7926,17 +8257,31 @@
          "string" : "Lady of Niefel"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 74
+            }
+         ],
          "id" : 566,
          "string" : "the Hunger Without Thought"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 74
+            }
+         ],
          "id" : 567,
          "string" : "the Lurker at the Threshold"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 74
+            },
             {
                "field" : "gender",
                "type" : "misc",
@@ -7957,17 +8302,31 @@
          "string" : "the Future Past"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 107
+            }
+         ],
          "id" : 571,
          "string" : "the Hunger Without Thought"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 107
+            }
+         ],
          "id" : 572,
          "string" : "the Lurker at the Threshold"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 107
+            },
             {
                "field" : "gender",
                "type" : "misc",
@@ -7985,6 +8344,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 12
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
@@ -7996,6 +8359,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 12
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "female"
@@ -8005,12 +8372,22 @@
          "string" : "the Bloody Mistress"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 12
+            }
+         ],
          "id" : 577,
          "string" : "the Eater of Hearts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 12
+            }
+         ],
          "id" : 578,
          "string" : "Patron of Cannibalism"
       },
@@ -8020,13 +8397,22 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "type" : "nation",
+               "value" : 12
             }
          ],
          "id" : 579,
          "string" : "the Twisted Obsidian One"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 12
+            }
+         ],
          "id" : 580,
          "string" : "# of the Obsidian Blade"
       },
@@ -8041,6 +8427,10 @@
                "field" : "inanimate",
                "type" : "boolean",
                "value" : 0
+            },
+            {
+               "type" : "nation",
+               "value" : 12
             },
             {
                "field" : "D",
@@ -8059,6 +8449,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 31
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
@@ -8070,6 +8464,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 31
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "female"
@@ -8080,6 +8478,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 31
+            },
             {
                "field" : "B",
                "type" : "magic path",
@@ -8095,13 +8497,22 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "type" : "nation",
+               "value" : 31
             }
          ],
          "id" : 585,
          "string" : "the Twisted Obsidian One"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 31
+            }
+         ],
          "id" : 586,
          "string" : "# of the Obsidian Blade"
       },
@@ -8116,6 +8527,10 @@
                "field" : "inanimate",
                "type" : "boolean",
                "value" : 0
+            },
+            {
+               "type" : "nation",
+               "value" : 31
             },
             {
                "field" : "D",
@@ -8134,6 +8549,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 51
+            },
+            {
                "field" : "Order",
                "type" : "scale",
                "value" : 2
@@ -8148,6 +8567,10 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "type" : "nation",
+               "value" : 51
             }
          ],
          "id" : 589,
@@ -8161,6 +8584,10 @@
                "value" : 3
             },
             {
+               "type" : "nation",
+               "value" : 52
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 4
@@ -8171,6 +8598,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 52
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -8183,6 +8614,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 52
+            },
+            {
                "field" : "A",
                "type" : "magic path",
                "value" : 4
@@ -8193,6 +8628,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 52
+            },
             {
                "field" : "Order",
                "type" : "scale",
@@ -8210,6 +8649,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 87
+            },
+            {
                "field" : "Order",
                "type" : "scale",
                "value" : 3
@@ -8225,6 +8668,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 10
+            },
             {
                "field" : "Order",
                "type" : "scale",
@@ -8242,6 +8689,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 10
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -8252,6 +8703,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 87
+            },
             {
                "field" : "Growth",
                "type" : "scale",
@@ -8264,6 +8719,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 52
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -8274,6 +8733,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 89
+            },
             {
                "field" : "Growth",
                "type" : "scale",
@@ -8286,6 +8749,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 43
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -8296,6 +8763,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 80
+            },
             {
                "field" : "Growth",
                "type" : "scale",
@@ -8308,6 +8779,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 52
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -8318,6 +8793,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 10
+            },
             {
                "field" : "Growth",
                "type" : "scale",
@@ -8341,6 +8820,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 43
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -8351,6 +8834,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 80
+            },
             {
                "field" : "Growth",
                "type" : "scale",
@@ -8363,6 +8850,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 52
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -8373,6 +8864,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 10
+            },
             {
                "field" : "Growth",
                "type" : "scale",
@@ -8396,6 +8891,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 53
+            },
+            {
                "field" : "gender",
                "type" : "misc",
                "value" : "male"
@@ -8407,6 +8906,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 53
+            },
+            {
                "field" : "D",
                "type" : "magic path",
                "value" : 4
@@ -8416,12 +8919,21 @@
          "string" : "the Heart of Darkness"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 53
+            }
+         ],
          "id" : 612,
          "string" : "# of Spiders"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 53
+            },
             {
                "field" : "E",
                "type" : "magic path",
@@ -8439,6 +8951,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 53
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
@@ -8455,6 +8971,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 63
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 4
@@ -8465,6 +8985,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 63
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -8477,6 +9001,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 25
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 4
@@ -8486,12 +9014,21 @@
          "string" : "the Wheel"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 25
+            }
+         ],
          "id" : 618,
          "string" : "# of the Apes"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 98
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -8502,12 +9039,21 @@
          "string" : "the Wheel"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 98
+            }
+         ],
          "id" : 620,
          "string" : "# of the Apes"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 17
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -8520,6 +9066,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 17
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 6
@@ -8530,6 +9080,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 17
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -8545,17 +9099,31 @@
          "string" : "the Obsidian Mind"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 17
+            }
+         ],
          "id" : 624,
          "string" : "# of Opulent Halls"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 54
+            }
+         ],
          "id" : 625,
          "string" : "# of Opulent Halls"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 54
+            },
             {
                "field" : "inanimate",
                "type" : "boolean",
@@ -8568,6 +9136,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 90
+            },
+            {
                "field" : "D",
                "type" : "magic path",
                "value" : 4
@@ -8577,17 +9149,31 @@
          "string" : "# of the Tombs Underneath"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 64
+            }
+         ],
          "id" : 628,
          "string" : "# of the Bakemono"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 27
+            }
+         ],
          "id" : 629,
          "string" : "# of the Oni"
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 29
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -8605,6 +9191,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 29
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
@@ -8620,6 +9210,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 29
+            },
             {
                "field" : "Growth",
                "type" : "scale",
@@ -8637,6 +9231,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 66
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 4
@@ -8652,6 +9250,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 66
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -8669,6 +9271,10 @@
       {
          "constraints" : [
             {
+               "type" : "nation",
+               "value" : 66
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -8683,17 +9289,32 @@
          "string" : "Mistress of the Bountiful House"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 29
+            }
+         ],
          "id" : 636,
          "string" : "the Lamenting #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 66
+            }
+         ],
          "id" : 637,
          "string" : "the Lamenting #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "nation",
+               "value" : 32
+            }
+         ],
          "id" : 638,
          "string" : "the God-slayer"
       },
@@ -9204,6 +9825,10 @@
                "field" : "disciple",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "type" : "nation",
+               "value" : 52
             }
          ],
          "id" : 683,
@@ -9215,6 +9840,10 @@
                "field" : "disciple",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "type" : "nation",
+               "value" : 52
             }
          ],
          "id" : 684,
