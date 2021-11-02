@@ -226,6 +226,11 @@
                "field" : "F",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
             }
          ],
          "id" : 16,
@@ -714,6 +719,11 @@
                "field" : "Order",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 6
             }
          ],
          "id" : 49,
@@ -1842,6 +1852,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "strength",
+               "type" : "misc minimum",
+               "value" : 28
             }
          ],
          "id" : 132,
@@ -2027,6 +2042,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
+            },
             {
                "field" : "E",
                "type" : "magic path",
@@ -2563,6 +2583,11 @@
                "field" : "Magic",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 7
             }
          ],
          "id" : 185,
@@ -3022,6 +3047,11 @@
       {
          "constraints" : [
             {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 9
+            },
+            {
                "field" : "B",
                "type" : "magic path",
                "value" : 4
@@ -3348,6 +3378,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 8
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
             }
          ],
          "id" : 240,
@@ -3416,6 +3451,11 @@
       {
          "constraints" : [
             {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 9
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 8
@@ -3426,6 +3466,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 9
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -3442,6 +3487,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 9
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -3688,6 +3738,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
             }
          ],
          "id" : 265,
@@ -4548,6 +4603,11 @@
       {
          "constraints" : [
             {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 7
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 2
@@ -4642,6 +4702,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
             }
          ],
          "id" : 329,
@@ -5008,6 +5073,11 @@
                "field" : "Turmoil",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
             }
          ],
          "id" : 355,
@@ -5094,6 +5164,11 @@
                "field" : "Magic",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 6
             },
             {
                "field" : "B",
@@ -5199,12 +5274,23 @@
          "string" : "the Cat of Slime"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 6
+            }
+         ],
          "id" : 374,
          "string" : "the Vessel of Might"
       },
       {
          "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 6
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -5220,92 +5306,214 @@
          "string" : "Exalted Above and Below"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 5
+            }
+         ],
          "id" : 376,
          "string" : "King of Kings"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 6
+            }
+         ],
          "id" : 377,
          "string" : "the Most High"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
+            }
+         ],
          "id" : 378,
          "string" : "August #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
+            },
+            {
+               "field" : "fear",
+               "type" : "misc minimum",
+               "value" : 10
+            }
+         ],
          "id" : 379,
          "string" : "Lord of Fear and Trembling"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 9
+            }
+         ],
          "id" : 380,
          "string" : "Father of Gods"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 9
+            }
+         ],
          "id" : 381,
          "string" : "Mother of Gods"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 9
+            },
+            {
+               "field" : "awe",
+               "type" : "misc minimum",
+               "value" : 1
+            }
+         ],
          "id" : 382,
          "string" : "Prince of Majesty"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 9
+            },
+            {
+               "field" : "awe",
+               "type" : "misc minimum",
+               "value" : 1
+            }
+         ],
          "id" : 383,
          "string" : "Queen of Majesty"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 10
+            }
+         ],
          "id" : 384,
          "string" : "God of Invincible Power"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 10
+            }
+         ],
          "id" : 385,
          "string" : "God of Gods"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 10
+            }
+         ],
          "id" : 386,
          "string" : "the Beginning and the End"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 7
+            }
+         ],
          "id" : 387,
          "string" : "He who Is at the Center"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 10
+            }
+         ],
          "id" : 388,
          "string" : "the God above All"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
+            }
+         ],
          "id" : 389,
          "string" : "# of Many Names"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 7
+            }
+         ],
          "id" : 390,
          "string" : "# of this World"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 7
+            }
+         ],
          "id" : 391,
          "string" : "# who Knows All Things"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
+            }
+         ],
          "id" : 392,
          "string" : "Author and Finisher of Our Faith"
       },
       {
          "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 7
+            },
             {
                "field" : "Order",
                "type" : "scale",
@@ -5317,6 +5525,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 7
+            },
             {
                "field" : "Order",
                "type" : "scale",
@@ -5450,6 +5663,11 @@
                "field" : "Turmoil",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 5
             }
          ],
          "id" : 403,
@@ -5763,6 +5981,11 @@
       {
          "constraints" : [
             {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 5
+            },
+            {
                "field" : "Order",
                "type" : "scale",
                "value" : 3
@@ -5825,6 +6048,11 @@
                "field" : "Order",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
             }
          ],
          "id" : 433,
@@ -7942,6 +8170,11 @@
                "field" : "Turmoil",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
             }
          ],
          "id" : 656,
@@ -8081,7 +8314,13 @@
          "string" : "Banner of Victory"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "eyes",
+               "type" : "misc minimum",
+               "value" : 5
+            }
+         ],
          "id" : 672,
          "string" : "The Many Eyed #"
       },

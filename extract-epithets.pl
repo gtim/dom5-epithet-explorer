@@ -77,7 +77,6 @@ sub constraint_hash {
 
 		when (0) { return () }
 
-		when (   1) { $constr = "Dom. Str.  >= $val"; }
 		when (   2) {
 			if ( $val == 0 ) {
 				$constr = "Female";
@@ -87,9 +86,6 @@ sub constraint_hash {
 		}
 		when (   3) { $constr = "Nation:    $val"; }
 		when (   4) { $constr = "No other epithets in class $val"; }
-		when (   5) { $constr = "Fear       >= $val"; }
-		when (   6) { $constr = "Awe        >= $val"; }
-		when (   7) { $constr = "Strength   >= $val"; }
 		when (  11) { $constr = "Undead:    $val"; }
 		when (  12) { $constr = "Demon:     $val"; }
 		when (  14) { $constr = "Immortal:  $val"; }
@@ -109,11 +105,18 @@ sub constraint_hash {
 				die "invalid val";
 			}
 		}
-		when (  20) { $constr = "Num. Eyes  >= ".($val+2); }
 
 		when (1051) { $constr = "Each FAWE  >= $val"; }
 		when (1052) { $constr = "Each SDNB  >= $val"; }
 		when (1053) { $constr = "Each magic path >= $val"; }
+
+		# Misc.
+		when (   1) { return {'type' => 'misc minimum', field => 'dominion strength', 'value' => $val } }
+		when (   5) { return {'type' => 'misc minimum', field => 'fear',              'value' => $val } }
+		when (   6) { return {'type' => 'misc minimum', field => 'awe',               'value' => $val } }
+		when (   7) { return {'type' => 'misc minimum', field => 'strength',          'value' => $val } }
+		when (  20) { return {'type' => 'misc minimum', field => 'eyes',              'value' => $val+2 } }
+
 
 		# Minimum magic path
 		when (1000) { return {'type' => 'magic path', 'field' => 'F', 'value' => $val } }
