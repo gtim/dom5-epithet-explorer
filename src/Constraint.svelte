@@ -17,7 +17,7 @@
 		{/each}
 		&GreaterEqual; {value}
 	{:else if type == "scale"}
-		<img src="/img/Scale_{field.toLowerCase()}.png" style="height:32px;"/> &GreaterEqual; {value}
+		<img src="/img/Scale_{field.toLowerCase()}.png" style="height:24px;"/> &GreaterEqual; {value}
 	{:else if type == "misc minimum"}
 		{field} &GreaterEqual; {value}
 	{:else if type == "boolean"}
