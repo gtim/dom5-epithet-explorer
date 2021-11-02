@@ -18,16 +18,12 @@
 		{value ? "" : "not"} {field}
 	{:else if type == "nation"}
 		{nations.nations_by_id[value]}
-	{:else if type == "misc"}
-		{#if field == "gender"}
-			{value}
-		{:else if field == "team leader gender"}
-			disciple to {value} pretender
-		{:else}
-			[ invalid constraint "{type}:{field}:{value}", please report this bug! }
-		{/if}
+	{:else if type == "gender"}
+		{value}
+	{:else if type == "team leader gender"}
+		disciple to {value} pretender
 	{:else}
-		[ {type} : {field} : {value} ]
+		[ invalid constraint "{type}:{field}:{value}", please report this bug! }
 	{/if}
 </div>
 

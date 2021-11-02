@@ -217,8 +217,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -1409,8 +1408,7 @@
                "value" : 6
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -1447,8 +1445,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -1484,8 +1481,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -1500,8 +1496,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -1516,8 +1511,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -1532,8 +1526,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -1612,8 +1605,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -1834,8 +1826,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -1942,8 +1933,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -2070,8 +2060,7 @@
                "value" : 9
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -2349,8 +2338,7 @@
                "value" : 8
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -2424,8 +2412,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -2584,8 +2571,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -2600,8 +2586,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -2799,8 +2784,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -2820,8 +2804,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -3019,8 +3002,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -3040,8 +3022,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -3181,8 +3162,7 @@
                "value" : 7
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -3362,8 +3342,7 @@
                "value" : 3
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -3383,8 +3362,7 @@
                "value" : 3
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -3562,8 +3540,7 @@
                "value" : 10
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -3578,8 +3555,7 @@
                "value" : 10
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -3594,8 +3570,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -3964,8 +3939,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -3985,8 +3959,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -4006,8 +3979,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -4171,8 +4143,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -4192,8 +4163,7 @@
                "value" : 3
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -4240,8 +4210,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -4256,8 +4225,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -4288,8 +4256,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -4481,8 +4448,7 @@
                "value" : 3
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -4555,8 +4521,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -4571,8 +4536,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -4677,8 +4641,7 @@
                "value" : 3
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -4785,8 +4748,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -4885,8 +4847,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -4927,8 +4888,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -4948,8 +4908,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -4969,8 +4928,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -5001,8 +4959,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5017,8 +4974,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -5103,8 +5059,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5216,8 +5171,7 @@
                "value" : 6
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5269,8 +5223,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -5290,8 +5243,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5311,8 +5263,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -5364,8 +5315,7 @@
                "value" : 3
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5450,8 +5400,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -5497,8 +5446,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -5523,8 +5471,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5544,8 +5491,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5555,8 +5501,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -5577,8 +5522,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -5657,8 +5601,7 @@
                "value" : 5
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5695,8 +5638,7 @@
                "value" : 8
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -5716,8 +5658,7 @@
                "value" : 9
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5732,8 +5673,7 @@
                "value" : 9
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -5748,8 +5688,7 @@
                "value" : 9
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -5769,8 +5708,7 @@
                "value" : 9
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -5801,8 +5739,7 @@
                "value" : 10
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5828,8 +5765,7 @@
                "value" : 7
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5844,8 +5780,7 @@
                "value" : 10
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -5904,8 +5839,7 @@
                "value" : 7
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -5925,8 +5859,7 @@
                "value" : 7
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -6168,8 +6101,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -6276,8 +6208,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -6539,8 +6470,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -6647,8 +6577,7 @@
                "value" : 0
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -6680,8 +6609,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -6701,8 +6629,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -6964,8 +6891,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -7029,8 +6955,7 @@
                "value" : 3
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -7293,8 +7218,7 @@
                "value" : 55
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -7308,8 +7232,7 @@
                "value" : 91
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -7353,8 +7276,7 @@
                "value" : 73
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -7368,8 +7290,7 @@
                "value" : 73
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -7443,8 +7364,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -7488,8 +7408,7 @@
                "value" : 46
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -7524,8 +7443,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -7563,8 +7481,7 @@
                "value" : 0
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -7583,8 +7500,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -7598,8 +7514,7 @@
                "value" : 47
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -7653,8 +7568,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -7749,8 +7663,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -7809,8 +7722,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -7873,8 +7785,7 @@
                "value" : 56
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -7888,8 +7799,7 @@
                "value" : 56
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -7918,8 +7828,7 @@
                "value" : 56
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8048,8 +7957,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8153,8 +8061,7 @@
                "value" : 20
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8168,8 +8075,7 @@
                "value" : 20
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -8183,8 +8089,7 @@
                "value" : 60
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8198,8 +8103,7 @@
                "value" : 60
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -8223,8 +8127,7 @@
                "value" : 22
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -8243,8 +8146,7 @@
                "value" : 22
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -8283,8 +8185,7 @@
                "value" : 74
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8328,8 +8229,7 @@
                "value" : 107
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8348,8 +8248,7 @@
                "value" : 12
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8363,8 +8262,7 @@
                "value" : 12
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -8419,8 +8317,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -8453,8 +8350,7 @@
                "value" : 31
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8468,8 +8364,7 @@
                "value" : 31
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -8519,8 +8414,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -8895,8 +8789,7 @@
                "value" : 53
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8940,8 +8833,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -8960,8 +8852,7 @@
                "value" : 4
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -9220,8 +9111,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -9280,8 +9170,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -9331,8 +9220,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
@@ -9477,8 +9365,7 @@
                "value" : 2
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -9514,8 +9401,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -9579,8 +9465,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -9590,8 +9475,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -9601,8 +9485,7 @@
       {
          "constraints" : [
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
@@ -9659,8 +9542,7 @@
                "value" : 0
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -9923,8 +9805,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -9939,8 +9820,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -10043,8 +9923,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             }
          ],
@@ -10059,8 +9938,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -10510,8 +10388,7 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             }
          ],
@@ -10613,8 +10490,7 @@
                "value" : 1
             },
             {
-               "field" : "team leader gender",
-               "type" : "misc",
+               "type" : "team leader gender",
                "value" : "male"
             },
             {
@@ -10644,8 +10520,7 @@
                "value" : 1
             },
             {
-               "field" : "team leader gender",
-               "type" : "misc",
+               "type" : "team leader gender",
                "value" : "female"
             },
             {
@@ -10675,13 +10550,11 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
-               "field" : "team leader gender",
-               "type" : "misc",
+               "type" : "team leader gender",
                "value" : "male"
             }
          ],
@@ -10696,13 +10569,11 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "male"
             },
             {
-               "field" : "team leader gender",
-               "type" : "misc",
+               "type" : "team leader gender",
                "value" : "female"
             }
          ],
@@ -10717,13 +10588,11 @@
                "value" : 1
             },
             {
-               "field" : "gender",
-               "type" : "misc",
+               "type" : "gender",
                "value" : "female"
             },
             {
-               "field" : "team leader gender",
-               "type" : "misc",
+               "type" : "team leader gender",
                "value" : "male"
             }
          ],

@@ -90,18 +90,18 @@ sub constraint_hash {
 		# Gender
 		when (   2) {
 			if ( $val == 0 ) {
-				return {'type' => 'misc', 'field' => 'gender', value => 'female' }
+				return {'type' => 'gender', value => 'female' }
 			} elsif ( $val == 1 ) {
-				return {'type' => 'misc', 'field' => 'gender', value => 'male' }
+				return {'type' => 'gender', value => 'male' }
 			} else {
 				die "valid gender unhandled";
 			}
 		}
 		when (  19) {
 			if ( $val == 0 ) {
-				return {'type' => 'misc', 'field' => 'team leader gender', value => 'female' }
+				return {'type' => 'team leader gender', value => 'female' }
 			} elsif ( $val == 1 ) {
-				return {'type' => 'misc', 'field' => 'team leader gender', value => 'male' }
+				return {'type' => 'team leader gender', value => 'male' }
 			} else {
 				die "valid gender but unhandled";
 			}
