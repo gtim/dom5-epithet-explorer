@@ -31,3 +31,14 @@ input, button, select, textarea {
 	border: 1px solid #ccc;
 	border-radius: 2px;
 }
+
+div.input_container {
+	width:480px;
+}
+input.input_field {
+}
+div.input_dropdown {
+	padding:0 !important;
+}
+.autocomplete-list-item {
+}

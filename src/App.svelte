@@ -23,6 +23,10 @@
 			items={eps.epithets} bind:selectedItem={selectedEpithet}
 			labelFieldName="string"
 			valueFieldName="id"
+			className="input_container"
+			inputClassName="input_field"
+			dropdownClassName="input_dropdown"
+			placeholder="Start typing a Pretender's epithet.."
 		/>
 	</div>
 
@@ -42,7 +46,7 @@
 		margin-bottom:32px;
 	}
 	div.epithet_cards {
-		margin: 20px 0 0 0;
+		margin: 32px 0 0 0;
 		text-align:center;
 	}
 	main {
