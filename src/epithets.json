@@ -3532,6 +3532,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "SDNB",
+               "type" : "magic paths",
+               "value" : 1
             }
          ],
          "id" : 241,
@@ -5464,17 +5469,34 @@
          "string" : "Goddess of Eternal Youth"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "SDNB",
+               "type" : "magic paths",
+               "value" : 1
+            }
+         ],
          "id" : 363,
          "string" : "Left Hand of Knowledge"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "SDNB",
+               "type" : "magic paths",
+               "value" : 2
+            }
+         ],
          "id" : 364,
          "string" : "# of Wisdom"
       },
       {
          "constraints" : [
+            {
+               "field" : "FAWESDNB",
+               "type" : "magic paths",
+               "value" : 1
+            },
             {
                "type" : "gender",
                "value" : "male"
@@ -5484,17 +5506,34 @@
          "string" : "the Mighty One of Words of Power"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "FAWE",
+               "type" : "magic paths",
+               "value" : 3
+            }
+         ],
          "id" : 366,
          "string" : "# of the Elements"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "SDNB",
+               "type" : "magic paths",
+               "value" : 1
+            }
+         ],
          "id" : 367,
          "string" : "! who is Crowned with Wisdom"
       },
       {
          "constraints" : [
+            {
+               "field" : "FAWESDNB",
+               "type" : "magic paths",
+               "value" : 1
+            },
             {
                "type" : "gender",
                "value" : "male"
@@ -5506,6 +5545,11 @@
       {
          "constraints" : [
             {
+               "field" : "FAWESDNB",
+               "type" : "magic paths",
+               "value" : 1
+            },
+            {
                "type" : "gender",
                "value" : "female"
             }
@@ -5515,6 +5559,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "FAWE",
+               "type" : "magic paths",
+               "value" : 1
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -5527,6 +5576,11 @@
       {
          "constraints" : [
             {
+               "field" : "SDNB",
+               "type" : "magic paths",
+               "value" : 1
+            },
+            {
                "type" : "gender",
                "value" : "female"
             }
@@ -5536,6 +5590,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "FAWESDNB",
+               "type" : "magic paths",
+               "value" : 1
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -5820,6 +5879,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 7
+            },
+            {
+               "field" : "SDNB",
+               "type" : "magic paths",
+               "value" : 1
             }
          ],
          "id" : 391,
@@ -8568,6 +8632,11 @@
             {
                "type" : "nation",
                "value" : 52
+            },
+            {
+               "field" : "FAWE",
+               "type" : "magic paths",
+               "value" : 3
             },
             {
                "field" : "N",

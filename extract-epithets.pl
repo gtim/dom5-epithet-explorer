@@ -79,10 +79,6 @@ sub constraint_hash {
 
 		when (   4) { $constr = "No other epithets in class $val"; }
 
-		when (1051) { $constr = "Each FAWE  >= $val"; }
-		when (1052) { $constr = "Each SDNB  >= $val"; }
-		when (1053) { $constr = "Each magic path >= $val"; }
-
 		# Nation
 		when (   3) { return {'type' => 'nation', value => $val } }
 
@@ -124,7 +120,6 @@ sub constraint_hash {
 		when (   7) { return {'type' => 'misc minimum', field => 'strength',          'value' => $val } }
 		when (  20) { return {'type' => 'misc minimum', field => 'eyes',              'value' => $val+2 } }
 
-
 		# Minimum magic path
 		when (1000) { return {'type' => 'magic path', 'field' => 'F', 'value' => $val } }
 		when (1001) { return {'type' => 'magic path', 'field' => 'A', 'value' => $val } }
@@ -134,6 +129,10 @@ sub constraint_hash {
 		when (1005) { return {'type' => 'magic path', 'field' => 'D', 'value' => $val } }
 		when (1006) { return {'type' => 'magic path', 'field' => 'N', 'value' => $val } }
 		when (1007) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
+		when (1051) { return {'type' => 'magic paths', field => 'FAWE',      'value' => $val } }
+		when (1052) { return {'type' => 'magic paths', field => 'SDNB',      'value' => $val } }
+		when (1053) { return {'type' => 'magic paths', field => 'FAWESDNB',  'value' => $val } }
+
 
 		# Max scale
 		when (2000) { return { 'type' => 'scale', 'field' => 'Turmoil',      value => $val } }

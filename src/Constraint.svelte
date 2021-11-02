@@ -11,6 +11,11 @@
 <div class="constraint">
 	{#if type == "magic path"}
 		<img src="/img/Path_{field}.png" style="height:24px;"> {value}
+	{:else if type == "magic paths"}
+		{#each field.split('') as path}
+			<img src="/img/Path_{path}.png" style="height:24px;"> 
+		{/each}
+		&GreaterEqual; {value}
 	{:else if type == "scale"}
 		<img src="/img/Scale_{field.toLowerCase()}.png" style="height:32px;"/> {value}
 	{:else if type == "misc minimum"}
