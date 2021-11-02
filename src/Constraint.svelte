@@ -13,6 +13,14 @@
 		{field} &GreaterEqual; {value}
 	{:else if type == "boolean"}
 		{value ? "" : "not"} {field}
+	{:else if type == "misc"}
+		{#if field == "gender"}
+			{value}
+		{:else if field == "team leader gender"}
+			disciple to {value} pretender
+		{:else}
+			[ invalid constraint "{type}:{field}:{value}", please report this bug! }
+		{/if}
 	{:else}
 		[ {type} : {field} : {value} ]
 	{/if}

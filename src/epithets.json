@@ -215,6 +215,11 @@
                "field" : "Order",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 15,
@@ -1402,6 +1407,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 97,
@@ -1437,6 +1447,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
                "field" : "W",
                "type" : "magic path",
                "value" : 4
@@ -1467,6 +1482,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 102,
@@ -1478,6 +1498,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 103,
@@ -1489,6 +1514,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 104,
@@ -1500,6 +1530,11 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 105,
@@ -1575,6 +1610,11 @@
                "field" : "Turmoil",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 110,
@@ -1792,6 +1832,11 @@
                "field" : "immobile",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 127,
@@ -1895,6 +1940,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 135,
@@ -2018,6 +2068,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 9
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 143,
@@ -2292,6 +2347,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 8
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 162,
@@ -2362,6 +2422,11 @@
                "field" : "Death",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 167,
@@ -2517,6 +2582,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 177,
@@ -2528,6 +2598,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 178,
@@ -2722,6 +2797,11 @@
                "field" : "undead",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 192,
@@ -2738,6 +2818,11 @@
                "field" : "undead",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 193,
@@ -2934,6 +3019,11 @@
                "value" : 4
             },
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
                "field" : "Sloth",
                "type" : "scale",
                "value" : 1
@@ -2948,6 +3038,11 @@
                "field" : "D",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             },
             {
                "field" : "Growth",
@@ -3076,6 +3171,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 7
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 216,
@@ -3252,6 +3352,11 @@
                "field" : "Luck",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 227,
@@ -3268,6 +3373,11 @@
                "field" : "Luck",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 228,
@@ -3442,6 +3552,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 10
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 242,
@@ -3453,6 +3568,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 10
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 243,
@@ -3464,6 +3584,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 244,
@@ -3829,6 +3954,11 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 269,
@@ -3845,6 +3975,11 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 270,
@@ -3861,6 +3996,11 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 271,
@@ -4021,6 +4161,11 @@
                "field" : "Sloth",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 281,
@@ -4037,6 +4182,11 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 282,
@@ -4080,6 +4230,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 285,
@@ -4091,6 +4246,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 286,
@@ -4118,6 +4278,11 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 288,
@@ -4306,6 +4471,11 @@
                "field" : "Order",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 301,
@@ -4375,6 +4545,11 @@
                "field" : "Cold",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 305,
@@ -4386,6 +4561,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 306,
@@ -4487,6 +4667,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 3
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 312,
@@ -4592,6 +4777,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -4687,6 +4877,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 6
@@ -4722,6 +4917,11 @@
                "field" : "undead",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 327,
@@ -4738,6 +4938,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 328,
@@ -4754,6 +4959,11 @@
                "field" : "undead",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             },
             {
                "field" : "dominion strength",
@@ -4781,6 +4991,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 331,
@@ -4792,6 +5007,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 332,
@@ -4873,6 +5093,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 338,
@@ -4981,6 +5206,11 @@
                "field" : "B",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 346,
@@ -5029,6 +5259,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 349,
@@ -5045,6 +5280,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 350,
@@ -5061,6 +5301,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 351,
@@ -5109,6 +5354,11 @@
                "field" : "Cold",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 354,
@@ -5192,6 +5442,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            },
+            {
                "field" : "B",
                "type" : "magic path",
                "value" : 3
@@ -5234,6 +5489,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
                "field" : "B",
                "type" : "magic path",
                "value" : 6
@@ -5253,7 +5513,13 @@
          "string" : "# of Wisdom"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 365,
          "string" : "the Mighty One of Words of Power"
       },
@@ -5268,12 +5534,24 @@
          "string" : "! who is Crowned with Wisdom"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 368,
          "string" : "Master of Magic"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 369,
          "string" : "Mistress of Magic"
       },
@@ -5289,7 +5567,13 @@
          "string" : "# of Rainbows"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 371,
          "string" : "# of Witchcraft"
       },
@@ -5363,6 +5647,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 5
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 376,
@@ -5398,6 +5687,11 @@
                "value" : 8
             },
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            },
+            {
                "field" : "fear",
                "type" : "misc minimum",
                "value" : 10
@@ -5412,6 +5706,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 9
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 380,
@@ -5423,6 +5722,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 9
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 381,
@@ -5434,6 +5738,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 9
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             },
             {
                "field" : "awe",
@@ -5450,6 +5759,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 9
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             },
             {
                "field" : "awe",
@@ -5477,6 +5791,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 10
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 385,
@@ -5499,6 +5818,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 7
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 387,
@@ -5510,6 +5834,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 10
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 388,
@@ -5567,6 +5896,11 @@
                "value" : 7
             },
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            },
+            {
                "field" : "Order",
                "type" : "scale",
                "value" : 2
@@ -5581,6 +5915,11 @@
                "field" : "dominion strength",
                "type" : "misc minimum",
                "value" : 7
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             },
             {
                "field" : "Order",
@@ -5821,6 +6160,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            },
+            {
                "field" : "Turmoil",
                "type" : "scale",
                "value" : 3
@@ -5922,6 +6266,11 @@
                "field" : "Turmoil",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 420,
@@ -6180,6 +6529,11 @@
                "field" : "Order",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 438,
@@ -6283,6 +6637,11 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 0
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 446,
@@ -6313,6 +6672,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
                "field" : "Order",
                "type" : "scale",
                "value" : 1
@@ -6328,6 +6692,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
             {
                "field" : "Order",
                "type" : "scale",
@@ -6585,6 +6954,11 @@
                "field" : "Luck",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 468,
@@ -6645,6 +7019,11 @@
                "field" : "Misfortune",
                "type" : "scale",
                "value" : 3
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 473,
@@ -6860,12 +7239,24 @@
          "string" : "Enemy of Man"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 500,
          "string" : "Lord of the Smouldercone"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 501,
          "string" : "Lord of the Smouldercone"
       },
@@ -6885,12 +7276,24 @@
          "string" : "the Basalt #"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 505,
          "string" : "Master of the Coral Towers"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 506,
          "string" : "Mistress of the Coral Towers"
       },
@@ -6938,6 +7341,11 @@
                "field" : "S",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 511,
@@ -6966,7 +7374,13 @@
          "string" : "# of Stormy Coasts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 514,
          "string" : "the Proud Emperor"
       },
@@ -6987,7 +7401,13 @@
          "string" : "# of the Spheres"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 517,
          "string" : "the Eternal Emperor"
       },
@@ -7008,6 +7428,11 @@
                "field" : "immobile",
                "type" : "boolean",
                "value" : 0
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 519,
@@ -7019,13 +7444,24 @@
                "field" : "W",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 520,
          "string" : "Lady of the Lake"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 521,
          "string" : "Mistress of Avalon"
       },
@@ -7056,6 +7492,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 525,
@@ -7121,7 +7562,13 @@
          "string" : "the Shroud"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 532,
          "string" : "the Eternal Emperor"
       },
@@ -7152,7 +7599,13 @@
          "string" : "the Stillness of Death"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 537,
          "string" : "the Eternal Emperor"
       },
@@ -7183,12 +7636,24 @@
          "string" : "the Stillness of Death"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 542,
          "string" : "Master of the Seraphim"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 543,
          "string" : "Mistress of the Seraphim"
       },
@@ -7204,7 +7669,13 @@
          "string" : "the Storm Herald"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 545,
          "string" : "the Blizzard King"
       },
@@ -7304,6 +7775,11 @@
                "field" : "Turmoil",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 551,
@@ -7369,22 +7845,46 @@
          "string" : "Hangatyr"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 559,
          "string" : "Father of Ages"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 560,
          "string" : "Mother of the Vanir"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 561,
          "string" : "Father of Ages"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 562,
          "string" : "Mother of the Vanir"
       },
@@ -7396,6 +7896,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            },
+            {
                "field" : "Cold",
                "type" : "scale",
                "value" : 2
@@ -7406,6 +7911,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
             {
                "field" : "Cold",
                "type" : "scale",
@@ -7426,7 +7936,13 @@
          "string" : "the Lurker at the Threshold"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 568,
          "string" : "He Who Should not be Named"
       },
@@ -7451,7 +7967,13 @@
          "string" : "the Lurker at the Threshold"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 573,
          "string" : "He Who Should not be Named"
       },
@@ -7461,12 +7983,24 @@
          "string" : "She of the Jade Skirt"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 575,
          "string" : "Jaguar King"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 576,
          "string" : "the Bloody Mistress"
       },
@@ -7499,6 +8033,11 @@
       {
          "constraints" : [
             {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
                "field" : "inanimate",
                "type" : "boolean",
                "value" : 0
@@ -7518,12 +8057,24 @@
          "string" : "the Obsidian Butterfly"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 582,
          "string" : "Jaguar King"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 583,
          "string" : "the Bloody Mistress"
       },
@@ -7556,6 +8107,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
             {
                "field" : "inanimate",
                "type" : "boolean",
@@ -7838,7 +8394,13 @@
          "string" : "# of Medical Arts"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 610,
          "string" : "the Summer Lord"
       },
@@ -7864,6 +8426,11 @@
                "field" : "E",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 613,
@@ -7875,6 +8442,11 @@
                "field" : "N",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 614,
@@ -8052,6 +8624,11 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 632,
@@ -8095,6 +8672,11 @@
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 635,
@@ -8126,6 +8708,11 @@
                "field" : "immobile",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             },
             {
                "field" : "inanimate",
@@ -8267,6 +8854,11 @@
                "field" : "Sloth",
                "type" : "scale",
                "value" : 2
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 655,
@@ -8299,6 +8891,11 @@
                "field" : "undead",
                "type" : "boolean",
                "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
             }
          ],
          "id" : 657,
@@ -8359,17 +8956,34 @@
          "string" : "# of Silence"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 662,
          "string" : "# of Desire and Grace"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 663,
          "string" : "Lady of the Obscure"
       },
       {
          "constraints" : [
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
             {
                "field" : "Growth",
                "type" : "scale",
@@ -8422,6 +9036,11 @@
                "field" : "inanimate",
                "type" : "boolean",
                "value" : 0
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
             }
          ],
          "id" : 667,
@@ -8481,172 +9100,395 @@
          "string" : "Patron of all Bards"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 674,
          "string" : "the Mouth of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 675,
          "string" : "the Voice of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 676,
          "string" : "the Will of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 677,
          "string" : "the Fist of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 678,
          "string" : "the Herald of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 679,
          "string" : "the Messenger of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 680,
          "string" : "the Chaplain of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 681,
          "string" : "the House of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 682,
          "string" : "the First General of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 683,
          "string" : "the First Minister of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 684,
          "string" : "the Eternal Bookkeeper of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 685,
          "string" : "the Right Hand of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 686,
          "string" : "the Left Hand of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 687,
          "string" : "! who is Always Behind $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 688,
          "string" : "Firstborn of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 689,
          "string" : "the First Follower of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 690,
          "string" : "the Second Follower of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 691,
          "string" : "the Son of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 692,
          "string" : "the Daughter of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 693,
          "string" : "! who Aided $ to Victory"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 694,
          "string" : "! who Saw $ First"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 695,
          "string" : "! who Heard $ First"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 696,
          "string" : "! who Betrayed $ and Survived"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 697,
          "string" : "the Guardian of the Servants of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 698,
          "string" : "the Most Devout Follower of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 699,
          "string" : "the Most Eloquent Follower of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 700,
          "string" : "the Most Important Follower of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 701,
          "string" : "the Joy of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 702,
          "string" : "the Seed of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 703,
          "string" : "the Housekeeper of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 704,
          "string" : "! who Walks Before $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 705,
          "string" : "Guardian of the Vestibule of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 706,
          "string" : "Vanquisher of the Enemies of $"
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "immobile",
                "type" : "boolean",
@@ -8657,22 +9499,45 @@
          "string" : "First Soldier of the Empire of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 708,
          "string" : "Foremost of $'s servants"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 709,
          "string" : "the Slave of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 710,
          "string" : "the Marshal of $"
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "F",
                "type" : "magic path",
@@ -8685,6 +9550,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "F",
                "type" : "magic path",
                "value" : 3
@@ -8695,6 +9565,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "F",
                "type" : "magic path",
@@ -8707,6 +9582,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "F",
                "type" : "magic path",
                "value" : 3
@@ -8717,6 +9597,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "A",
                "type" : "magic path",
@@ -8729,6 +9614,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "A",
                "type" : "magic path",
                "value" : 3
@@ -8739,6 +9629,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "W",
                "type" : "magic path",
@@ -8751,6 +9646,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "W",
                "type" : "magic path",
                "value" : 3
@@ -8761,6 +9661,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "E",
                "type" : "magic path",
@@ -8773,6 +9678,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "E",
                "type" : "magic path",
                "value" : 3
@@ -8783,6 +9693,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "E",
                "type" : "magic path",
@@ -8795,6 +9710,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "N",
                "type" : "magic path",
                "value" : 3
@@ -8805,6 +9725,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "D",
                "type" : "magic path",
@@ -8817,6 +9742,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "D",
                "type" : "magic path",
                "value" : 3
@@ -8827,6 +9757,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -8839,6 +9774,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 3
@@ -8850,6 +9790,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "B",
                "type" : "magic path",
                "value" : 3
@@ -8860,6 +9805,11 @@
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -8877,6 +9827,11 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
                "field" : "F",
                "type" : "magic path",
                "value" : 3
@@ -8886,32 +9841,72 @@
          "string" : "the Judge of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 730,
          "string" : "the First Priest of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 731,
          "string" : "Enforcer of $'s Prophecies"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 732,
          "string" : "Protector of $'s Name"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 733,
          "string" : "$'s Shield Man"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 734,
          "string" : "Mighty One of $"
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -8922,12 +9917,23 @@
          "string" : "Star Out of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 736,
          "string" : "Only Potentate of $"
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -8938,22 +9944,50 @@
          "string" : "Branch of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 738,
          "string" : "Counselor of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 739,
          "string" : "! who Gives Advice to $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            }
+         ],
          "id" : 740,
          "string" : "First-begotten of $"
       },
       {
          "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "team leader gender",
+               "type" : "misc",
+               "value" : "male"
+            },
             {
                "field" : "S",
                "type" : "magic path",
@@ -8976,6 +10010,16 @@
       {
          "constraints" : [
             {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "team leader gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 1
@@ -8995,17 +10039,65 @@
          "string" : "! who even $ herself would consult"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
+               "field" : "team leader gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 743,
          "string" : "Lover of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "male"
+            },
+            {
+               "field" : "team leader gender",
+               "type" : "misc",
+               "value" : "female"
+            }
+         ],
          "id" : 744,
          "string" : "Lover of $"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "field" : "disciple",
+               "type" : "boolean",
+               "value" : 1
+            },
+            {
+               "field" : "gender",
+               "type" : "misc",
+               "value" : "female"
+            },
+            {
+               "field" : "team leader gender",
+               "type" : "misc",
+               "value" : "male"
+            }
+         ],
          "id" : 745,
          "string" : "Mistress of $"
       }

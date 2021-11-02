@@ -77,33 +77,33 @@ sub constraint_hash {
 
 		when (0) { return () }
 
-		when (   2) {
-			if ( $val == 0 ) {
-				$constr = "Female";
-			} elsif ( $val == 1 ) {
-				$constr = "Male";
-			} else { die "invalid val"; }
-		}
 		when (   3) { $constr = "Nation:    $val"; }
 		when (   4) { $constr = "No other epithets in class $val"; }
-		when (  17) {
-			die "invalid val" unless $val == 1;
-			$constr = "Disciple";
-		}
 		when (  18) { $constr = "Unit ID:   $val"; }
-		when (  19) {
-			if ( $val == 0 ) {
-				$constr = "Disciple to a female pretender";
-			} elsif ( $val == 1 ) {
-				$constr = "Disciple to a male pretender";
-			} else {
-				die "invalid val";
-			}
-		}
 
 		when (1051) { $constr = "Each FAWE  >= $val"; }
 		when (1052) { $constr = "Each SDNB  >= $val"; }
 		when (1053) { $constr = "Each magic path >= $val"; }
+
+		# Gender
+		when (   2) {
+			if ( $val == 0 ) {
+				return {'type' => 'misc', 'field' => 'gender', value => 'female' }
+			} elsif ( $val == 1 ) {
+				return {'type' => 'misc', 'field' => 'gender', value => 'male' }
+			} else {
+				die "valid gender unhandled";
+			}
+		}
+		when (  19) {
+			if ( $val == 0 ) {
+				return {'type' => 'misc', 'field' => 'team leader gender', value => 'female' }
+			} elsif ( $val == 1 ) {
+				return {'type' => 'misc', 'field' => 'team leader gender', value => 'male' }
+			} else {
+				die "valid gender but unhandled";
+			}
+		}
 
 		# Boolean
 		when (  11) { return {'type' => 'boolean', 'field' => 'undead',    'value' => $val } }
@@ -111,6 +111,7 @@ sub constraint_hash {
 		when (  14) { return {'type' => 'boolean', 'field' => 'immortal',  'value' => $val } }
 		when (  15) { return {'type' => 'boolean', 'field' => 'immobile',  'value' => $val } }
 		when (  16) { return {'type' => 'boolean', 'field' => 'inanimate', 'value' => $val } }
+		when (  17) { return {'type' => 'boolean', 'field' => 'disciple',  'value' => $val } }
 
 		# Misc.
 		when (   1) { return {'type' => 'misc minimum', field => 'dominion strength', 'value' => $val } }
@@ -146,7 +147,7 @@ sub constraint_hash {
 		when (2104) { return { 'type' => 'scale', 'field' => 'Luck',         value => $val } }
 		when (2105) { return { 'type' => 'scale', 'field' => 'Magic',        value => $val } }
 
-		default { $constr = sprintf "?? %d: %d", $con, $val }
+		default { die "unhandled condition: $con=$val"; }
 	}
 	return ();
 }
