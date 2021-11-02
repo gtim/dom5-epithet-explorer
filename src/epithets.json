@@ -1,7 +1,12 @@
 {
    "epithets" : [
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 3124
+            }
+         ],
          "id" : 0,
          "string" : "! Who Stole the Fire"
       },
@@ -7065,12 +7070,21 @@
          "string" : "# of Education and Science"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 1343
+            }
+         ],
          "id" : 481,
          "string" : "# of Love"
       },
       {
          "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 2466
+            },
             {
                "field" : "N",
                "type" : "magic path",
@@ -7083,6 +7097,10 @@
       {
          "constraints" : [
             {
+               "type" : "chassis",
+               "value" : 2466
+            },
+            {
                "field" : "S",
                "type" : "magic path",
                "value" : 6
@@ -7092,42 +7110,82 @@
          "string" : "Wish-fulfilling Cow"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 2466
+            }
+         ],
          "id" : 484,
          "string" : "Mother of all Cows"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 3076
+            }
+         ],
          "id" : 485,
          "string" : "the Battle Crow"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 3079
+            }
+         ],
          "id" : 486,
          "string" : "the Wheel-God"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 3079
+            }
+         ],
          "id" : 487,
          "string" : "# of the Turning Year"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 2608
+            }
+         ],
          "id" : 488,
          "string" : "the Three Heads of Doom"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 3203
+            }
+         ],
          "id" : 489,
          "string" : "the Huntress"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 3203
+            }
+         ],
          "id" : 490,
          "string" : "the Virgin Goddess"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 3203
+            }
+         ],
          "id" : 491,
          "string" : "Protector of Virgins"
       },
@@ -8193,12 +8251,22 @@
          "string" : "He Who Should not be Named"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 2980
+            }
+         ],
          "id" : 569,
          "string" : "the Key and the Gate"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 2980
+            }
+         ],
          "id" : 570,
          "string" : "the Future Past"
       },
@@ -8237,7 +8305,12 @@
          "string" : "He Who Should not be Named"
       },
       {
-         "constraints" : [],
+         "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 2434
+            }
+         ],
          "id" : 574,
          "string" : "She of the Jade Skirt"
       },
@@ -8703,6 +8776,10 @@
       {
          "constraints" : [
             {
+               "type" : "chassis",
+               "value" : 1348
+            },
+            {
                "field" : "Growth",
                "type" : "scale",
                "value" : 1
@@ -8773,6 +8850,10 @@
       },
       {
          "constraints" : [
+            {
+               "type" : "chassis",
+               "value" : 1348
+            },
             {
                "field" : "Growth",
                "type" : "scale",

@@ -1,6 +1,7 @@
 <script>
 
 	import * as nations from './nations.json';
+	import * as pretenders from './pretenders.json';
 
 	export let type;
 	export let field;
@@ -18,6 +19,8 @@
 		{value ? "" : "not"} {field}
 	{:else if type == "nation"}
 		{nations.nations_by_id[value]}
+	{:else if type == "chassis"}
+		{pretenders.pretenders_by_id[value]}
 	{:else if type == "gender"}
 		{value}
 	{:else if type == "team leader gender"}

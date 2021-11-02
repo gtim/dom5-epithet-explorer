@@ -78,7 +78,6 @@ sub constraint_hash {
 		when (0) { return () }
 
 		when (   4) { $constr = "No other epithets in class $val"; }
-		when (  18) { $constr = "Unit ID:   $val"; }
 
 		when (1051) { $constr = "Each FAWE  >= $val"; }
 		when (1052) { $constr = "Each SDNB  >= $val"; }
@@ -86,6 +85,9 @@ sub constraint_hash {
 
 		# Nation
 		when (   3) { return {'type' => 'nation', value => $val } }
+
+		# mnr / chassis
+		when (  18) { return {'type' => 'chassis', value => $val } }
 
 		# Gender
 		when (   2) {
