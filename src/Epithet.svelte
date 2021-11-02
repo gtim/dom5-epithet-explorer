@@ -21,6 +21,7 @@
 		min-height:120px;
 	}
 	div.epithet_card span.string {
+		font-size:24px;
 		font-weight:bold;
 	}
 </style>
