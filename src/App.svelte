@@ -1,6 +1,8 @@
 <script>
 
 	import AutoComplete from "simple-svelte-autocomplete";
+
+	import Constraint from './Constraint.svelte';
 	import * as eps from './epithets.json';
 
 	let selectedEpithet;
@@ -27,11 +29,9 @@
 		{#each selectedEpithets as ep}
 			<div class="epithet_card">
 				<span class="string">{ep.string}</span>
-				<ul>
 				{#each ep.constraints as constraint}
-					<li>{constraint.field}: {constraint.value}</li>
+					<Constraint {...constraint}/>
 				{/each}
-				</ul>
 			</div>
 		{/each}
 	</div>
@@ -45,9 +45,9 @@
 	}
 	div.epithet_card {
 		flex-direction:row;
-		border:1px solid black;
 		padding:8px;
 		margin:12px;
+		background-color:#cfc;
 	}
 	div.epithet_card span.string {
 		font-weight:bold;
