@@ -31,7 +31,7 @@
 </script>
 
 <main>
-	<h1>Dominions 5 Epithet Explorer</h1>
+	<h1>Epithet Explorer for Dominions 5</h1>
 
 	<div>
 		<AutoComplete 
@@ -41,7 +41,7 @@
 			className="input_container"
 			inputClassName="input_field"
 			dropdownClassName="input_dropdown"
-			placeholder="Start typing a Pretender's epithet.."
+			placeholder="start typing a Pretender's epithet.."
 		/>
 	</div>
 
