@@ -26,14 +26,14 @@
 
 <div class="constraint">
 	{#if type == "magic path"}
-		<img src="/img/Path_{field}.png" style="height:24px;"> &GreaterEqual; {value}
+		<span class="image_widener"><img src="/img/Path_{field}.png" style="height:18px;"></span> &GreaterEqual; {value}
 	{:else if type == "magic paths"}
 		{#each field.split('') as path}
-			<img src="/img/Path_{path}.png" style="height:24px;"> 
+			<img src="/img/Path_{path}.png" style="height:18px;"> 
 		{/each}
 		&GreaterEqual; {value}
 	{:else if type == "scale"}
-		<img src="/img/Scale_{field.toLowerCase()}.png" style="height:24px;"/>
+		<img src="/img/Scale_{field.toLowerCase()}.png" style="height:18px;"/>
 		{#if value == 3}
 			= {value}
 		{:else}
@@ -63,12 +63,22 @@
 </div>
 
 <style>
-	div.constraint {
+	.constraint {
 		position:relative;
-		box-sizing:border-box;
-		width:100%;
-		margin: 6px 0 0 0;
+		display:inline-block;
+		margin: 0 20px;
 		padding:0;
+	}
+	.constraint img {
+		vertical-align:bottom;
+	}
+	span.image_widener {
+		display:inline-block;
+		width:18px;
+		text-align:center;
+	}
+	span.image_widener img {
+		height:18px;
 	}
 	span.unique_class_epithets_hover {
 		text-decoration: underline #fcfcfc dashed;

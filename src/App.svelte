@@ -18,7 +18,8 @@
 
 <main>
 	<h1>Dominions 5 Epithet Explorer</h1>
-	<div style="text-align:center;">
+
+	<div>
 		<AutoComplete 
 			items={eps.epithets} bind:selectedItem={selectedEpithet}
 			labelFieldName="string"
@@ -39,22 +40,25 @@
 </main>
 
 <style>
-	h1 {
-		text-align:center;
-		font-size:32px;
-		margin-top:0px;
-		margin-bottom:32px;
-	}
-	div.epithet_cards {
-		margin: 32px 0 0 0;
-		text-align:center;
-	}
 	main {
 		padding: 1em;
 		max-width: 480px;
 		margin: 0 auto;
+		text-align:center;
 	}
-
+	h1 {
+		text-align:center;
+		font-size:32px;
+		margin:0px;
+	}
+	div.epithet_cards {
+		display:inline-grid;
+		grid-template:auto auto;
+		column-grap:0;
+		row-gap:24px;
+		/*border: solid #7353BA 1px;*/
+		border-radius:12px;
+	}
 	@media (min-width: 640px) {
 		main {
 			max-width: none;

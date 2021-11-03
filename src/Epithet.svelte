@@ -5,28 +5,35 @@
 	export let constraints;
 </script>
 
-<div class="epithet_card">
-	<h2>{string}</h2>
+	<h2 class="epithet_string">{string}</h2>
+	<span class="constraints">
 	{#each constraints as constraint}
 		<Constraint epithet_id={id} {...constraint}/>
 	{/each}
-</div>
+	</span>
 
 <style>
-	div.epithet_card {
-		display:inline-block;
-		vertical-align:top;
-		padding:14px 14px 4px 14px;
-		margin:0 12px 24px 12px;
-		min-height:220px;
-		background-color: #2F195F;
-		border-radius:16px;
-		font-size:16px;
-		line-height:16px;
-	}
-	div.epithet_card h2 {
+	h2.epithet_string {
+		grid-column:1;
+		margin:0 20px 0 0;
+		padding:0;
 		font-size:20px;
 		font-weight:bold;
-		margin:0 0 24px 0;
+		/*
+		border-top-left-radius:12px;
+		border-bottom-left-radius:12px;
+		*/
+	}
+	.constraints {
+		grid-column:2;
+		/*
+		border-top-right-radius:12px;
+		border-bottom-right-radius:12px;
+		*/
+	}
+	h2.epithet_string, .constraints {
+		text-align:left;
+		line-height:18px;
+		/*background-color: #2F195F;*/
 	}
 </style>
