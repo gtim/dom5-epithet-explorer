@@ -40,7 +40,12 @@
 			&GreaterEqual; {value}
 		{/if}
 	{:else if type == "misc minimum"}
-		{field} &GreaterEqual; {value}
+		{#if field == "dominion strength"}
+			<span class="image_widener"><img src="/img/dominioncandle.png"/></span>
+		{:else}
+			{field}
+		{/if}
+		&GreaterEqual; {value}
 	{:else if type == "boolean"}
 		{value ? "" : "not"} {field}
 	{:else if type == "nation"}
