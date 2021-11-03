@@ -4,6 +4,8 @@
 	export let string;
 	export let constraints;
 
+	// Sort constraints
+
 	constraints.sort( function(constraint_a,constraint_b) {
 		var a_order = constraint_order(constraint_a);
 		var b_order = constraint_order(constraint_b);

@@ -5,9 +5,18 @@
 	import Epithet from './Epithet.svelte';
 	import * as eps from './epithets.json';
 
+	// Sort epithets
+
+	eps.epithets.sort( function(epithet_a,epithet_b) {
+		var a_normalized_string = epithet_a.string.replace( /[!#$ ']/g, '' );
+		var b_normalized_string = epithet_b.string.replace( /[!#$ ']/g, '' );
+		return a_normalized_string.localeCompare( b_normalized_string );
+	} );
+	
+	// Add epithet to list when selected
+
 	let selectedEpithet;
 	let selectedEpithets = [eps.epithets[361], eps.epithets[200], eps.epithets[8], eps.epithets[111] ];
-
 	$: if ( selectedEpithet ) {
 		selectedEpithets.push( selectedEpithet );
 		selectedEpithets = selectedEpithets;
