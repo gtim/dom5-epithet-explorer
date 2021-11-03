@@ -1,8 +1,14 @@
 <script>
+
+	import { createEventDispatcher } from 'svelte';
 	import Constraint from './Constraint.svelte';
+
 	export let id;
 	export let string;
 	export let constraints;
+	export let removeCallback;
+
+	const dispatch = createEventDispatcher();
 
 	// Sort constraints
 
@@ -41,6 +47,7 @@
 		<Constraint epithet_id={id} {...constraint}/>
 	{/each}
 	</span>
+	<a class="removelink" href="#" on:click={()=>dispatch("remove")}>&#xd7;</a>
 
 <style>
 	h2.epithet_string {
@@ -61,7 +68,13 @@
 		border-bottom-right-radius:12px;
 		*/
 	}
-	h2.epithet_string, .constraints {
+	.removelink {
+		margin:0 0 0 20px;
+		color: #7353BA;
+		grid-column:3;
+		text-decoration:none;
+	}
+	h2.epithet_string, .constraints, .removelink {
 		text-align:left;
 		line-height:18px;
 		/*background-color: #2F195F;*/

@@ -5,9 +5,7 @@ Tool for the game Dominions 5 to explore pretender epithets/titles.
 ## To do
 
 minimum before "release"
-- remove epithet
 - handle titles (Prince / Lord / Emperor / etc)
-- better font
 - some notes at the bottom: by me, report bugs, source code, dom version, webapp version
 
 small improvements

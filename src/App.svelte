@@ -23,6 +23,11 @@
 		selectedEpithet = '';
 	}
 
+	function unselectEpithetByIndex( i ) {
+		selectedEpithets.splice( i, 1 );
+		selectedEpithets = selectedEpithets;
+	}
+
 </script>
 
 <main>
@@ -41,8 +46,9 @@
 	</div>
 
 	<div class="epithet_cards">
-		{#each selectedEpithets as epithet}
-			<Epithet {...epithet}/>
+		{#each selectedEpithets as epithet,i}
+			<Epithet {...epithet}
+			  on:remove={()=>unselectEpithetByIndex(i)} />
 		{/each}
 	</div>
 </main>
