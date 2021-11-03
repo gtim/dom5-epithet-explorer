@@ -58,7 +58,7 @@
 		disciple to {value} pretender
 	{:else if type == "unique"}
 		{#if unique_class_epithets(value).length == 1}
-			lacks <span title="{unique_class_epithets(value)[0]}" class="unique_class_epithets_hover">this epithet</span>
+			lacks epithet <em>{unique_class_epithets(value)[0]}</em>
 		{:else}
 			lacks <span title="{unique_class_epithets(value).join(', ')}" class="unique_class_epithets_hover">these epithets</span>
 		{/if}
