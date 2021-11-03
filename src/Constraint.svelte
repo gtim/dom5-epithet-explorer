@@ -26,14 +26,14 @@
 
 <div class="constraint">
 	{#if type == "magic path"}
-		<span class="image_widener"><img src="/img/Path_{field}.png" style="height:18px;"></span> &GreaterEqual; {value}
+		<span class="image_widener"><img src="/img/Path_{field}.png"></span> &GreaterEqual; {value}
 	{:else if type == "magic paths"}
 		{#each field.split('') as path}
 			<img src="/img/Path_{path}.png" style="height:18px;"> 
 		{/each}
 		&GreaterEqual; {value}
 	{:else if type == "scale"}
-		<img src="/img/Scale_{field.toLowerCase()}.png" style="height:18px;"/>
+		<span class="image_widener"><img src="/img/Scale_{field.toLowerCase()}.png"/></span>
 		{#if value == 3}
 			= {value}
 		{:else}
@@ -74,7 +74,7 @@
 	}
 	span.image_widener {
 		display:inline-block;
-		width:18px;
+		width:26px; /* widest: Path_A.png */
 		text-align:center;
 	}
 	span.image_widener img {
