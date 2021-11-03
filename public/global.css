@@ -23,7 +23,7 @@ label {
 
 div.input_container {
 	width:480px;
-	margin:32px auto;
+	margin:40px auto;
 }
 div.input_container::after {
 	border-color: #7353BA !important;

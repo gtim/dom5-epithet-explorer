@@ -36,7 +36,6 @@
 			<Epithet {...epithet}/>
 		{/each}
 	</div>
-
 </main>
 
 <style>
