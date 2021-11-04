@@ -57,7 +57,7 @@
 <main>
 	<div class="content">
 
-		<h1>Epithet Explorer for Dominions 5</h1>
+		<h1>Epithet Explorer</h1>
 
 		<div>
 			<AutoComplete 
@@ -86,13 +86,16 @@
 	</div>
 
 	<p class="notes">
-		hi!
+		hi! thanks for checking out my dom5 epithet explorer!
+		all feedback is welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej). /tim
+	</p>
+	<!--
 		this is a pretender title/epithet explorer I made for dominions 5, thanks for checking it out!
 		you can enter your opposing pretenders' epithets to get an idea of their capabilities.
 		ideas, praise and bug reports are welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej).
 		epithets are current as of dominions 5.54.
 		/Tim
-	</p>
+	-->
 
 </main>
 
@@ -124,7 +127,7 @@
 		padding:0;
 		font-size:12px;
 		text-align:left;
-		max-width:480px;
+		/*max-width:480px;*/
 	}
 	@media (min-width: 640px) {
 		main {
