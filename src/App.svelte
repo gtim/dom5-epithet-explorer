@@ -18,19 +18,38 @@
 		return a_normalized_string.localeCompare( b_normalized_string );
 	} );
 	
-	// Add epithet to list when selected
+	// Selected-Epithets list handling
 
 	let selectedEpithet;
 	let selectedEpithets = [eps.epithets[361], eps.epithets[200], eps.epithets[8], eps.epithets[111] ];
 	$: if ( selectedEpithet ) {
-		selectedEpithets.push( selectedEpithet );
-		selectedEpithets = selectedEpithets;
+		if ( ! epithetIsAlreadySelected( selectedEpithet ) ) {
+			selectedEpithets.push( selectedEpithet );
+			selectedEpithets = selectedEpithets;
+		}
 		selectedEpithet = '';
+	}
+
+	function epithetIsAlreadySelected( epithet ) {
+		for ( var i = 0; i < selectedEpithets.length; i++ ) {
+			if ( selectedEpithets[i].id == epithet.id ) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	function unselectEpithetByIndex( i ) {
 		selectedEpithets.splice( i, 1 );
 		selectedEpithets = selectedEpithets;
+	}
+
+	function unselectEpithetById( epithet_id ) {
+		for ( var i = 0; i < selectedEpithets.length; i++ ) {
+			if ( selectedEpithets[i].id == epithet_id ) {
+				unselectEpithetByIndex(i);
+			}
+		}
 	}
 
 </script>

@@ -8,15 +8,15 @@ minimum before "release"
 - handle titles (Prince / Lord / Emperor / etc)
 - some notes at the bottom: by me, report bugs, source code, dom version, webapp version
 - host at epithets.illwiki.com
-- don't allow adding same epithet multiple times
+- analytics: basic
 
 small improvements
 - alt-text for images
 - sprites for pretenders
 - combine constraints to show pretender's total constraints 
 - warn of incompatible selected epithets
-- grey-out already picked constraints 
-- grey-out constraints that will cause collision
+- grey-out already picked epithets
+- grey-out epithets that will cause collision
 - handle epithets with the same name
 - handle special chars somehow 
 - add explanatory title/hover texts to all constraints
@@ -24,6 +24,7 @@ small improvements
 - "no restrictions" text if there's zero constraints
 - highlight epithet row on hover
 - animation: make less jerky when the widest epithet is removed
+- analytics: picked epithet
 
 
 larger bonus features that could be nice some time
