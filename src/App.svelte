@@ -21,7 +21,7 @@
 	// Selected-Epithets list handling
 
 	let selectedEpithet;
-	let selectedEpithets = [eps.epithets[361], eps.epithets[200], eps.epithets[8], eps.epithets[111] ];
+	let selectedEpithets = [];
 	$: if ( selectedEpithet ) {
 		if ( ! epithetIsAlreadySelected( selectedEpithet ) ) {
 			selectedEpithets.push( selectedEpithet );
