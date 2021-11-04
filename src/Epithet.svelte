@@ -67,5 +67,6 @@
 		text-align:left;
 		line-height:18px;
 		/*background-color: #2F195F;*/
+		padding-bottom:20px;
 	}
 </style>

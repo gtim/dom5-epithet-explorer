@@ -6,7 +6,9 @@
 	import * as eps from './epithets.json';
 
 	import { flip } from "svelte/animate";
-	import { fade , blur} from "svelte/transition";
+	import { fade , crossfade } from "svelte/transition";
+
+	const [send, receive] = crossfade({ duration: 200, fallback: fade });
 
 	// Sort epithets
 
@@ -50,7 +52,10 @@
 
 	<div class="epithets">
 		{#each selectedEpithets as epithet, i (epithet.id)}
-			<div class="epithet" animate:flip>
+			<div class="epithet"
+			  animate:flip="{{duration:500}}"
+			  in:receive="{{key:epithet.id}}"
+			  out:send="{{key:epithet.id}}" >
 				<Epithet {...epithet}
 				  on:remove={()=>unselectEpithetByIndex(i)} />
 			</div>
@@ -74,7 +79,6 @@
 		display:table;
 		margin:0 auto;
 		border-collapse:separate;
-		border-spacing:0 18px;
 	}
 	div.epithet {
 		display:table-row;

@@ -8,6 +8,7 @@ minimum before "release"
 - handle titles (Prince / Lord / Emperor / etc)
 - some notes at the bottom: by me, report bugs, source code, dom version, webapp version
 - host at epithets.illwiki.com
+- don't allow adding same epithet multiple times
 
 small improvements
 - alt-text for images
@@ -21,11 +22,8 @@ small improvements
 - add explanatory title/hover texts to all constraints
 - make usable on mobile
 - "no restrictions" text if there's zero constraints
-- don't allow adding same epithet multiple times
 - highlight epithet row on hover
 - animation: make less jerky when the widest epithet is removed
-- animation: epithet out-transition: delay removal of removed epithet
-- animation: epithet in-transition
 
 
 larger bonus features that could be nice some time
