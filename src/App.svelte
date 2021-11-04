@@ -88,8 +88,8 @@
 	<p class="notes">
 		hi!
 		this is a pretender title/epithet explorer I made for dominions 5, thanks for checking it out!
-		bug reports, ideas and praise are welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@Timotej).
-		current as of dominions 5.54.
+		bug reports, ideas and praise are welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej).
+		epithets are current as of dominions 5.54.
 		/Tim
 	</p>
 

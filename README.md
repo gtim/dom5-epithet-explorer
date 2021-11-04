@@ -7,6 +7,7 @@ Tool for the game Dominions 5 to explore pretender epithets/titles.
 minimum before "release"
 - handle titles (Prince / Lord / Emperor / etc)
 - analytics: basic
+- favicon
 
 small improvements
 - alt-text for images
