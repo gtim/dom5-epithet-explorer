@@ -80,6 +80,7 @@
 			</div>
 		{/each}
 	</div>
+
 </main>
 
 <style>
@@ -92,11 +93,11 @@
 	h1 {
 		text-align:center;
 		font-size:32px;
-		margin:0px;
+		margin:0 0 40px 0;
 	}
 	div.epithets {
 		display:table;
-		margin:0 auto;
+		margin:40px auto 0 auto;
 		border-collapse:separate;
 	}
 	div.epithet {
