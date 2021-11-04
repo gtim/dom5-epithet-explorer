@@ -21,6 +21,10 @@ small improvements
 - make usable on mobile
 - "no restrictions" text if there's zero constraints
 - don't allow adding same epithet multiple times
+- highlight epithet row on hover
+- animation: make less jerky when the widest epithet is removed
+- animation: epithet out-transition: delay removal of removed epithet
+- animation: epithet in-transition
 
 
 larger bonus features that could be nice some time

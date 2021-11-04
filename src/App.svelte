@@ -5,6 +5,9 @@
 	import Epithet from './Epithet.svelte';
 	import * as eps from './epithets.json';
 
+	import { flip } from "svelte/animate";
+	import { fade , blur} from "svelte/transition";
+
 	// Sort epithets
 
 	eps.epithets.sort( function(epithet_a,epithet_b) {
@@ -45,10 +48,12 @@
 		/>
 	</div>
 
-	<div class="epithet_cards">
-		{#each selectedEpithets as epithet,i}
-			<Epithet {...epithet}
-			  on:remove={()=>unselectEpithetByIndex(i)} />
+	<div class="epithets">
+		{#each selectedEpithets as epithet, i (epithet.id)}
+			<div class="epithet" animate:flip>
+				<Epithet {...epithet}
+				  on:remove={()=>unselectEpithetByIndex(i)} />
+			</div>
 		{/each}
 	</div>
 </main>
@@ -65,13 +70,14 @@
 		font-size:32px;
 		margin:0px;
 	}
-	div.epithet_cards {
-		display:inline-grid;
-		grid-template:auto auto;
-		column-grap:0;
-		row-gap:24px;
-		/*border: solid #7353BA 1px;*/
-		border-radius:12px;
+	div.epithets {
+		display:table;
+		margin:0 auto;
+		border-collapse:separate;
+		border-spacing:0 18px;
+	}
+	div.epithet {
+		display:table-row;
 	}
 	@media (min-width: 640px) {
 		main {

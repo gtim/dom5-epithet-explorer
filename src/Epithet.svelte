@@ -3,10 +3,10 @@
 	import { createEventDispatcher } from 'svelte';
 	import Constraint from './Constraint.svelte';
 
+
 	export let id;
 	export let string;
 	export let constraints;
-	export let removeCallback;
 
 	const dispatch = createEventDispatcher();
 
@@ -51,30 +51,19 @@
 
 <style>
 	h2.epithet_string {
-		grid-column:1;
-		margin:0 20px 0 0;
-		padding:0;
+		padding:0 20px 0 0;
 		font-size:20px;
 		font-weight:bold;
-		/*
-		border-top-left-radius:12px;
-		border-bottom-left-radius:12px;
-		*/
 	}
 	.constraints {
-		grid-column:2;
-		/*
-		border-top-right-radius:12px;
-		border-bottom-right-radius:12px;
-		*/
 	}
 	.removelink {
-		margin:0 0 0 20px;
+		padding:0 0 0 20px;
 		color: #7353BA;
-		grid-column:3;
 		text-decoration:none;
 	}
 	h2.epithet_string, .constraints, .removelink {
+		display:table-cell;
 		text-align:left;
 		line-height:18px;
 		/*background-color: #2F195F;*/
