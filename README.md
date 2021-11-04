@@ -9,7 +9,6 @@ minimum before "release"
 - favicon
 
 small improvements
-- alt-text for images
 - sprites for pretenders
 - combine constraints to show pretender's total constraints 
 - warn of incompatible selected epithets

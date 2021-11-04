@@ -26,14 +26,14 @@
 
 <div class="constraint">
 	{#if type == "magic path"}
-		<span class="image_widener"><img src="/img/Path_{field}.png"></span> &GreaterEqual; {value}
+		<span class="image_widener"><img src="/img/Path_{field}.png" alt="{field} path"></span> &GreaterEqual; {value}
 	{:else if type == "magic paths"}
 		{#each field.split('') as path}
-			<img src="/img/Path_{path}.png" style="height:18px;"> 
+			<img src="/img/Path_{path}.png" style="height:18px;" alt="{field} path"> 
 		{/each}
 		&GreaterEqual; {value}
 	{:else if type == "scale"}
-		<span class="image_widener"><img src="/img/Scale_{field.toLowerCase()}.png"/></span>
+		<span class="image_widener"><img src="/img/Scale_{field.toLowerCase()}.png" alt="{field} scale"/></span>
 		{#if value == 3}
 			= {value}
 		{:else}
@@ -41,7 +41,7 @@
 		{/if}
 	{:else if type == "misc minimum"}
 		{#if field == "dominion strength"}
-			<span class="image_widener"><img src="/img/dominioncandle.png"/></span>
+			<span class="image_widener"><img src="/img/dominioncandle.png" alt="Dominion strength"/></span>
 		{:else}
 			{field}
 		{/if}
