@@ -59,8 +59,6 @@
 	}
 	.removelink {
 		padding:0 0 0 20px;
-		color: #7353BA;
-		text-decoration:none;
 	}
 	h2.epithet_string, .constraints, .removelink {
 		display:table-cell;

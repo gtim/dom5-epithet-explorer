@@ -8,7 +8,7 @@ body {
 	color: #fcfcfc;
 	background-color: #0f1020;
 	margin: 0;
-	padding: 8px;
+	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Zen Kaku Gothic New', sans-serif;
 }
@@ -35,4 +35,12 @@ div.input_dropdown {
 }
 .autocomplete-list-item {
 	text-align:left;
+}
+a {
+	color:#7353BA;
+	text-decoration:none;
+}
+a:hover {
+	color:#FAA6FF;
+	text-decoration:none;
 }

@@ -55,6 +55,7 @@
 </script>
 
 <main>
+	<div>
 	<h1>Epithet Explorer for Dominions 5</h1>
 
 	<div>
@@ -81,12 +82,25 @@
 		{/each}
 	</div>
 
+	</div>
+
+	<p class="notes">
+		hi!
+		this is a pretender title/epithet explorer I made for dominions 5, thanks for checking it out!
+		bug reports, ideas and praise are welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and Discord&nbsp;(@Timotej).
+		current as of dominions 5.54.
+		/Tim
+	</p>
+
 </main>
 
 <style>
 	main {
-		padding: 1em;
+		display:flex;
+		flex-direction:column;
+		justify-content:space-between;
 		max-width: 480px;
+		min-height:100vh;
 		margin: 0 auto;
 		text-align:center;
 	}
@@ -102,6 +116,18 @@
 	}
 	div.epithet {
 		display:table-row;
+	}
+	p.notes {
+		margin:8px auto 16px auto;
+		padding:0;
+		font-size:12px;
+		text-align:left;
+		max-width:480px;
+	}
+	p.notes a {
+	}
+	p.notes a#hover {
+		color:#7353BA;
 	}
 	@media (min-width: 640px) {
 		main {
