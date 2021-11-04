@@ -32,9 +32,13 @@ input.input_field {
 }
 div.input_dropdown {
 	padding:0 !important;
+	background-color:rgba(255,255,255,0.9) !important;
 }
-.autocomplete-list-item {
+div.autocomplete-list-item {
 	text-align:left;
+}
+div.autocomplete-list-item.selected {
+	background-color:#7353BA !important;
 }
 a {
 	color:#7353BA;

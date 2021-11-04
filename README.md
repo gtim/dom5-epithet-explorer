@@ -21,7 +21,6 @@ small improvements
 - "no restrictions" text if there's zero constraints
 - animation: make less jerky when the widest epithet is removed
 - analytics: picked epithet
-- slightly transparent dropdown box
 
 
 larger bonus features that could be nice some time
