@@ -1,6 +1,6 @@
 # Dom5 Epithet Explorer
 
-Tool for the game Dominions 5 to explore pretender epithets/titles.
+A tool to explore pretender epithets/titles for the game Dominions 5. It is deployed on [epithets.illwiki.com](https://epithets.illwiki.com).
 
 ## To do
 
@@ -26,4 +26,3 @@ small improvements
 larger bonus features that could be nice some time
 - show all epithets with specific constraint (on separate page for SEO-friendliness)
 - estimate dominion strength from number of epithets
-- save pretender(s) for game? cookie
