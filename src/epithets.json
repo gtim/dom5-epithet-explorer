@@ -6238,11 +6238,6 @@
                "field" : "Turmoil",
                "type" : "scale",
                "value" : 3
-            },
-            {
-               "field" : "D",
-               "type" : "magic path",
-               "value" : 0
             }
          ],
          "id" : 395,
@@ -9437,11 +9432,6 @@
             {
                "type" : "nation",
                "value" : 63
-            },
-            {
-               "field" : "S",
-               "type" : "magic path",
-               "value" : 0
             }
          ],
          "id" : 616,
@@ -10145,11 +10135,6 @@
             {
                "type" : "unique",
                "value" : 23
-            },
-            {
-               "field" : "D",
-               "type" : "magic path",
-               "value" : 0
             },
             {
                "field" : "inanimate",
