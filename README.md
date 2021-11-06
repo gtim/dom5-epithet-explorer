@@ -16,7 +16,6 @@ small improvements
 - add explanatory title/hover texts to all constraints
 - make usable on mobile
 - animation: make less jerky when the widest epithet is removed
-- analytics: picked epithet
 - handle js being cached
 
 

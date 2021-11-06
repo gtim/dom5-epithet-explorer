@@ -26,12 +26,15 @@
 		if ( ! epithetIsAlreadySelected( selectedEpithet ) ) {
 			selectedEpithets.push( selectedEpithet );
 			selectedEpithets = selectedEpithets;
+			if (typeof ga === 'function') {
+				ga('send', 'event', 'Epithet', 'Select', selectedEpithet.string, selectedEpithets.length );
+			}
 		}
 		selectedEpithet = '';
 	}
 
 	function epithetIsAlreadySelected( epithet ) {
-		for ( var i = 0; i < selectedEpithets.length; i++ ) {
+		for ( let i = 0; i < selectedEpithets.length; i++ ) {
 			if ( selectedEpithets[i].id == epithet.id ) {
 				return true;
 			}
@@ -40,8 +43,11 @@
 	}
 
 	function unselectEpithetByIndex( i ) {
-		selectedEpithets.splice( i, 1 );
+		let unselectedEpithet = selectedEpithets.splice( i, 1 );
 		selectedEpithets = selectedEpithets;
+		if (typeof ga === 'function') {
+			ga('send', 'event', 'Epithet', 'Unselect', unselectedEpithet[0].string, selectedEpithets.length );
+		}
 	}
 
 	function unselectEpithetById( epithet_id ) {
