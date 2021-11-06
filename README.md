@@ -17,7 +17,6 @@ small improvements
 - make usable on mobile
 - animation: make less jerky when the widest epithet is removed
 - handle js being cached
-- handle S>=0 for "of the apes" so samename-collapsing can handle it
 - mirror/rsync deploy script instead of copying
 
 

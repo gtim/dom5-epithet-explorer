@@ -91,7 +91,7 @@ sub constraint_hash {
 	if ( 1000 <= $con && $con <= 1007  && $val == 0 ) {
 		# Magic path >= 0
 		# Presumably mistaken condition. Affects:
-		# - The Wheel
+		# - # of the Apes
 		# - The Destroyer
 		# - The Unborn
 		# TODO: check disassembly to make sure this si ignored.
