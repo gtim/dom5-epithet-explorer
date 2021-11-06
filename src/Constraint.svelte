@@ -2,7 +2,7 @@
 
 	import * as nations from './nations.json';
 	import * as pretenders from './pretenders.json';
-	import * as epithets from './epithets.json';
+	import * as epithets from './epithets.json'; // used to produce unicity-class strings
 
 	export let type;
 	export let field = "";
