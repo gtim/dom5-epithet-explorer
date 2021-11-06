@@ -24,21 +24,50 @@
 	}
 
 	function nation_ids_to_names( nation_ids ) {
+
+		// Ascertain nation_ids is an array
 		if ( ! Array.isArray( nation_ids ) ) {
-			// Single nation
-			return nations.nations_by_id[nation_ids];
+			nation_ids = [ nation_ids ];
+		}
+
+		let nation_names = nation_ids.map( id => nations.nations_by_id[id] );
+
+		nation_names = combine_ea_ma_la_nation_names( nation_names );
+
+		if ( nation_names.length == 0 ) {
+			console.warn( 'no nation names in name constraint: this should not happen' );
+			return '[no nation name, please report this bug]';
+		} else if ( nation_names.length == 1 ) {
+			return nation_names[0];
 		} else {
-			// >1 nations (due to same-name epithet combining)
-			let nation_names = nation_ids.map( id => nations.nations_by_id[id] );
-			/*
-			// TODO: combine same nation of different ages
-			//   (by ordering reversed strings?)
-			for ( let i = 0; i < nation_names.length; i++ ) {
-				console.log( nation_names[i].substring(3) );
-			}
-			*/
 			return nation_names.slice( 0, -1 ).join( ', ' ) + ' or ' + nation_names[ nation_names.length-1 ];
 		}
+	}
+
+	// Combine e.g. [ "EA Abysia", "MA Abysia", "EA C'Tis" ] to [ "EA/MA Abysia", "EA C'Tis" ]
+	function combine_ea_ma_la_nation_names( nation_names ) {
+		var combined_names = [];
+		// Sort out nations beginning with EA/MA/LA
+		var nation_ages = [];
+		for ( let i = 0; i < nation_names.length; i++ ) {
+			let age = nation_names[i].substring( 0, 2 );
+			if ( age === 'EA' || age === 'MA' || age === 'LA' ) {
+				let ageless_name = nation_names[i].substring( 3 );
+				if ( ! ( ageless_name in nation_ages ) ) {
+					nation_ages[ageless_name] = [];
+				}
+				nation_ages[ageless_name].push( age );
+			} else {
+				combined_names.push( nation_names[i] );
+			}
+		}
+		// Combine EA/MA/LA nations
+		for ( let ageless_name in nation_ages ) {
+			let combined_name = nation_ages[ageless_name].join('/') + ' ' + ageless_name;
+			combined_names.push( combined_name );
+		}
+		// Return
+		return combined_names;
 	}
 </script>
 
