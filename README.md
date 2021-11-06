@@ -18,7 +18,6 @@ small improvements
 - handle special chars somehow 
 - add explanatory title/hover texts to all constraints
 - make usable on mobile
-- "no restrictions" text if there's zero constraints
 - animation: make less jerky when the widest epithet is removed
 - analytics: picked epithet
 

@@ -62,6 +62,8 @@
 		{:else}
 			lacks <span title="{unique_class_epithets(value).join(', ')}" class="unique_class_epithets_hover">these epithets</span>
 		{/if}
+	{:else if type == "no constraints"}
+		no restrictions
 	{:else}
 		[ invalid constraint "{type}:{field}:{value}", please report this bug! ]
 	{/if}

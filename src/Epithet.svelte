@@ -10,6 +10,10 @@
 
 	const dispatch = createEventDispatcher();
 
+	if ( constraints.length == 0 ) {
+		constraints.push( { type: "no constraints" } );
+	}
+
 	// Sort constraints
 
 	constraints.sort( function(constraint_a,constraint_b) {
