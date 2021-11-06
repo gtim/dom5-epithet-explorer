@@ -22,6 +22,24 @@
 		} );
 		return class_epithets;
 	}
+
+	function nation_ids_to_names( nation_ids ) {
+		if ( ! Array.isArray( nation_ids ) ) {
+			// Single nation
+			return nations.nations_by_id[nation_ids];
+		} else {
+			// >1 nations (due to same-name epithet combining)
+			let nation_names = nation_ids.map( id => nations.nations_by_id[id] );
+			/*
+			// TODO: combine same nation of different ages
+			//   (by ordering reversed strings?)
+			for ( let i = 0; i < nation_names.length; i++ ) {
+				console.log( nation_names[i].substring(3) );
+			}
+			*/
+			return nation_names.slice( 0, -1 ).join( ', ' ) + ' or ' + nation_names[ nation_names.length-1 ];
+		}
+	}
 </script>
 
 <div class="constraint">
@@ -49,11 +67,7 @@
 	{:else if type == "boolean"}
 		{value ? "" : "not"} {field}
 	{:else if type == "nation"}
-		{#if Array.isArray(value)}
-			{value.map(nat_id => nations.nations_by_id[nat_id] ).join(' or ')}
-		{:else}
-			{nations.nations_by_id[value]}
-		{/if}
+		{nation_ids_to_names(value)}
 	{:else if type == "chassis"}
 		{pretenders.pretenders_by_id[value]}
 	{:else if type == "gender"}
