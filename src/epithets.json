@@ -11198,6 +11198,16 @@
          ],
          "id" : 745,
          "string" : "Mistress of $"
+      },
+      {
+         "constraints" : [
+            {
+               "type" : "default",
+               "value" : 0
+            }
+         ],
+         "id" : -1,
+         "string" : "Ruler of Nothing"
       }
    ]
 }

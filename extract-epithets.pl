@@ -19,9 +19,10 @@ my $EPITHET_LENGTH = 0x20;
 
 my $blob = read_binary( $FILENAME_EXE_X64 );
 
-my @epithets;
+# Read all epithets
+# TODO: find number of epithets from binary
 
-#for my $epithet_i ( 0..10, 323 ) {
+my @epithets;
 for my $epithet_i ( 0..745 ) {
 	my $epithet_bytes = substr( $blob, $EPITHETS_OFFSET + $epithet_i * $EPITHET_LENGTH, $EPITHET_LENGTH );
 	my ( $name_offset, @conditions_and_values ) = unpack 'Q<'.('S<'x12), $epithet_bytes;
@@ -39,6 +40,20 @@ for my $epithet_i ( 0..745 ) {
 	}
 	push @epithets, $epithet;
 }
+
+# Add special "Ruler of Nothing" epithet
+# TODO: Add a sanity check to make sure the string exists in the binary
+
+push @epithets, {
+	id => -1, 
+	string => "Ruler of Nothing",
+	constraints => [ { 
+		type => 'default', 
+		value => 0,
+	} ]
+};
+
+# Output epithets.json
 
 my $json = JSON->new->canonical->pretty;
 my $epithets_json = $json->encode( { epithets => \@epithets } );

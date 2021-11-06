@@ -82,6 +82,8 @@
 		{/if}
 	{:else if type == "no constraints"}
 		no restrictions
+	{:else if type == "default"}
+		no epithet found after 10,000 random picks
 	{:else}
 		[ invalid constraint "{type}:{field}:{value}", please report this bug! ]
 	{/if}

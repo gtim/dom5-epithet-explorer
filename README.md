@@ -7,7 +7,6 @@ A tool to explore pretender epithets/titles for the game Dominions 5. It is depl
 
 small improvements
 - combine e.g. "EA Abysia or MA Abysia" to "EA/MA Abysia"
-- add Ruler of Nothing
 - handle titles (Prince / Lord / Emperor / etc)
 - sprites for pretenders
 - warn of incompatible selected epithets
@@ -19,6 +18,7 @@ small improvements
 - animation: make less jerky when the widest epithet is removed
 - handle js being cached
 - handle S>=0 for "of the apes" so samename-collapsing can handle it
+- mirror/rsync deploy script instead of copying
 
 
 larger bonus features that could be nice some time
