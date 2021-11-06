@@ -15,9 +15,6 @@ epithets.sort( function(epithet_a,epithet_b) {
 function normalize_epithet_string( epithet_string ) {
 	return epithet_string.replace( /[!#$ ']/g, '' );
 }
-	
-
-
 
 /*
  * Collapse epithets with the same name -- assumes sorted list
@@ -144,4 +141,9 @@ function constraints_are_identical_except_maybe_value( ca, cb ) {
  * Export the epithet list
  */
 
-export const EpithetList = readable( epithets );
+function createEpithetList( epithets ) {
+	const { subscribe, set, update } = readable(epithets);
+	return { subscribe };
+}
+
+export const EpithetList = createEpithetList( epithets );
