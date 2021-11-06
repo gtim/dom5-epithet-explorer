@@ -12,7 +12,8 @@
 
 	// Sort epithets
 
-	eps.epithets.sort( function(epithet_a,epithet_b) {
+	let epithets = eps.epithets;
+	epithets.sort( function(epithet_a,epithet_b) {
 		var a_normalized_string = epithet_a.string.replace( /[!#$ ']/g, '' );
 		var b_normalized_string = epithet_b.string.replace( /[!#$ ']/g, '' );
 		return a_normalized_string.localeCompare( b_normalized_string );
@@ -20,7 +21,7 @@
 
 	// Collapse epithets with the same name -- assumes sorted list
 
-	eps.epithets = collapse_samename_epithets( eps.epithets );
+	epithets = collapse_samename_epithets( epithets );
 	
 	// Selected-Epithets list handling
 
@@ -188,7 +189,7 @@
 
 		<div>
 			<AutoComplete 
-				items={eps.epithets} bind:selectedItem={selectedEpithet}
+				items={epithets} bind:selectedItem={selectedEpithet}
 				labelFieldName="string"
 				valueFieldName="id"
 				className="input_container"
