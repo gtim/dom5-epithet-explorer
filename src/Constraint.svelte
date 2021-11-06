@@ -49,7 +49,11 @@
 	{:else if type == "boolean"}
 		{value ? "" : "not"} {field}
 	{:else if type == "nation"}
-		{nations.nations_by_id[value]}
+		{#if Array.isArray(value)}
+			{value.map(nat_id => nations.nations_by_id[nat_id] ).join(' or ')}
+		{:else}
+			{nations.nations_by_id[value]}
+		{/if}
 	{:else if type == "chassis"}
 		{pretenders.pretenders_by_id[value]}
 	{:else if type == "gender"}
