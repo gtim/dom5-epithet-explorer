@@ -4,17 +4,16 @@ A tool to explore pretender epithets/titles for the game Dominions 5. It is depl
 
 ## To do
 
-minimum before "release"
-- handle titles (Prince / Lord / Emperor / etc)
-- favicon
 
 small improvements
+- handle js being cached
+- handle epithets with the same name
+- favicon
+- handle titles (Prince / Lord / Emperor / etc)
 - sprites for pretenders
-- combine constraints to show pretender's total constraints 
 - warn of incompatible selected epithets
 - grey-out already picked epithets
 - grey-out epithets that will cause collision
-- handle epithets with the same name
 - handle special chars somehow 
 - add explanatory title/hover texts to all constraints
 - make usable on mobile
@@ -23,5 +22,6 @@ small improvements
 
 
 larger bonus features that could be nice some time
+- combine constraints to show pretender's total constraints 
 - show all epithets with specific constraint (on separate page for SEO-friendliness)
 - estimate dominion strength from number of epithets
