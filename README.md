@@ -14,8 +14,8 @@ small improvements
 - handle special chars somehow 
 - add explanatory title/hover texts to all constraints
 - animation: make less jerky when the widest epithet is removed
-- handle js being cached
 - mirror/rsync deploy script instead of copying
+- add a random trivia in the footer, e.g. ruler of nothing, TC/yomi epithets, unreachable epithets, male:female stats, number possible eps, one-of-a-kind epithets
 
 
 larger bonus features that could be nice some time
