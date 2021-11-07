@@ -45,13 +45,15 @@
 	}
 </script>
 
+<div class="epithet_wrapper">
 	<h2 class="epithet_string">{string}</h2>
 	<span class="constraints">
 	{#each constraints as constraint}
 		<Constraint epithet_id={id} {...constraint}/>
 	{/each}
 	</span>
-	<a class="removelink" href="#" on:click={()=>dispatch("remove")}>&#xd7;</a>
+</div>
+<a class="removelink" href="#" on:click={()=>dispatch("remove")}>&#xd7;</a>
 
 <style>
 	h2.epithet_string {
@@ -70,5 +72,29 @@
 		line-height:18px;
 		/*background-color: #2F195F;*/
 		padding-bottom:20px;
+	}
+	div.epithet_wrapper {
+		margin:0;
+		padding:0;
+		display:contents;
+	}
+	@media (max-width: 480px) {
+		div.epithet_wrapper {
+			display:table-cell;
+		}
+		h2.epithet_string {
+			display:block;
+			margin:0;
+			padding:4px;
+		}
+		span.constraints {
+			display:block;
+			margin:0 0 12px 0;
+			padding:4px;
+		}
+		a.removelink {
+			padding:4px;
+			vertical-align:middle;
+		}
 	}
 </style>

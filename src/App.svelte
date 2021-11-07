@@ -88,13 +88,6 @@
 		hi! thanks for checking out my dom5 epithet explorer!
 		all feedback is welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej). /tim
 	</p>
-	<!--
-		this is a pretender title/epithet explorer I made for dominions 5, thanks for checking it out!
-		you can enter your opposing pretenders' epithets to get an idea of their capabilities.
-		ideas, praise and bug reports are welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej).
-		epithets are current as of dominions 5.54.
-		/Tim
-	-->
 
 </main>
 
@@ -103,7 +96,6 @@
 		display:flex;
 		flex-direction:column;
 		justify-content:space-between;
-		max-width: 480px;
 		min-height:100vh;
 		margin: 0 auto;
 		text-align:center;
@@ -126,11 +118,16 @@
 		padding:0;
 		font-size:12px;
 		text-align:left;
-		/*max-width:480px;*/
 	}
-	@media (min-width: 640px) {
+	@media (max-width: 480px) {
 		main {
-			max-width: none;
+			max-width: 480px;
+		}
+		h1 {
+			margin:8px 0 16px 0;
+		}
+		div.epithets {
+			margin: 16px auto 0 auto;
 		}
 	}
 </style>
