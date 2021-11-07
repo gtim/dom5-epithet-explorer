@@ -15,7 +15,6 @@ small improvements
 - add explanatory title/hover texts to all constraints
 - make usable on mobile
 - animation: make less jerky when the widest epithet is removed
-- handle js being cached
 - mirror/rsync deploy script instead of copying
 
 
