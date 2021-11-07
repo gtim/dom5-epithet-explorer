@@ -18,8 +18,10 @@
 		if ( ! epithetIsAlreadySelected( selectedEpithet ) ) {
 			selectedEpithets.push( selectedEpithet );
 			selectedEpithets = selectedEpithets;
-			if (typeof ga === 'function') {
-				ga('send', 'event', 'Epithet', 'Select', selectedEpithet.string, selectedEpithets.length );
+			if (typeof gtag === 'function') {
+				gtag("event", "add_to_cart", {
+				  items: [ { item_name: selectedEpithet.string } ]
+				});
 			}
 		}
 		selectedEpithet = '';
@@ -37,8 +39,10 @@
 	function unselectEpithetByIndex( i ) {
 		let unselectedEpithet = selectedEpithets.splice( i, 1 );
 		selectedEpithets = selectedEpithets;
-		if (typeof ga === 'function') {
-			ga('send', 'event', 'Epithet', 'Unselect', unselectedEpithet[0].string, selectedEpithets.length );
+		if (typeof gtag === 'function') {
+			gtag("event", "remove_from_cart", {
+			  items: [ { item_name: unselectedEpithet.string } ]
+			});
 		}
 	}
 
