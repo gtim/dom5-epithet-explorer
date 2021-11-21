@@ -1,0 +1,50 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #fcfcfc;
+	background-color: #0f1020;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+label {
+	display: block;
+}
+
+div.input_container {
+	width:480px;
+	margin:0 auto ;
+}
+div.input_container::after {
+	border-color: #7353BA !important;
+}
+input.input_field {
+}
+div.input_dropdown {
+	padding:0 !important;
+	background-color:rgba(255,255,255,0.9) !important;
+}
+div.autocomplete-list-item {
+	text-align:left;
+}
+div.autocomplete-list-item.selected {
+	background-color:#7353BA !important;
+}
+a {
+	color:#7353BA;
+	text-decoration:none;
+}
+a:hover {
+	color:#FAA6FF;
+	text-decoration:none;
+}
