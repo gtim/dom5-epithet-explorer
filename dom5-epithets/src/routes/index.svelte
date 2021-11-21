@@ -2,8 +2,8 @@
 
 	import AutoComplete from "simple-svelte-autocomplete";
 
-	import Epithet from './Epithet.svelte';
-	import { EpithetList } from './EpithetList.js';
+	import Epithet from '$lib/Epithet.svelte';
+	import { EpithetList } from '$lib/EpithetList.js';
 
 	import { flip } from "svelte/animate";
 	import { fade , crossfade } from "svelte/transition";
