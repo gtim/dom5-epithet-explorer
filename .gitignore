@@ -1,6 +1,8 @@
 *.swp
 *~
 Dominions554-64.exe
-
 /node_modules/
-/public/build/
+/build
+/.svelte-kit
+/package
+.env
