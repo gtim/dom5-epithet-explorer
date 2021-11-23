@@ -1,1 +1,1 @@
-npm run build && cp -r public/* /srv/http/epithets.illwiki.com/public_html/
+npm run build && rsync --archive build/ /srv/http/epithets.illwiki.com/public_html
