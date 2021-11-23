@@ -34,6 +34,10 @@
 
 </script>
 
+	<svelte:head>
+		<title>Epithet Explorer for Dominions 5 Pretenders</title>
+	</svelte:head>
+
 	<div>
 		<AutoComplete 
 			items={$AllEpithets} bind:selectedItem={selectedEpithet}

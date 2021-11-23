@@ -76,9 +76,15 @@
 		return false;
 	} ).sort( (ep_a,ep_b) => ep_b.sort - ep_a.sort );
 
+	let ctypeCapitalisedFirst;
+	$: ctypeCapitalisedFirst = ctype.charAt(0).toUpperCase() + ctype.slice(1);
+
 </script>
 
-<main>
+	<svelte:head>
+		<title>{ctypeCapitalisedFirst} Pretender Epithets in Dominions 5</title>
+	</svelte:head>
+
 	<p>
 	{#if filteredEpithets.length == 1}
 		This is the only epithet unique to {ctype} pretenders.
@@ -92,6 +98,4 @@
 	</p>
 
 	<EpithetList epithets={filteredEpithets} />
-
-</main>
 
