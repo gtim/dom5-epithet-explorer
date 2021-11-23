@@ -57,58 +57,31 @@
 
 </script>
 
-<main>
-	<div class="content">
-
-		<h1>Epithet Explorer</h1>
-
-		<div>
-			<AutoComplete 
-				items={$EpithetList} bind:selectedItem={selectedEpithet}
-				labelFieldName="string"
-				valueFieldName="id"
-				className="input_container"
-				inputClassName="input_field"
-				dropdownClassName="input_dropdown"
-				placeholder="start typing a Pretender's epithet.."
-			/>
-		</div>
-
-		<div class="epithets">
-			{#each selectedEpithets as epithet, i (epithet.id)}
-				<div class="epithet"
-				  animate:flip="{{duration:500}}"
-				  in:receive="{{key:epithet.id}}"
-				  out:send="{{key:epithet.id}}" >
-					<Epithet {...epithet}
-					  on:remove={()=>unselectEpithetByIndex(i)} />
-				</div>
-			{/each}
-		</div>
-
+	<div>
+		<AutoComplete 
+			items={$EpithetList} bind:selectedItem={selectedEpithet}
+			labelFieldName="string"
+			valueFieldName="id"
+			className="input_container"
+			inputClassName="input_field"
+			dropdownClassName="input_dropdown"
+			placeholder="start typing a Pretender's epithet.."
+		/>
 	</div>
 
-	<p class="notes">
-		hi! thanks for checking out my dom5 epithet explorer!
-		all feedback is welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej). /tim
-	</p>
-
-</main>
+	<div class="epithets">
+		{#each selectedEpithets as epithet, i (epithet.id)}
+			<div class="epithet"
+			  animate:flip="{{duration:500}}"
+			  in:receive="{{key:epithet.id}}"
+			  out:send="{{key:epithet.id}}" >
+				<Epithet {...epithet}
+				  on:remove={()=>unselectEpithetByIndex(i)} />
+			</div>
+		{/each}
+	</div>
 
 <style>
-	main {
-		display:flex;
-		flex-direction:column;
-		justify-content:space-between;
-		min-height:100vh;
-		margin: 0 auto;
-		text-align:center;
-	}
-	h1 {
-		text-align:center;
-		font-size:32px;
-		margin:16px 0 40px 0;
-	}
 	div.epithets {
 		display:table;
 		margin:40px auto 0 auto;
@@ -117,19 +90,7 @@
 	div.epithet {
 		display:table-row;
 	}
-	p.notes {
-		margin:8px auto 16px auto;
-		padding:0;
-		font-size:12px;
-		text-align:left;
-	}
 	@media (max-width: 480px) {
-		main {
-			max-width: 480px;
-		}
-		h1 {
-			margin:8px 0 16px 0;
-		}
 		div.epithets {
 			margin: 16px auto 0 auto;
 		}
