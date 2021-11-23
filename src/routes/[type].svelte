@@ -30,7 +30,8 @@
 
 	// Filter epithets for N constraints
 
-	let filteredEpithets = $AllEpithets.filter( function (epithet) {
+	let filteredEpithets = [];
+	$: filteredEpithets = $AllEpithets.filter( function (epithet) {
 		for ( const constraint of epithet.constraints ) {
 			if ( cfilter( constraint ) ) {
 				epithet.sort = constraint.value;
