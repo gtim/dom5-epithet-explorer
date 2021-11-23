@@ -43,7 +43,7 @@
 </script>
 
 <main>
-	<p>These are all epithets unique to {ctype} pretenders. (<a href="/">go back to search</a>)</p>
+	<p>These are the {filteredEpithets.length} epithets unique to {ctype} pretenders. (<a href="/">go back to search</a>)</p>
 
 	<EpithetList epithets={filteredEpithets} />
 
