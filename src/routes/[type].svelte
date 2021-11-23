@@ -85,6 +85,9 @@
 	{:else}
 		These are the {filteredEpithets.length} epithets unique to {ctype} pretenders.
 	{/if}
+	{#if ctype == "order-scale"}
+		The poetry and song Order-65535 bug is on my to-fix list.
+	{/if}
 	<a href="/">(back to search)</a>
 	</p>
 
