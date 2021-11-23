@@ -59,7 +59,6 @@
 <script>
 	export let ctype;
 	export let cfilter;
-	export let cf = "";
 
 	import EpithetList from '$lib/EpithetList.svelte';
 	import { AllEpithets } from '$lib/AllEpithets.js';
