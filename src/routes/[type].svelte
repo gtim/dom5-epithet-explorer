@@ -1,13 +1,28 @@
 <script context="module">
 	export async function load({ page, fetch, session, stuff }) {
-		if ( page.params.type === 'nature' ) {
-			return { props: { ctype: page.params.type } };
+		switch ( page.params.type ) {
+			case 'fire':
+				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "F" } }; break;
+			case 'air':
+				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "A" } }; break;
+			case 'water':
+				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "W" } }; break;
+			case 'earth':
+				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "E" } }; break;
+			case 'astral':
+				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "S" } }; break;
+			case 'death':
+				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "D" } }; break;
+			case 'nature':
+				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "N" } }; break;
+			case 'blood':
+				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "B" } }; break;
 		}
 	}
 </script>
 
 <script>
-	export let ctype;
+	export let cfilter;
 
 	import EpithetList from '$lib/EpithetList.svelte';
 	import { AllEpithets } from '$lib/AllEpithets.js';
@@ -16,7 +31,7 @@
 
 	let filteredEpithets = $AllEpithets.filter( function (epithet) {
 		for ( const constraint of epithet.constraints ) {
-			if ( constraint.type === "magic path" && constraint.field === "N" ) {
+			if ( cfilter( constraint ) ) {
 				epithet.sort = constraint.value;
 				return true;
 			}
@@ -27,7 +42,7 @@
 </script>
 
 <main>
-	the ctype is { ctype }
+	the cfilter is { cfilter }
 
 	<EpithetList epithets={filteredEpithets} />
 
