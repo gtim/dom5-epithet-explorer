@@ -46,5 +46,5 @@
 		/>
 	</div>
 
-	<EpithetList bind:epithets={selectedEpithets} />
+	<EpithetList bind:epithets={selectedEpithets} displayRemoveLink=true />
 

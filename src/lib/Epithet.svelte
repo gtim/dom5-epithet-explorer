@@ -7,6 +7,7 @@
 	export let id;
 	export let string;
 	export let constraints;
+	export let displayRemoveLink = false;
 
 	const dispatch = createEventDispatcher();
 
@@ -53,7 +54,9 @@
 	{/each}
 	</span>
 </div>
-<a class="removelink" href="#" on:click={()=>dispatch("remove")}>&#xd7;</a>
+{#if displayRemoveLink}
+	<a class="removelink" href="#" on:click={()=>dispatch("remove")}>&#xd7;</a>
+{/if}
 
 <style>
 	h2.epithet_string {

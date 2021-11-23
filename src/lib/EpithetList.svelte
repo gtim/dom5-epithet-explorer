@@ -8,6 +8,7 @@
 	
 
 	export let epithets;
+	export let displayRemoveLink = false;
 
 	function unselectEpithetByIndex( i ) {
 		let unselectedEpithet = epithets.splice( i, 1 );
@@ -36,7 +37,8 @@
 			  in:receive="{{key:epithet.id}}"
 			  out:send="{{key:epithet.id}}" >
 				<Epithet {...epithet}
-				  on:remove={()=>unselectEpithetByIndex(i)} />
+				  displayRemoveLink={displayRemoveLink}
+				  on:remove={displayRemoveLink ? ()=>unselectEpithetByIndex(i) : false} />
 			</div>
 		{/each}
 	</div>
