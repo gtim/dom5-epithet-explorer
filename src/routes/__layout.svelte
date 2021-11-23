@@ -26,6 +26,10 @@
 			<a href="/blood">B</a>
 			<a href="/male">male</a>
 			<a href="/female">female</a>
+			<a href="/undead">undead</a>
+			<a href="/demon">demon</a>
+			<a href="/immobile">immobile</a>
+			<a href="/inanimate">inanimate</a>.
 		/tim
 	</p>
 

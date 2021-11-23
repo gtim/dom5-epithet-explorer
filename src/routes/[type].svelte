@@ -22,6 +22,29 @@
 				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "gender" && c.value === "male" } }; break;
 			case 'female':
 				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "gender" && c.value === "female" } }; break;
+
+			case 'undead':
+			case 'demon':
+			case 'immortal': // none at the time of coding
+			case 'immobile':
+			case 'inanimate':
+				return { props: {
+					ctype: page.params.type,
+					cfilter: (c) => c.type === "boolean" && c.field === page.params.type && c.value === 1,
+					cf: 'not-' + page.params.type
+				} };
+				break;
+			case 'not-undead':
+			case 'not-demon':
+			case 'not-immortal': // none at the time of coding
+			case 'not-immobile':
+			case 'not-inanimate':
+				return { props: {
+					ctype: page.params.type,
+					cfilter: (c) => c.type === "boolean" && c.field === page.params.type.substring(4) && c.value === 0,
+					cf: page.params.type.substring(4)
+				} };
+				break;
 		}
 	}
 </script>
@@ -29,6 +52,7 @@
 <script>
 	export let ctype;
 	export let cfilter;
+	export let cf = "";
 
 	import EpithetList from '$lib/EpithetList.svelte';
 	import { AllEpithets } from '$lib/AllEpithets.js';
@@ -49,7 +73,18 @@
 </script>
 
 <main>
-	<p>These are the {filteredEpithets.length} epithets unique to {ctype} pretenders. (<a href="/">go back to search</a>)</p>
+	<p>
+	{#if filteredEpithets.length == 1}
+		This is the only epithet unique to {ctype} pretenders.
+	{:else}
+		These are the {filteredEpithets.length} epithets unique to {ctype} pretenders.
+	{/if}
+	{#if cf}
+		See also <a href="/{cf}">{cf}</a>, or <a href="/">go back to search</a>.
+	{:else}
+		<a href="/">Back to search</a>.
+	{/if}
+	</p>
 
 	<EpithetList epithets={filteredEpithets} />
 
