@@ -31,18 +31,6 @@
 				return { props: {
 					ctype: page.params.type,
 					cfilter: (c) => c.type === "boolean" && c.field === page.params.type && c.value === 1,
-					cf: 'not-' + page.params.type
-				} };
-				break;
-			case 'not-undead':
-			case 'not-demon':
-			case 'not-immortal': // none at the time of coding
-			case 'not-immobile':
-			case 'not-inanimate':
-				return { props: {
-					ctype: page.params.type,
-					cfilter: (c) => c.type === "boolean" && c.field === page.params.type.substring(4) && c.value === 0,
-					cf: page.params.type.substring(4)
 				} };
 				break;
 
@@ -98,11 +86,7 @@
 	{:else}
 		These are the {filteredEpithets.length} epithets unique to {ctype} pretenders.
 	{/if}
-	{#if cf}
-		See also <a href="/{cf}">{cf}</a>, or <a href="/">go back to search</a>.
-	{:else}
-		<a href="/">Back to search</a>.
-	{/if}
+	<a href="/">(back to search)</a>
 	</p>
 
 	<EpithetList epithets={filteredEpithets} />

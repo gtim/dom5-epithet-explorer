@@ -18,6 +18,7 @@ Minor improvements:
 - constraint-page: for disciples
 - constraint-page: friendly intro text
 - constraint-page: sort constraints s.t. relevant constraint comes first in each epithet
+- constraint-page: add e.g. "not demon" epithets after demon constraint-page
 
 
 
