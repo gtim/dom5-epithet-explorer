@@ -17,6 +17,11 @@
 				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "N" } }; break;
 			case 'blood':
 				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "B" } }; break;
+
+			case 'male':
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "gender" && c.value === "male" } }; break;
+			case 'female':
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "gender" && c.value === "female" } }; break;
 		}
 	}
 </script>

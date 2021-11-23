@@ -14,6 +14,7 @@
 
 	<p class="notes">
 		hi! thanks for checking out my dom5 <a href="/">epithet explorer</a>!
+		all feedback is welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej).
 		you can also search epithets by 
 			<a href="/fire">F</a>
 			<a href="/air">A</a>
@@ -22,8 +23,10 @@
 			<a href="/astral">S</a>
 			<a href="/death">D</a>
 			<a href="/nature">N</a>
-			<a href="/blood">B</a>.
-		all feedback is welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej). /tim
+			<a href="/blood">B</a>
+			<a href="/male">male</a>
+			<a href="/female">female</a>
+		/tim
 	</p>
 
 </main>
