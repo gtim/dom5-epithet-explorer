@@ -45,6 +45,25 @@
 					cf: page.params.type.substring(4)
 				} };
 				break;
+
+			case 'death-scale':
+				var scale = 'death';
+			case 'order':
+			case 'turmoil':
+			case 'productivity':
+			case 'sloth':
+			case 'heat':
+			case 'cold':
+			case 'growth':
+			case 'luck':
+			case 'misfortune':
+			case 'magic':
+			case 'drain':
+				scale = typeof scale !== 'undefined' ? scale : page.params.type;
+				return { props: {
+					ctype: scale + '-scale',
+					cfilter: (c) => c.type === "scale" && c.field.toLowerCase() === scale
+				} }; break;
 		}
 	}
 </script>
