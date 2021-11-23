@@ -94,7 +94,7 @@
 	{#if ctype == "order-scale"}
 		The poetry and song Order-65535 bug is on my to-fix list.
 	{/if}
-	<a href="/">(back to search)</a>
+	<a rel="external" href="/">(back to search)</a>
 	</p>
 
 	<EpithetList epithets={filteredEpithets} />
