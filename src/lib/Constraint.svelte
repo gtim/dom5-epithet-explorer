@@ -2,7 +2,7 @@
 
 	import * as nations from './nations.json';
 	import * as pretenders from './pretenders.json';
-	import { EpithetList } from './EpithetList.js';
+	import { AllEpithets } from './AllEpithets.js';
 
 	export let type;
 	export let field = "";
@@ -11,7 +11,7 @@
 
 	function unique_class_epithets( epithet_class ) {
 		var class_epithets = new Array();
-		$EpithetList.forEach( epithet => {
+		$AllEpithets.forEach( epithet => {
 			epithet.constraints.forEach( constraint => {
 				if ( constraint.type == "unique"
 				     && constraint.value == epithet_class 

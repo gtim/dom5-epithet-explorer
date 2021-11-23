@@ -146,4 +146,4 @@ function createEpithetList( epithets ) {
 	return { subscribe };
 }
 
-export const EpithetList = createEpithetList( epithets );
+export const AllEpithets = createEpithetList( epithets );

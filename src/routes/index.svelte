@@ -3,7 +3,7 @@
 	import AutoComplete from "simple-svelte-autocomplete";
 
 	import Epithet from '$lib/Epithet.svelte';
-	import { EpithetList } from '$lib/EpithetList.js';
+	import { AllEpithets } from '$lib/AllEpithets.js';
 
 	import { flip } from "svelte/animate";
 	import { fade , crossfade } from "svelte/transition";
@@ -59,7 +59,7 @@
 
 	<div>
 		<AutoComplete 
-			items={$EpithetList} bind:selectedItem={selectedEpithet}
+			items={$AllEpithets} bind:selectedItem={selectedEpithet}
 			labelFieldName="string"
 			valueFieldName="id"
 			className="input_container"
