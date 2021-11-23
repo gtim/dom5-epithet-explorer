@@ -13,7 +13,16 @@
 	</div>
 
 	<p class="notes">
-		hi! thanks for checking out my dom5 epithet explorer!
+		hi! thanks for checking out my dom5 <a href="/">epithet explorer</a>!
+		you can also search epithets by 
+			<a href="/fire">F</a>
+			<a href="/air">A</a>
+			<a href="/water">W</a>
+			<a href="/earth">E</a>
+			<a href="/astral">S</a>
+			<a href="/death">D</a>
+			<a href="/nature">N</a>
+			<a href="/blood">B</a>.
 		all feedback is welcome on <a href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej). /tim
 	</p>
 

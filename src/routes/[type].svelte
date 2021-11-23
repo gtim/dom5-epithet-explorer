@@ -2,26 +2,27 @@
 	export async function load({ page, fetch, session, stuff }) {
 		switch ( page.params.type ) {
 			case 'fire':
-				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "F" } }; break;
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "F" } }; break;
 			case 'air':
-				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "A" } }; break;
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "A" } }; break;
 			case 'water':
-				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "W" } }; break;
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "W" } }; break;
 			case 'earth':
-				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "E" } }; break;
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "E" } }; break;
 			case 'astral':
-				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "S" } }; break;
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "S" } }; break;
 			case 'death':
-				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "D" } }; break;
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "D" } }; break;
 			case 'nature':
-				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "N" } }; break;
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "N" } }; break;
 			case 'blood':
-				return { props: { cfilter: (c) => c.type === "magic path" && c.field === "B" } }; break;
+				return { props: { ctype: page.params.type, cfilter: (c) => c.type === "magic path" && c.field === "B" } }; break;
 		}
 	}
 </script>
 
 <script>
+	export let ctype;
 	export let cfilter;
 
 	import EpithetList from '$lib/EpithetList.svelte';
@@ -42,7 +43,7 @@
 </script>
 
 <main>
-	the cfilter is { cfilter }
+	<p>These are all epithets unique to {ctype} pretenders. (<a href="/">go back to search</a>)</p>
 
 	<EpithetList epithets={filteredEpithets} />
 
