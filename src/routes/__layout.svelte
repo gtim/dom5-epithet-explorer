@@ -17,7 +17,7 @@
 	</div>
 
 	<p class="notes">
-		hi! thanks for checking out my dom5 <a href="/">epithet explorer</a>!
+		hi! thanks for checking out my dom5 epithet explorer!
 		all feedback is welcome on <a rel="external" href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej).
 		/tim
 	</p>
