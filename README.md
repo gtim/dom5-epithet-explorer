@@ -6,6 +6,7 @@ A tool to explore pretender epithets/titles for the game Dominions 5. Deployed o
 
 Minor improvements:
 - bug: "# of Poetry and Song" has order >= 65535
+- list EA/MA/LA in order, e.g. for God of Luck Through Hard Work
 - handle titles (Prince / Lord / Emperor / etc)
 - sprites for pretenders
 - grey-out already picked epithets
