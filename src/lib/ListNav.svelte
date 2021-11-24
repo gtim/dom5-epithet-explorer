@@ -1,34 +1,36 @@
+<script>
+  import ListNavLink from '$lib/ListNavLink.svelte'
+</script>
+
 <ul class="listnav">
-	<li><a href="/fire">F</a></li>
-	<li><a href="/air">A</a></li>
-	<li><a href="/water">W</a></li>
-	<li><a href="/earth">E</a></li>
-	<li><a href="/astral">S</a></li>
-	<li><a href="/death">D</a></li>
-	<li><a href="/nature">N</a></li>
-	<li><a href="/blood">B</a></li>
-</ul>
-<ul class="listnav">
-	<li><a href="/order">O</a></li>
-	<li><a href="/productivity">P</a></li>
-	<li><a href="/heat">H</a></li>
-	<li><a href="/growth">G</a></li>
-	<li><a href="/luck">L</a></li>
-	<li><a href="/magic">M</a></li>
-	<li><a href="/turmoil">T</a></li>
-	<li><a href="/sloth">S</a></li>
-	<li><a href="/cold">C</a></li>
-	<li><a href="/death-scale">D</a></li>
-	<li><a href="/misfortune">M</a></li>
-	<li><a href="/drain">D</a></li>
-</ul>
-<ul class="listnav">
-	<li><a href="/male">male</a></li>
-	<li><a href="/female">female</a></li>
-	<li><a href="/undead">undead</a></li>
-	<li><a href="/demon">demon</a></li>
-	<li><a href="/immobile">immobile</a></li>
-	<li><a href="/inanimate">inanimate</a></li>
+	<ListNavLink href="/fire">F</ListNavLink>
+	<ListNavLink href="/air">A</ListNavLink>
+	<ListNavLink href="/water">W</ListNavLink>
+	<ListNavLink href="/earth">E</ListNavLink>
+	<ListNavLink href="/astral">S</ListNavLink>
+	<ListNavLink href="/death">D</ListNavLink>
+	<ListNavLink href="/nature">N</ListNavLink>
+	<ListNavLink href="/blood">B</ListNavLink>
+
+	<ListNavLink href="/order">O</ListNavLink>
+	<ListNavLink href="/productivity">P</ListNavLink>
+	<ListNavLink href="/heat">H</ListNavLink>
+	<ListNavLink href="/growth">G</ListNavLink>
+	<ListNavLink href="/luck">L</ListNavLink>
+	<ListNavLink href="/magic">M</ListNavLink>
+	<ListNavLink href="/turmoil">T</ListNavLink>
+	<ListNavLink href="/sloth">S</ListNavLink>
+	<ListNavLink href="/cold">C</ListNavLink>
+	<ListNavLink href="/death-scale">D</ListNavLink>
+	<ListNavLink href="/misfortune">M</ListNavLink>
+	<ListNavLink href="/drain">D</ListNavLink>
+
+	<ListNavLink href="/male">male</ListNavLink>
+	<ListNavLink href="/female">female</ListNavLink>
+	<ListNavLink href="/undead">undead</ListNavLink>
+	<ListNavLink href="/demon">demon</ListNavLink>
+	<ListNavLink href="/immobile">immobile</ListNavLink>
+	<ListNavLink href="/inanimate">inanimate</ListNavLink>
 </ul>
 
 
@@ -38,27 +40,6 @@
 		text-align:center;
 		padding:0;
 		margin:0;
-	}
-	ul.listnav li {
 		display: inline-block;
-		border-bottom: none;
-		height: 20px;
-		line-height: 20px;
-		font-size: 18px;
-		margin:0;
-		padding:0;
-	}
-	ul.listnav li a {
-		text-decoration: none;
-		color: #7353BA;
-		display: block;
-		margin:0;
-		padding:0 4px;
-	}
-	ul.listnav a:hover {
-		color: #FAA6FF;
-	}
-	ul.listnav li:active a {
-		color: #fcfcfc;
 	}
 </style>
