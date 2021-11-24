@@ -55,7 +55,6 @@
 		text-decoration: none;
 		color: #7353BA;
 		display: block;
-		transition: .3s color;
 		margin:0;
 		padding:0 20px;
 	}
@@ -64,7 +63,6 @@
 	}
 	ul.nav li.active a {
 		color: #fcfcfc;
-		cursor: default;
 	}
 	ul.nav li.active {
 		/*
