@@ -1,3 +1,8 @@
+<script>
+	import { site_section } from './_stores.js';
+	site_section.set('lists');
+</script>
+
 <svelte:head>
 	<title>Epithet Lists - Dominions 5</title>
 </svelte:head>

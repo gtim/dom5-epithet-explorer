@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import { site_section } from './_stores.js';
 </script>
 
 <main>
@@ -7,8 +8,8 @@
 	<div class="content">
 
 		<ul class="nav">
-			<li class="active"><a href="/">Epithet Search</a></li><!--
-			--><li><a href="/lists">Epithet Lists</a></li>
+			<li class="{$site_section==='index'?'active':''}"><a href="/">Epithet Search</a></li><!--
+			--><li class="{$site_section==='lists'?'active':''}"><a href="/lists">Epithet Lists</a></li>
 		</ul>
 
 		<slot/>
