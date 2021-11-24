@@ -64,6 +64,7 @@
 	site_section.set('lists');
 
 	import EpithetList from '$lib/EpithetList.svelte';
+	import ListNav from '$lib/ListNav.svelte';
 	import { AllEpithets } from '$lib/AllEpithets.js';
 
 	// Filter epithets for N constraints
@@ -87,6 +88,8 @@
 	<svelte:head>
 		<title>{ctypeCapitalisedFirst} Pretender Epithets in Dominions 5</title>
 	</svelte:head>
+
+	<ListNav />
 
 	<p>
 	{#if filteredEpithets.length == 1}
