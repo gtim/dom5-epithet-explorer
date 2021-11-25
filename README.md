@@ -13,7 +13,6 @@ Minor improvements:
 - handle special chars somehow 
 - add explanatory title/hover texts to all constraints
 - add a random trivia in the footer, e.g. ruler of nothing, TC/yomi epithets, unreachable epithets, male:female stats, number possible eps, one-of-a-kind epithets, highest number of epithets possible
-- layout: make switching between main page and constraint-pages user-friendly 
 - constraint-page: for sorcery/wizardry/all paths
 - constraint-page: for fear/awe/strength/domstr
 - constraint-page: for disciples
