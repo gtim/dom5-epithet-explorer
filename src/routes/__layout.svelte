@@ -8,19 +8,14 @@
 	<div class="content">
 
 		<ul class="nav">
-			<li class="{$site_section==='index'?'active':''}"><a href="/">Epithet Search</a></li><!--
-			--><li class="{$site_section==='lists'?'active':''}"><a href="/lists">Epithet Lists</a></li>
+			<li class="{$site_section==='index'?'active':''}"><a href="/">Epithet&nbsp;Search</a></li><!--
+			--><li class="{$site_section==='lists'?'active':''}"><a href="/lists">Epithet&nbsp;Lists</a></li><!--
+			--><li class="{$site_section==='about'?'active':''}"><a href="/about">About</a></li>
 		</ul>
 
 		<slot/>
 
 	</div>
-
-	<p class="notes">
-		hi! thanks for checking out my dom5 epithet explorer!
-		all feedback is welcome on <a rel="external" href="https://github.com/gtim/dom5-epithet-explorer">github</a> and discord&nbsp;(@timotej).
-		/tim
-	</p>
 
 </main>
 
@@ -74,9 +69,6 @@
 	/* main content */
 
 	main {
-		display:flex;
-		flex-direction:column;
-		justify-content:space-between;
 		min-height:100vh;
 		margin: 0 auto;
 		text-align:center;
@@ -85,14 +77,5 @@
 		main {
 			max-width: 480px;
 		}
-	}
-	
-	/* footer */
-
-	p.notes {
-		margin:8px auto 16px auto;
-		padding:0;
-		font-size:12px;
-		text-align:left;
 	}
 </style>
