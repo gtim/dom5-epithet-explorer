@@ -1,8 +1,5 @@
 <script>
 
-	import { site_section } from './_stores.js';
-	site_section.set('index');
-
 	import AutoComplete from "simple-svelte-autocomplete";
 
 	import Epithet from '$lib/Epithet.svelte';

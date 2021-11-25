@@ -60,9 +60,6 @@
 	export let ctype;
 	export let cfilter;
 
-	import { site_section } from './_stores.js';
-	site_section.set('lists');
-
 	import EpithetList from '$lib/EpithetList.svelte';
 	import ListNav from '$lib/ListNav.svelte';
 	import { AllEpithets } from '$lib/AllEpithets.js';

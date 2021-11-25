@@ -1,8 +1,3 @@
-<script>
-	import { site_section } from './_stores.js';
-	site_section.set('about');
-</script>
-
 <svelte:head>
 	<title>About - Dominions 5 Epithet Explorer</title>
 </svelte:head>

@@ -1,7 +1,4 @@
 <script>
-	import { site_section } from './_stores.js';
-	site_section.set('lists');
-
 	import ListNav from '$lib/ListNav.svelte';
 </script>
 

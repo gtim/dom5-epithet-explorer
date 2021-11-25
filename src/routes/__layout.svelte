@@ -1,6 +1,13 @@
 <script>
 	import '../app.css';
-	import { site_section } from './_stores.js';
+
+	import { page } from '$app/stores';
+	let site_section = 'lists';
+	if ( $page.path === '/' ) {
+		site_section = 'index';
+	} else if ( $page.path === '/about' ) {
+		site_section = 'about';
+	}
 </script>
 
 <main>
@@ -8,9 +15,9 @@
 	<div class="content">
 
 		<ul class="nav">
-			<li class="{$site_section==='index'?'active':''}"><a href="/">Epithet&nbsp;Search</a></li><!--
-			--><li class="{$site_section==='lists'?'active':''}"><a href="/lists">Epithet&nbsp;Lists</a></li><!--
-			--><li class="{$site_section==='about'?'active':''}"><a href="/about">About</a></li>
+			<li class="{site_section==='index'?'active':''}"><a href="/">Epithet&nbsp;Search</a></li><!--
+			--><li class="{site_section==='lists'?'active':''}"><a href="/lists">Epithet&nbsp;Lists</a></li><!--
+			--><li class="{site_section==='about'?'active':''}"><a href="/about">About</a></li>
 		</ul>
 
 		<slot/>
