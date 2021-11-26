@@ -5,12 +5,17 @@
 
 <div>
 	<p>
-		Hi! Thanks for checking out my little dom5 project!
+		Hi! 
+	</p>
+	<p>
+		This is a tool for the game Dominions 5.
 		You can search for your opponents' epithets to figure out their pretender designs, or just browse Illwinter's creations.
 		Ideas, feedback and bug reports are very welcome on <a rel="external" href="https://github.com/gtim/dom5-epithet-explorer">github</a> and the dom5 discords (@timotej).
 	</p>
 	<p>
-		Thank-you to <a rel="external" href="http://illwinter.com/dom5/">Illwinter</a> for creating my favorite game, and to Indract for doing the original binary-diving for Dominions 4.
+		Thank-you to <a rel="external" href="http://illwinter.com/dom5/">Illwinter</a> for creating my favorite game,
+		to Indract for doing the original binary-diving for Dominions 4,
+		and to you for checking out my little project!
 	</p>
 	<p style="text-align:right;">
 		/Tim
