@@ -5,7 +5,7 @@
 	let site_section = 'lists';
 	if ( $page.path === '/' ) {
 		site_section = 'index';
-	} else if ( $page.path === '/about' ) {
+	} else if ( $page.path === '/about' || $page.path === '/about/' ) {
 		site_section = 'about';
 	}
 </script>
