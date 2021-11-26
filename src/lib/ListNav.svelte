@@ -3,34 +3,34 @@
 </script>
 
 <ul class="listnav">
-	<ListNavLink href="/fire">F</ListNavLink>
-	<ListNavLink href="/air">A</ListNavLink>
-	<ListNavLink href="/water">W</ListNavLink>
-	<ListNavLink href="/earth">E</ListNavLink>
-	<ListNavLink href="/astral">S</ListNavLink>
-	<ListNavLink href="/death">D</ListNavLink>
-	<ListNavLink href="/nature">N</ListNavLink>
-	<ListNavLink href="/blood">B</ListNavLink>
+	<ListNavLink href="/fire/">F</ListNavLink>
+	<ListNavLink href="/air/">A</ListNavLink>
+	<ListNavLink href="/water/">W</ListNavLink>
+	<ListNavLink href="/earth/">E</ListNavLink>
+	<ListNavLink href="/astral/">S</ListNavLink>
+	<ListNavLink href="/death/">D</ListNavLink>
+	<ListNavLink href="/nature/">N</ListNavLink>
+	<ListNavLink href="/blood/">B</ListNavLink>
 
-	<ListNavLink href="/order">O</ListNavLink>
-	<ListNavLink href="/productivity">P</ListNavLink>
-	<ListNavLink href="/heat">H</ListNavLink>
-	<ListNavLink href="/growth">G</ListNavLink>
-	<ListNavLink href="/luck">L</ListNavLink>
-	<ListNavLink href="/magic">M</ListNavLink>
-	<ListNavLink href="/turmoil">T</ListNavLink>
-	<ListNavLink href="/sloth">S</ListNavLink>
-	<ListNavLink href="/cold">C</ListNavLink>
-	<ListNavLink href="/death-scale">D</ListNavLink>
-	<ListNavLink href="/misfortune">M</ListNavLink>
-	<ListNavLink href="/drain">D</ListNavLink>
+	<ListNavLink href="/order/">O</ListNavLink>
+	<ListNavLink href="/productivity/">P</ListNavLink>
+	<ListNavLink href="/heat/">H</ListNavLink>
+	<ListNavLink href="/growth/">G</ListNavLink>
+	<ListNavLink href="/luck/">L</ListNavLink>
+	<ListNavLink href="/magic/">M</ListNavLink>
+	<ListNavLink href="/turmoil/">T</ListNavLink>
+	<ListNavLink href="/sloth/">S</ListNavLink>
+	<ListNavLink href="/cold/">C</ListNavLink>
+	<ListNavLink href="/death-scale/">D</ListNavLink>
+	<ListNavLink href="/misfortune/">M</ListNavLink>
+	<ListNavLink href="/drain/">D</ListNavLink>
 
-	<ListNavLink href="/male">male</ListNavLink>
-	<ListNavLink href="/female">female</ListNavLink>
-	<ListNavLink href="/undead">undead</ListNavLink>
-	<ListNavLink href="/demon">demon</ListNavLink>
-	<ListNavLink href="/immobile">immobile</ListNavLink>
-	<ListNavLink href="/inanimate">inanimate</ListNavLink>
+	<ListNavLink href="/male/">male</ListNavLink>
+	<ListNavLink href="/female/">female</ListNavLink>
+	<ListNavLink href="/undead/">undead</ListNavLink>
+	<ListNavLink href="/demon/">demon</ListNavLink>
+	<ListNavLink href="/immobile/">immobile</ListNavLink>
+	<ListNavLink href="/inanimate/">inanimate</ListNavLink>
 </ul>
 
 

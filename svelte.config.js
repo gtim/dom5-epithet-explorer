@@ -12,7 +12,9 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		})
+		}),
+		// static adapter uses trailing slashes for pages either way
+		trailingSlash: 'always'
 	}
 };
 

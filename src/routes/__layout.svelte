@@ -16,8 +16,8 @@
 
 		<ul class="nav">
 			<li class="{site_section==='index'?'active':''}"><a href="/">Epithet&nbsp;Search</a></li><!--
-			--><li class="{site_section==='lists'?'active':''}"><a href="/lists">Epithet&nbsp;Lists</a></li><!--
-			--><li class="{site_section==='about'?'active':''}"><a href="/about">About</a></li>
+			--><li class="{site_section==='lists'?'active':''}"><a href="/lists/">Epithet&nbsp;Lists</a></li><!--
+			--><li class="{site_section==='about'?'active':''}"><a href="/about/">About</a></li>
 		</ul>
 
 		<slot/>
