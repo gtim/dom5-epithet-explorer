@@ -16,6 +16,10 @@ Minor improvements:
 - constraint-page: for sorcery/wizardry/all paths
 - constraint-page: for fear/awe/strength/domstr
 - constraint-page: for disciples
+- constraint-page: for nations
+- constraint-page: for pretender chassis
+- constraint-page: for constraint-less epithets
+- constraint-page: "misc"/"special" for epithets not listed elsewhere, e.g. eyes and ruler of nothing
 - constraint-page: friendly intro text
 - constraint-page: sort constraints s.t. relevant constraint comes first in each epithet
 - constraint-page: add e.g. "not demon" epithets after demon constraint-page
