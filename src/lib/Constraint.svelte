@@ -69,53 +69,63 @@
 		// Return
 		return combined_names;
 	}
+
+	let title = "";
+	let content = "";
+	let images = [];
+
+	if ( type == "magic path" ) {
+		images.push( { src: "/img/Path_"+field+".png", alt: field + " path" } );
+		content = ' &GreaterEqual; ' + value;
+	} else if ( type == "magic paths" ) {
+		for ( const path of field.split('') ) {
+			images.push( { src: "/img/Path_"+path+".png", alt: path + " path" } );
+		}
+		content = ' &GreaterEqual; ' + value;
+	} else if ( type == "scale" ) {
+		images.push( { src: "/img/Scale_"+field.toLowerCase()+".png", alt: field + " scale" } );
+		content = ( value == 3 ? ' = ' : ' &GreaterEqual; ' ) + value;
+	} else if ( type == "misc minimum" ) {
+		if ( field == "dominion strength" ) {
+			images.push( { src: "/img/dominioncandle.png", alt: "Dominion strength" } );
+			content = ' &GreaterEqual; ' + value;
+		} else {
+			content = field + ' &GreaterEqual; ' + value;
+		}
+	} else if ( type == "boolean" ) {
+		content = ( value ? "" : "not" ) + field;
+	} else if ( type == "nation" ) {
+		content = nation_ids_to_names(value);
+	} else if ( type == "chassis" ) {
+		content = pretenders.pretenders_by_id[value];
+	} else if ( type == "gender" ) {
+		content = value;
+	} else if ( type == "team leader gender" ) {
+		content = 'disciple to ' + value + ' pretender';
+	} else if ( type == "unique" ) {
+		if ( unique_class_epithets(value).length == 1 ) {
+			content = 'lacks epithet <em>' + unique_class_epithets(value)[0] + '</em>';
+		} else {
+			content = 'lacks <span title="' + unique_class_epithets(value).join(', ') + '" class="unique_class_epithets_hover">these epithets</span>';
+		}
+	} else if ( type == "no constraints" ) {
+		content = 'no restrictions';
+	} else if ( type == "default" ) {
+		content = 'no epithet found after 10,000 random picks';
+	} else {
+		content = '[ invalid constraint "'+type+':'+field+':'+value+'", please report this bug! ]';
+	}
 </script>
 
-<div class="constraint">
-	{#if type == "magic path"}
-		<span class="image_widener"><img src="/img/Path_{field}.png" alt="{field} path"></span> &GreaterEqual; {value}
-	{:else if type == "magic paths"}
-		{#each field.split('') as path}
-			<img src="/img/Path_{path}.png" style="height:18px;" alt="{field} path"> 
-		{/each}
-		&GreaterEqual; {value}
-	{:else if type == "scale"}
-		<span class="image_widener"><img src="/img/Scale_{field.toLowerCase()}.png" alt="{field} scale"/></span>
-		{#if value == 3}
-			= {value}
-		{:else}
-			&GreaterEqual; {value}
-		{/if}
-	{:else if type == "misc minimum"}
-		{#if field == "dominion strength"}
-			<span class="image_widener"><img src="/img/dominioncandle.png" alt="Dominion strength"/></span>
-		{:else}
-			{field}
-		{/if}
-		&GreaterEqual; {value}
-	{:else if type == "boolean"}
-		{value ? "" : "not"} {field}
-	{:else if type == "nation"}
-		{nation_ids_to_names(value)}
-	{:else if type == "chassis"}
-		{pretenders.pretenders_by_id[value]}
-	{:else if type == "gender"}
-		{value}
-	{:else if type == "team leader gender"}
-		disciple to {value} pretender
-	{:else if type == "unique"}
-		{#if unique_class_epithets(value).length == 1}
-			lacks epithet <em>{unique_class_epithets(value)[0]}</em>
-		{:else}
-			lacks <span title="{unique_class_epithets(value).join(', ')}" class="unique_class_epithets_hover">these epithets</span>
-		{/if}
-	{:else if type == "no constraints"}
-		no restrictions
-	{:else if type == "default"}
-		no epithet found after 10,000 random picks
+<div class="constraint" {title}>
+	{#if images.length == 1}
+		<span class="image_widener"><img src="{images[0].src}" alt="{images[0].alt}"></span>
 	{:else}
-		[ invalid constraint "{type}:{field}:{value}", please report this bug! ]
+		{#each images as image}
+			<img src="{image.src}" alt="{image.alt}" style="height:18px;">
+		{/each}
 	{/if}
+	{@html content}
 </div>
 
 <style>
