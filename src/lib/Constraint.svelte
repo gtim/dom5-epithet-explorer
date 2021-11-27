@@ -93,7 +93,7 @@
 			content = field + ' &GreaterEqual; ' + value;
 		}
 	} else if ( type == "boolean" ) {
-		content = ( value ? "" : "not" ) + field;
+		content = ( value ? "" : "not " ) + field;
 	} else if ( type == "nation" ) {
 		content = nation_ids_to_names(value);
 	} else if ( type == "chassis" ) {
