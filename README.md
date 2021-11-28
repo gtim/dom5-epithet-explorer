@@ -25,6 +25,7 @@ Minor improvements:
 - constraint-page: friendly intro text
 - constraint-page: sort constraints s.t. relevant constraint comes first in each epithet
 - constraint-page: add e.g. "not demon" epithets after demon constraint-page
+- google search console thinks page is not mobile friendly because "clickable elements too close together"
 
 Major features that could be nice at some point:
 - estimate dominion strength from number of epithets
