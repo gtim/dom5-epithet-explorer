@@ -19,7 +19,7 @@
 		display: inline-block;
 		border-bottom: none;
 		height: 20px;
-		line-height: 20px;
+		line-height: 48px;
 		font-size: 18px;
 		margin:0;
 		padding:0;
@@ -29,7 +29,8 @@
 		color: #7353BA;
 		display: block;
 		margin:0;
-		padding:0 4px;
+		padding:0 6px;
+		min-width:34px;
 	}
 	a:hover {
 		color: #FAA6FF;

@@ -39,7 +39,12 @@
 		list-style:none;
 		text-align:center;
 		padding:0;
-		margin:0;
+		margin:0 80px;
 		display: inline-block;
+	}
+	@media (max-width: 560px) {
+		ul.listnav {
+			margin:0;
+		}
 	}
 </style>
