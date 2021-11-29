@@ -38,7 +38,7 @@
 		<title>Epithet Explorer for Dominions 5 Pretenders</title>
 	</svelte:head>
 
-	<div>
+	<div style="margin-top:40px;">
 		<AutoComplete 
 			items={$AllEpithets} bind:selectedItem={selectedEpithet}
 			labelFieldName="string"

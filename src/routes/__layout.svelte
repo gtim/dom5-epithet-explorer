@@ -37,7 +37,7 @@
 		list-style:none;
 		text-align:center;
 		padding:0;
-		margin:20px 0 40px 0;
+		margin:20px 0 10px 0;
 	}
 	ul.nav li {
 		display: inline-block;
