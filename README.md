@@ -32,3 +32,13 @@ Minor improvements:
 Major features that could be nice at some point:
 - estimate dominion strength from number of epithets
 - reverse-explorer: from a pretender design, estimate probability to get each epithet 
+
+## Build instructions
+
+- Clone this repository
+- `npm install`
+- If Dominions has been updated, make sure to update the binary, as well as `BaseU.csv` from the inspector.
+- Extract epithets from the binary: `perl extract-epithets.pl`
+- Get pretender names from unit IDs: `perl baseU_to_pretender.pl`
+- Build: `npm run build`
+- The web app can now be found in the build directory.
