@@ -25,12 +25,15 @@
 	<ListNavLink href="/misfortune/">M</ListNavLink>
 	<ListNavLink href="/drain/">D</ListNavLink>
 
+	<ListNavLink href="/chassis/">chassis</ListNavLink>
+
 	<ListNavLink href="/male/">male</ListNavLink>
 	<ListNavLink href="/female/">female</ListNavLink>
 	<ListNavLink href="/undead/">undead</ListNavLink>
 	<ListNavLink href="/demon/">demon</ListNavLink>
 	<ListNavLink href="/immobile/">immobile</ListNavLink>
 	<ListNavLink href="/inanimate/">inanimate</ListNavLink>
+
 </ul>
 
 

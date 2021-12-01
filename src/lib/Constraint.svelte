@@ -97,6 +97,10 @@
 	} else if ( type == "nation" ) {
 		content = nation_ids_to_names(value);
 	} else if ( type == "chassis" ) {
+		images.push( { 
+			src: "/img/pretender/"+value+".png",
+			alt: "Pretender chassis: " + pretenders.pretenders_by_id[value]
+		} );
 		content = pretenders.pretenders_by_id[value];
 	} else if ( type == "gender" ) {
 		content = value;

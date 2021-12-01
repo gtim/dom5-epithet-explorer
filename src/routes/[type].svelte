@@ -52,6 +52,13 @@
 					ctype: scale + '-scale',
 					cfilter: (c) => c.type === "scale" && c.field.toLowerCase() === scale
 				} }; break;
+
+			case 'chassis':
+				return { props: {
+					ctype: page.params.type,
+					cfilter: (c) => c.type === "chassis",
+					pretender_phrase: "These are the epithets unique to specific pretender chassis."
+				} }; break;
 		}
 	}
 </script>
@@ -59,6 +66,7 @@
 <script>
 	export let ctype;
 	export let cfilter;
+	export let pretender_phrase = "";
 
 	import EpithetList from '$lib/EpithetList.svelte';
 	import ListNav from '$lib/ListNav.svelte';
@@ -89,10 +97,14 @@
 	<ListNav />
 
 	<p>
-	{#if filteredEpithets.length == 1}
-		This is the only epithet unique to {ctype} pretenders.
+	{#if pretender_phrase}
+		{pretender_phrase}
 	{:else}
-		These are the {filteredEpithets.length} epithets unique to {ctype} pretenders.
+		{#if filteredEpithets.length == 1}
+			This is the only epithet unique to {ctype} pretenders.
+		{:else}
+			These are the {filteredEpithets.length} epithets unique to {ctype} pretenders.
+		{/if}
 	{/if}
 	{#if ctype == "order-scale"}
 		The poetry and song Order-65535 bug is on my to-fix list.
