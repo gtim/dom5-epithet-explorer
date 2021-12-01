@@ -110,7 +110,7 @@
 		if ( unique_class_epithets(value).length == 1 ) {
 			content = 'lacks epithet <em>' + unique_class_epithets(value)[0] + '</em>';
 		} else {
-			content = 'lacks <span title="' + unique_class_epithets(value).join(', ') + '" class="unique_class_epithets_hover">these epithets</span>';
+			content = 'lacks <span title="' + unique_class_epithets(value).join(', ') + '" style="text-decoration:underline #fcfcfc dashed">these epithets</span>';
 		}
 	} else if ( type == "no constraints" ) {
 		content = 'no restrictions';
@@ -149,8 +149,5 @@
 	}
 	span.image_widener img {
 		height:18px;
-	}
-	span.unique_class_epithets_hover {
-		text-decoration: underline #fcfcfc dashed;
 	}
 </style>
