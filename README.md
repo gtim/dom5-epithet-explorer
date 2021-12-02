@@ -32,10 +32,12 @@ Major features that could be nice at some point:
 
 ## Build instructions
 
-- Clone this repository
-- `npm install`
-- If Dominions has been updated, make sure to update the binary, as well as `BaseU.csv` from the inspector.
-- Extract epithets from the binary: `perl extract-epithets.pl`
-- Get pretender names from unit IDs: `perl baseU_to_pretender.pl`
-- Build: `npm run build`
-- The web app can now be found in the build directory.
+    git clone https://github.com/gtim/dom5-epithet-explorer.git
+    npm install
+    npm run build
+
+## Re-extract epithets when Dominions 5 updates
+
+- `perl extract-epithets.pl` - extract epithets, set number of epithets manually
+- update `BaseU.csv` from the dom5 inspector.
+- `perl baseU_to_pretender.pl`
