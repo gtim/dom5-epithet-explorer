@@ -9,7 +9,6 @@ Known bugs:
 
 Minor improvements:
 - handle titles (Prince / Lord / Emperor / etc)
-- sprites for pretenders
 - grey-out already picked epithets
 - handle #/##/$ chars somehow 
 - add explanatory title/hover texts to all constraints
