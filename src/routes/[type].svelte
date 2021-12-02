@@ -59,6 +59,12 @@
 					cfilter: (c) => c.type === "chassis",
 					pretender_phrase: "These are the epithets unique to specific pretender chassis."
 				} }; break;
+			case 'nation':
+				return { props: {
+					ctype: page.params.type,
+					cfilter: (c) => c.type === "nation",
+					pretender_phrase: "These are the epithets unique to specific nations."
+				} }; break;
 		}
 	}
 </script>

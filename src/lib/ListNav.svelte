@@ -26,6 +26,7 @@
 	<ListNavLink href="/drain/">D</ListNavLink>
 
 	<ListNavLink href="/chassis/">chassis</ListNavLink>
+	<ListNavLink href="/nation/">nation</ListNavLink>
 
 	<ListNavLink href="/male/">male</ListNavLink>
 	<ListNavLink href="/female/">female</ListNavLink>
