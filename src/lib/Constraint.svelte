@@ -52,18 +52,19 @@
 		for ( let i = 0; i < nation_names.length; i++ ) {
 			let age = nation_names[i].substring( 0, 2 );
 			if ( age === 'EA' || age === 'MA' || age === 'LA' ) {
+				let age_ix = { EA: 0, MA: 1, LA: 2 };
 				let ageless_name = nation_names[i].substring( 3 );
 				if ( ! ( ageless_name in nation_ages ) ) {
-					nation_ages[ageless_name] = [];
+					nation_ages[ageless_name] = ['','',''];
 				}
-				nation_ages[ageless_name].push( age );
+				nation_ages[ageless_name][age_ix[age]] = age;
 			} else {
 				combined_names.push( nation_names[i] );
 			}
 		}
 		// Combine EA/MA/LA nations
 		for ( let ageless_name in nation_ages ) {
-			let combined_name = nation_ages[ageless_name].join('/') + ' ' + ageless_name;
+			let combined_name = nation_ages[ageless_name].filter(age=>age).join('/') + ' ' + ageless_name;
 			combined_names.push( combined_name );
 		}
 		// Return

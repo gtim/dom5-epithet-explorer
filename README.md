@@ -8,7 +8,6 @@ Known bugs:
 - "# of Poetry and Song" has order >= 65535
 
 Minor improvements:
-- list EA/MA/LA in order, e.g. for God of Luck Through Hard Work
 - handle titles (Prince / Lord / Emperor / etc)
 - sprites for pretenders
 - grey-out already picked epithets
