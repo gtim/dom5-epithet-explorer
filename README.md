@@ -14,7 +14,6 @@ Minor improvements:
 - add explanatory title/hover texts to all constraints
 - constraint-page: for sorcery/wizardry/all paths
 - constraint-page: for fear/awe/strength/domstr
-- constraint-page: for disciples
 - constraint-page: for constraint-less epithets
 - constraint-page: for unreachable epithets
 - constraint-page: "misc"/"special" for epithets not listed elsewhere, e.g. eyes and ruler of nothing

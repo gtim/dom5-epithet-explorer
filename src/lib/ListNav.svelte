@@ -34,6 +34,7 @@
 	<ListNavLink href="/demon/">demon</ListNavLink>
 	<ListNavLink href="/immobile/">immobile</ListNavLink>
 	<ListNavLink href="/inanimate/">inanimate</ListNavLink>
+	<ListNavLink href="/disciple/">disciple</ListNavLink>
 
 </ul>
 

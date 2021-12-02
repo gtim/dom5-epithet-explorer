@@ -28,6 +28,7 @@
 			case 'immortal': // none at the time of coding
 			case 'immobile':
 			case 'inanimate':
+			case 'disciple':
 				return { props: {
 					ctype: page.params.type,
 					cfilter: (c) => c.type === "boolean" && c.field === page.params.type && c.value === 1,
