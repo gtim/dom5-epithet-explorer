@@ -66,6 +66,16 @@
 					cfilter: (c) => c.type === "nation",
 					pretender_phrase: "These are the epithets unique to specific nations."
 				} }; break;
+
+			case 'special':
+				return { props: {
+					ctype: page.params.type,
+					cfilter: (c) => (
+						c.type === "misc minimum" && ( c.field === "eyes" || c.field === "fear" || c.field === "awe" || c.field === "strength" )
+						|| c.type === "default"
+					),
+					pretender_phrase: "These are the epithets requiring special properties not in the other lists."
+				} }; break;
 		}
 	}
 </script>
