@@ -11,7 +11,6 @@ Minor improvements:
 - handle titles (Prince / Lord / Emperor / etc)
 - grey-out already picked epithets
 - handle #/##/$ chars somehow 
-- add explanatory title/hover texts to all constraints
 - constraint-page: for sorcery/wizardry/all paths
 - constraint-page: for domstr
 - constraint-page: for constraint-less epithets

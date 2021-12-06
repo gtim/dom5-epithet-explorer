@@ -3,6 +3,7 @@
 	import * as nations from './nations.json';
 	import * as pretenders from './pretenders.json';
 	import { AllEpithets } from './AllEpithets.js';
+	import { MagicPathNames } from '$lib/stores.js';
 
 	export let type;
 	export let field = "";
@@ -78,14 +79,17 @@
 	if ( type == "magic path" ) {
 		images.push( { src: "/img/Path_"+field+".png", alt: field + " path" } );
 		content = ' &GreaterEqual; ' + value;
+		title = "Pretender has " + $MagicPathNames[field] + " magic at least level " + value + ".";
 	} else if ( type == "magic paths" ) {
 		for ( const path of field.split('') ) {
 			images.push( { src: "/img/Path_"+path+".png", alt: path + " path" } );
 		}
 		content = ' &GreaterEqual; ' + value;
+		title = "Pretender has " + field.split('').map(f=>$MagicPathNames[f]).join(', ') + " magic paths at least level " + value + " each.";
 	} else if ( type == "scale" ) {
 		images.push( { src: "/img/Scale_"+field.toLowerCase()+".png", alt: field + " scale" } );
 		content = ( value == 3 ? ' = ' : ' &GreaterEqual; ' ) + value;
+		title = "Pretender has " + field + " scale of at least " + value + ".";
 	} else if ( type == "misc minimum" ) {
 		if ( field == "dominion strength" ) {
 			images.push( { src: "/img/dominioncandle.png", alt: "Dominion strength" } );
@@ -93,32 +97,43 @@
 		} else {
 			content = field + ' &GreaterEqual; ' + value;
 		}
+		title = "Pretender has " + field + " of at least " + value + ".";
 	} else if ( type == "boolean" ) {
 		content = ( value ? "" : "not " ) + field;
+		title = "Pretender is " + content + ".";
 	} else if ( type == "nation" ) {
 		content = nation_ids_to_names(value);
+		title = "Pretender nation is " + content + ".";
 	} else if ( type == "chassis" ) {
 		images.push( { 
 			src: "/img/pretender/"+value+".png",
 			alt: "Pretender chassis: " + pretenders.pretenders_by_id[value]
 		} );
 		content = pretenders.pretenders_by_id[value];
+		title = "Pretender chassis is " + content + " (unit ID #" + value + ").";
 	} else if ( type == "gender" ) {
 		content = value;
+		title = "Pretender is " + value;
 	} else if ( type == "team leader gender" ) {
 		content = 'disciple to ' + value + ' pretender';
+		title = "Pretender is the disciple to a " + value + " pretender in a Disciples game.";
 	} else if ( type == "unique" ) {
 		if ( unique_class_epithets(value).length == 1 ) {
 			content = 'lacks epithet <em>' + unique_class_epithets(value)[0] + '</em>';
+			title = "Pretender can't also have the epithet \"" + unique_class_epithets(value)[0] + "\".";
 		} else {
 			content = 'lacks <span title="' + unique_class_epithets(value).join(', ') + '" style="text-decoration:underline #fcfcfc dashed">these epithets</span>';
+			title = "Pretender can't also have any of these epithets: \"" + unique_class_epithets(value).join('", "') + "\".";
 		}
 	} else if ( type == "no constraints" ) {
 		content = 'no restrictions';
+		title = "Any pretender can get this epithet.";
 	} else if ( type == "default" ) {
 		content = 'no epithet found after 10,000 random picks';
+		title = "If, after picking a random epithet from the entire list 10,000 times, still not a single one whose requirements are fulfilled has been picked, then the Pretender is blessed with this very rare epithet.";
 	} else {
 		content = '[ invalid constraint "'+type+':'+field+':'+value+'", please report this bug! ]';
+		title = "!!!";
 	}
 </script>
 
