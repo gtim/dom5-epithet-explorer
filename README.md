@@ -20,7 +20,6 @@ Minor improvements:
 - constraint-page: sort constraints s.t. relevant constraint comes first in each epithet
 - constraint-page: add e.g. "not demon" epithets after demon constraint-page
 - make mobile-friendly "clickable elements too close together" on constraint pages (according to google search console)
-- make mobile-friendly "Text too small to read" on constraint pages (according to google search console)
 - make top nav shrink with width s.t. it always fits on one line.
 
 Major features that could be nice at some point:
