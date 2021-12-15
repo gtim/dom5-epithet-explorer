@@ -11,7 +11,9 @@
 	<ListNavLink href="/death/">D</ListNavLink>
 	<ListNavLink href="/nature/">N</ListNavLink>
 	<ListNavLink href="/blood/">B</ListNavLink>
-
+</ul>
+<br/>
+<ul class="listnav">
 	<ListNavLink href="/order/">O</ListNavLink>
 	<ListNavLink href="/productivity/">P</ListNavLink>
 	<ListNavLink href="/heat/">H</ListNavLink>
@@ -24,10 +26,11 @@
 	<ListNavLink href="/death-scale/">D</ListNavLink>
 	<ListNavLink href="/misfortune/">M</ListNavLink>
 	<ListNavLink href="/drain/">D</ListNavLink>
-
+</ul>
+<br/>
+<ul class="listnav">
 	<ListNavLink href="/chassis/">chassis</ListNavLink>
 	<ListNavLink href="/nation/">nation</ListNavLink>
-
 	<ListNavLink href="/male/">male</ListNavLink>
 	<ListNavLink href="/female/">female</ListNavLink>
 	<ListNavLink href="/undead/">undead</ListNavLink>
