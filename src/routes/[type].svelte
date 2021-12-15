@@ -111,8 +111,6 @@
 		<title>{ctypeCapitalisedFirst} Pretender Epithets in Dominions 5</title>
 	</svelte:head>
 
-	<ListNav />
-
 	<p>
 	{#if pretender_phrase}
 		{pretender_phrase}
@@ -129,4 +127,6 @@
 	</p>
 
 	<EpithetList epithets={filteredEpithets} />
+
+	<ListNav />
 
