@@ -8,18 +8,21 @@
 
 
 <li class:active={isActive}>
-	<a {href}><img {src} {title} alt="{title}"/></a>
+	<a {href}>
+		<span style="display:inline-block;vertical-align:middle;height:100%;"></span><!--
+		--><img {src} {title} alt="{title}"/>
+	</a>
 </li>
 
 
 <style>
 	li {
 		display: inline-block;
-		height: 48px;
 		margin:0;
 		padding:0;
 	}
 	li a {
+		white-space:nowrap;
 		text-decoration: none;
 		border:none;
 		display: block;
