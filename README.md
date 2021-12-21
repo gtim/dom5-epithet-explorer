@@ -15,7 +15,6 @@ Minor improvements:
 - constraint-page: for domstr
 - constraint-page: for constraint-less epithets
 - constraint-page: for unreachable epithets
-- constraint-page: icons instead of magic paths and scales abbreviations
 - constraint-page: friendly intro text
 - constraint-page: sort constraints s.t. relevant constraint comes first in each epithet
 - constraint-page: add e.g. "not demon" epithets after demon constraint-page
