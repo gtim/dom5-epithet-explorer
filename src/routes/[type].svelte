@@ -1,13 +1,28 @@
 <script context="module">
 
+	function firstToUpperCase(str) {
+		return str.charAt(0).toUpperCase() + str.slice(1);
+	}
+
 	export async function load({ page, fetch, session, stuff }) {
 		if ( [ 'fire', 'air', 'water', 'earth', 'astral', 'death', 'nature', 'blood' ].includes( page.params.type ) ) {
+			/* Magic Path */
 			let path_abbrev = page.params.type === 'astral' ? 'S' : page.params.type.charAt(0).toUpperCase();
 			return { props: {
 				ctype: page.params.type,
 				cfilter: (c) => c.type === "magic path" && c.field === path_abbrev,
 				header_image: '/img/Path_' + path_abbrev + '.png',
-				header_text: page.params.type.charAt(0).toUpperCase() + page.params.type.slice(1) + ' Pretender Epithets'
+				header_title: firstToUpperCase(page.params.type) + ' Pretender Epithets'
+			} }; 
+		} else if ( [ 'death-scale', 'order', 'turmoil', 'productivity', 'sloth', 'heat', 'cold', 'growth', 'luck', 'misfortune', 'magic', 'drain' ].includes( page.params.type ) ) {
+			/* Scale */
+			var scale = page.params.type === 'death-scale' ? 'death' : page.params.type;
+			return { props: {
+				ctype: scale + '-scale',
+				cfilter: (c) => c.type === "scale" && c.field.toLowerCase() === scale,
+				header_image: '/img/Scale_' + scale + '.png',
+				header_title: firstToUpperCase(scale) + ' Pretender Epithets',
+				header_text: scale === 'order' ? 'The poetry and song Order-65535 bug is on my to-fix list.' : ''
 			} }; 
 		} else {
 			switch ( page.params.type ) {
@@ -27,25 +42,6 @@
 						cfilter: (c) => c.type === "boolean" && c.field === page.params.type && c.value === 1,
 					} };
 					break;
-
-				case 'death-scale':
-					var scale = 'death';
-				case 'order':
-				case 'turmoil':
-				case 'productivity':
-				case 'sloth':
-				case 'heat':
-				case 'cold':
-				case 'growth':
-				case 'luck':
-				case 'misfortune':
-				case 'magic':
-				case 'drain':
-					scale = typeof scale !== 'undefined' ? scale : page.params.type;
-					return { props: {
-						ctype: scale + '-scale',
-						cfilter: (c) => c.type === "scale" && c.field.toLowerCase() === scale
-					} }; break;
 
 				case 'chassis':
 					return { props: {
@@ -78,6 +74,7 @@
 	export let ctype;
 	export let cfilter;
 	export let header_image;
+	export let header_title;
 	export let header_text;
 	export let pretender_phrase = "";
 
@@ -108,16 +105,19 @@
 	</svelte:head>
 
 
-	{#if header_text}
+	{#if header_title}
 		<h1>
 		{#if header_image}
 			<img src="{header_image}" style="transform:scaleX(-1);"/>
 		{/if}
-		{header_text}
+		{header_title}
 		{#if header_image}
 			<img src="{header_image}"/>
 		{/if}
 		</h1>
+		{#if header_text}
+			<p>{header_text}</p>
+		{/if}
 	{:else}
 		<p>
 		{#if pretender_phrase}
@@ -128,9 +128,6 @@
 			{:else}
 				These are the {filteredEpithets.length} epithets unique to {ctype} pretenders.
 			{/if}
-		{/if}
-		{#if ctype == "order-scale"}
-			The poetry and song Order-65535 bug is on my to-fix list.
 		{/if}
 		</p>
 	{/if}
