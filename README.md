@@ -6,6 +6,7 @@ A tool to explore pretender epithets/titles for the game Dominions 5. Deployed o
 
 Known bugs:
 - "# of Poetry and Song" has order >= 65535
+- "does not have these epithets" links can't be expanded on mobile
 
 Minor improvements:
 - handle titles (Prince / Lord / Emperor / etc)
