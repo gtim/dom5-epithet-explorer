@@ -10,20 +10,14 @@ Known bugs:
 
 Minor improvements:
 - handle titles (Prince / Lord / Emperor / etc)
-- grey-out already picked epithets
 - handle #/##/$ chars somehow 
 - constraint-page: for sorcery/wizardry/all paths
 - constraint-page: for domstr
 - constraint-page: for constraint-less epithets
-- constraint-page: for unreachable epithets
 - constraint-page: friendly intro text
 - constraint-page: sort constraints s.t. relevant constraint comes first in each epithet
 - constraint-page: add e.g. "not demon" epithets after demon constraint-page
 - make top nav shrink with width s.t. it always fits on one line.
-
-Major features that could be nice at some point:
-- estimate dominion strength from number of epithets
-- reverse-explorer: from a pretender design, estimate probability to get each epithet 
 
 ## Build instructions
 
