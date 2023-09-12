@@ -20,7 +20,6 @@
 				cfilter: (c) => c.type === "scale" && c.field.toLowerCase() === scale,
 				header_image: '/img/Scale_' + scale + '.png',
 				header_title: firstToUpperCase(scale) + ' Pretender Epithets',
-				header_text: scale === 'order' ? 'The poetry and song Order-65535 bug is on my to-fix list.' : ''
 			} }; 
 		} else if ( page.params.type === 'chassis' ) {
 			return { props: {

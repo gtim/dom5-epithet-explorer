@@ -4519,7 +4519,7 @@
             {
                "field" : "Order",
                "type" : "scale",
-               "value" : 65535
+               "value" : -1
             }
          ],
          "id" : 289,

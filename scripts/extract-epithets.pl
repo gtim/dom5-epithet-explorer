@@ -23,7 +23,7 @@ my $blob = read_binary( $FILENAME_EXE_X64 );
 my @epithets;
 for ( my $epithet_i = 0; ; $epithet_i++ ) {
 	my $epithet_bytes = substr( $blob, $EPITHETS_OFFSET + $epithet_i * $EPITHET_LENGTH, $EPITHET_LENGTH );
-	my ( $name_offset, @conditions_and_values ) = unpack 'Q<'.('S<'x12), $epithet_bytes;
+	my ( $name_offset, @conditions_and_values ) = unpack 'Q<'.('s<'x12), $epithet_bytes;
 	my $name = get_cstring( $blob, $name_offset - $IMAGEBASE_OFFSET - 0x140000000 );
 	last if $name eq 'end';
 
