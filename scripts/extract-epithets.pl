@@ -9,11 +9,11 @@ use warnings;
 use File::Slurper qw/read_binary write_text/;
 use JSON qw//;
 
-my $FILENAME_EXE_X64 = 'binaries/Dominions561-64.exe';
+my $FILENAME_EXE_X64 = 'binaries/Dominions596k.exe';
 my $FILENAME_EPITHETS_OUT = 'src/lib/epithets.json';
 
-my $IMAGEBASE_OFFSET = 0x1A00;
-my $EPITHETS_OFFSET = 0x1364664+12 - $IMAGEBASE_OFFSET; 
+my $IMAGEBASE_OFFSET = 0x1600;
+my $EPITHETS_OFFSET = 0x2439234+12 - $IMAGEBASE_OFFSET; 
 my $EPITHET_LENGTH = 0x20;
 
 my $blob = read_binary( $FILENAME_EXE_X64 );
@@ -26,6 +26,10 @@ for ( my $epithet_i = 0; ; $epithet_i++ ) {
 	my ( $name_offset, @conditions_and_values ) = unpack 'Q<'.('s<'x12), $epithet_bytes;
 	my $name = get_cstring( $blob, $name_offset - $IMAGEBASE_OFFSET - 0x140000000 );
 	last if $name eq 'end';
+
+	#say $name;
+	#foreach (split //, $epithet_bytes) { printf("%02x ", ord ); }
+	#print "\n";
 
 	my @conditions = @conditions_and_values[0..5];
 	my @values = @conditions_and_values[6..11];
@@ -93,7 +97,7 @@ sub constraint_hash {
 		# - # of the Apes
 		# - The Destroyer
 		# - The Unborn
-		# TODO: check disassembly to make sure this si ignored.
+		# TODO: check disassembly to make sure this is ignored.
 		return;
 	}
 
@@ -151,7 +155,8 @@ sub constraint_hash {
 	if ( $con == 1004 ) { return {'type' => 'magic path', 'field' => 'S', 'value' => $val } }
 	if ( $con == 1005 ) { return {'type' => 'magic path', 'field' => 'D', 'value' => $val } }
 	if ( $con == 1006 ) { return {'type' => 'magic path', 'field' => 'N', 'value' => $val } }
-	if ( $con == 1007 ) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
+	if ( $con == 1007 ) { return {'type' => 'magic path', 'field' => 'G', 'value' => $val } }
+	if ( $con == 1008 ) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
 	if ( $con == 1051 ) { return {'type' => 'magic paths', field => 'FAWE',      'value' => $val } }
 	if ( $con == 1052 ) { return {'type' => 'magic paths', field => 'SDNB',      'value' => $val } }
 	if ( $con == 1053 ) { return {'type' => 'magic paths', field => 'FAWESDNB',  'value' => $val } }
@@ -173,7 +178,7 @@ sub constraint_hash {
 	if ( $con == 2104 ) { return { 'type' => 'scale', 'field' => 'Luck',         value => $val } }
 	if ( $con == 2105 ) { return { 'type' => 'scale', 'field' => 'Magic',        value => $val } }
 
-	default { die "unhandled condition: $con=$val"; }
+	warn "unhandled condition: $con=$val";
 }
 
 sub get_titles {
