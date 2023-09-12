@@ -19,13 +19,13 @@ my $EPITHET_LENGTH = 0x20;
 my $blob = read_binary( $FILENAME_EXE_X64 );
 
 # Read all epithets
-# TODO: find number of epithets from binary
 
 my @epithets;
-for my $epithet_i ( 0..745 ) {
+for ( my $epithet_i = 0; ; $epithet_i++ ) {
 	my $epithet_bytes = substr( $blob, $EPITHETS_OFFSET + $epithet_i * $EPITHET_LENGTH, $EPITHET_LENGTH );
 	my ( $name_offset, @conditions_and_values ) = unpack 'Q<'.('S<'x12), $epithet_bytes;
 	my $name = get_cstring( $blob, $name_offset - $IMAGEBASE_OFFSET - 0x140000000 );
+	last if $name eq 'end';
 
 	my @conditions = @conditions_and_values[0..5];
 	my @values = @conditions_and_values[6..11];
