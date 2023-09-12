@@ -9,11 +9,11 @@ use warnings;
 use File::Slurper qw/read_binary write_text/;
 use JSON qw//;
 
-my $FILENAME_EXE_X64 = 'binaries/Dominions554-64.exe';
+my $FILENAME_EXE_X64 = 'binaries/Dominions561-64.exe';
 my $FILENAME_EPITHETS_OUT = 'src/lib/epithets.json';
 
-my $IMAGEBASE_OFFSET = 0x2200;
-my $EPITHETS_OFFSET = 0x13533b4+12 - $IMAGEBASE_OFFSET; 
+my $IMAGEBASE_OFFSET = 0x1A00;
+my $EPITHETS_OFFSET = 0x1364664+12 - $IMAGEBASE_OFFSET; 
 my $EPITHET_LENGTH = 0x20;
 
 my $blob = read_binary( $FILENAME_EXE_X64 );
