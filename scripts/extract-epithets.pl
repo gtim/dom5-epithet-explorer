@@ -5,7 +5,6 @@
 
 use 5.26.0;
 use warnings;
-use experimental qw/switch/;
 
 use File::Slurper qw/read_binary write_text/;
 use JSON qw//;
@@ -98,86 +97,83 @@ sub constraint_hash {
 		return;
 	}
 
-	given ( $con ) {
+	if ( $con ==    0 ) { return; }
 
-		when (0) { return; }
+	# Unique: No other epithets of this category can be chosen
+	if ( $con ==    4 ) { return {'type' => 'unique', value => $val} }
 
-		# Unique: No other epithets of this category can be chosen
-		when (   4) { return {'type' => 'unique', value => $val} }
+	# Nation
+	if ( $con ==    3 ) { return {'type' => 'nation', value => $val } }
 
-		# Nation
-		when (   3) { return {'type' => 'nation', value => $val } }
+	# mnr / chassis
+	if ( $con ==   18 ) { return {'type' => 'chassis', value => $val } }
 
-		# mnr / chassis
-		when (  18) { return {'type' => 'chassis', value => $val } }
-
-		# Gender
-		when (   2) {
-			if ( $val == 0 ) {
-				return {'type' => 'gender', value => 'female' }
-			} elsif ( $val == 1 ) {
-				return {'type' => 'gender', value => 'male' }
-			} else {
-				die "valid gender unhandled";
-			}
+	# Gender
+	if ( $con ==    2 ) {
+		if ( $val == 0 ) {
+			return {'type' => 'gender', value => 'female' }
+		} elsif ( $val == 1 ) {
+			return {'type' => 'gender', value => 'male' }
+		} else {
+			die "valid gender unhandled";
 		}
-		when (  19) {
-			if ( $val == 0 ) {
-				return {'type' => 'team leader gender', value => 'female' }
-			} elsif ( $val == 1 ) {
-				return {'type' => 'team leader gender', value => 'male' }
-			} else {
-				die "valid gender but unhandled";
-			}
-		}
-
-		# Boolean
-		when (  11) { return {'type' => 'boolean', 'field' => 'undead',    'value' => $val } }
-		when (  12) { return {'type' => 'boolean', 'field' => 'demon',     'value' => $val } }
-		when (  14) { return {'type' => 'boolean', 'field' => 'immortal',  'value' => $val } }
-		when (  15) { return {'type' => 'boolean', 'field' => 'immobile',  'value' => $val } }
-		when (  16) { return {'type' => 'boolean', 'field' => 'inanimate', 'value' => $val } }
-		when (  17) { return {'type' => 'boolean', 'field' => 'disciple',  'value' => $val } }
-
-		# Misc.
-		when (   1) { return {'type' => 'misc minimum', field => 'dominion strength', 'value' => $val } }
-		when (   5) { return {'type' => 'misc minimum', field => 'fear',              'value' => $val } }
-		when (   6) { return {'type' => 'misc minimum', field => 'awe',               'value' => $val } }
-		when (   7) { return {'type' => 'misc minimum', field => 'strength',          'value' => $val } }
-		when (  20) { return {'type' => 'misc minimum', field => 'eyes',              'value' => $val+2 } }
-
-		# Minimum magic path
-		when (1000) { return {'type' => 'magic path', 'field' => 'F', 'value' => $val } }
-		when (1001) { return {'type' => 'magic path', 'field' => 'A', 'value' => $val } }
-		when (1002) { return {'type' => 'magic path', 'field' => 'W', 'value' => $val } }
-		when (1003) { return {'type' => 'magic path', 'field' => 'E', 'value' => $val } }
-		when (1004) { return {'type' => 'magic path', 'field' => 'S', 'value' => $val } }
-		when (1005) { return {'type' => 'magic path', 'field' => 'D', 'value' => $val } }
-		when (1006) { return {'type' => 'magic path', 'field' => 'N', 'value' => $val } }
-		when (1007) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
-		when (1051) { return {'type' => 'magic paths', field => 'FAWE',      'value' => $val } }
-		when (1052) { return {'type' => 'magic paths', field => 'SDNB',      'value' => $val } }
-		when (1053) { return {'type' => 'magic paths', field => 'FAWESDNB',  'value' => $val } }
-
-
-		# Max scale
-		when (2000) { return { 'type' => 'scale', 'field' => 'Turmoil',      value => $val } }
-		when (2001) { return { 'type' => 'scale', 'field' => 'Sloth',        value => $val } }
-		when (2002) { return { 'type' => 'scale', 'field' => 'Cold',         value => $val } }
-		when (2003) { return { 'type' => 'scale', 'field' => 'Death',        value => $val } }
-		when (2004) { return { 'type' => 'scale', 'field' => 'Misfortune',   value => $val } }
-		when (2005) { return { 'type' => 'scale', 'field' => 'Drain',        value => $val } }
-
-		# Min scale
-		when (2100) { return { 'type' => 'scale', 'field' => 'Order',        value => $val } }
-		when (2101) { return { 'type' => 'scale', 'field' => 'Productivity', value => $val } }
-		when (2102) { return { 'type' => 'scale', 'field' => 'Heat',         value => $val } }
-		when (2103) { return { 'type' => 'scale', 'field' => 'Growth',       value => $val } }
-		when (2104) { return { 'type' => 'scale', 'field' => 'Luck',         value => $val } }
-		when (2105) { return { 'type' => 'scale', 'field' => 'Magic',        value => $val } }
-
-		default { die "unhandled condition: $con=$val"; }
 	}
+	if ( $con ==   19 ) {
+		if ( $val == 0 ) {
+			return {'type' => 'team leader gender', value => 'female' }
+		} elsif ( $val == 1 ) {
+			return {'type' => 'team leader gender', value => 'male' }
+		} else {
+			die "valid gender but unhandled";
+		}
+	}
+
+	# Boolean
+	if ( $con ==   11 ) { return {'type' => 'boolean', 'field' => 'undead',    'value' => $val } }
+	if ( $con ==   12 ) { return {'type' => 'boolean', 'field' => 'demon',     'value' => $val } }
+	if ( $con ==   14 ) { return {'type' => 'boolean', 'field' => 'immortal',  'value' => $val } }
+	if ( $con ==   15 ) { return {'type' => 'boolean', 'field' => 'immobile',  'value' => $val } }
+	if ( $con ==   16 ) { return {'type' => 'boolean', 'field' => 'inanimate', 'value' => $val } }
+	if ( $con ==   17 ) { return {'type' => 'boolean', 'field' => 'disciple',  'value' => $val } }
+
+	# Misc.
+	if ( $con ==    1 ) { return {'type' => 'misc minimum', field => 'dominion strength', 'value' => $val } }
+	if ( $con ==    5 ) { return {'type' => 'misc minimum', field => 'fear',              'value' => $val } }
+	if ( $con ==    6 ) { return {'type' => 'misc minimum', field => 'awe',               'value' => $val } }
+	if ( $con ==    7 ) { return {'type' => 'misc minimum', field => 'strength',          'value' => $val } }
+	if ( $con ==   20 ) { return {'type' => 'misc minimum', field => 'eyes',              'value' => $val+2 } }
+
+	# Minimum magic path
+	if ( $con == 1000 ) { return {'type' => 'magic path', 'field' => 'F', 'value' => $val } }
+	if ( $con == 1001 ) { return {'type' => 'magic path', 'field' => 'A', 'value' => $val } }
+	if ( $con == 1002 ) { return {'type' => 'magic path', 'field' => 'W', 'value' => $val } }
+	if ( $con == 1003 ) { return {'type' => 'magic path', 'field' => 'E', 'value' => $val } }
+	if ( $con == 1004 ) { return {'type' => 'magic path', 'field' => 'S', 'value' => $val } }
+	if ( $con == 1005 ) { return {'type' => 'magic path', 'field' => 'D', 'value' => $val } }
+	if ( $con == 1006 ) { return {'type' => 'magic path', 'field' => 'N', 'value' => $val } }
+	if ( $con == 1007 ) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
+	if ( $con == 1051 ) { return {'type' => 'magic paths', field => 'FAWE',      'value' => $val } }
+	if ( $con == 1052 ) { return {'type' => 'magic paths', field => 'SDNB',      'value' => $val } }
+	if ( $con == 1053 ) { return {'type' => 'magic paths', field => 'FAWESDNB',  'value' => $val } }
+
+
+	# Max scale
+	if ( $con == 2000 ) { return { 'type' => 'scale', 'field' => 'Turmoil',      value => $val } }
+	if ( $con == 2001 ) { return { 'type' => 'scale', 'field' => 'Sloth',        value => $val } }
+	if ( $con == 2002 ) { return { 'type' => 'scale', 'field' => 'Cold',         value => $val } }
+	if ( $con == 2003 ) { return { 'type' => 'scale', 'field' => 'Death',        value => $val } }
+	if ( $con == 2004 ) { return { 'type' => 'scale', 'field' => 'Misfortune',   value => $val } }
+	if ( $con == 2005 ) { return { 'type' => 'scale', 'field' => 'Drain',        value => $val } }
+
+	# Min scale
+	if ( $con == 2100 ) { return { 'type' => 'scale', 'field' => 'Order',        value => $val } }
+	if ( $con == 2101 ) { return { 'type' => 'scale', 'field' => 'Productivity', value => $val } }
+	if ( $con == 2102 ) { return { 'type' => 'scale', 'field' => 'Heat',         value => $val } }
+	if ( $con == 2103 ) { return { 'type' => 'scale', 'field' => 'Growth',       value => $val } }
+	if ( $con == 2104 ) { return { 'type' => 'scale', 'field' => 'Luck',         value => $val } }
+	if ( $con == 2105 ) { return { 'type' => 'scale', 'field' => 'Magic',        value => $val } }
+
+	default { die "unhandled condition: $con=$val"; }
 }
 
 sub get_titles {
