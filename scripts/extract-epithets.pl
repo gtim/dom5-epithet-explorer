@@ -157,9 +157,9 @@ sub constraint_hash {
 	if ( $con == 1006 ) { return {'type' => 'magic path', 'field' => 'N', 'value' => $val } }
 	if ( $con == 1007 ) { return {'type' => 'magic path', 'field' => 'G', 'value' => $val } }
 	if ( $con == 1008 ) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
-	if ( $con == 1051 ) { return {'type' => 'magic paths', field => 'FAWE',      'value' => $val } }
-	if ( $con == 1052 ) { return {'type' => 'magic paths', field => 'SDNB',      'value' => $val } }
-	if ( $con == 1053 ) { return {'type' => 'magic paths', field => 'FAWESDNB',  'value' => $val } }
+	if ( $con == 1051 ) { return {'type' => 'magic paths', field => 'FAWE',      'value' => $val } } 
+	if ( $con == 1052 ) { return {'type' => 'magic paths', field => 'SDNB',      'value' => $val } }# TODO check how this changed with Glamor
+	if ( $con == 1053 ) { return {'type' => 'magic paths', field => 'FAWESDNB',  'value' => $val } }# TODO check how this changed with Glamor
 
 
 	# Max scale
