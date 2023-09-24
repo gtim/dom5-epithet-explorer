@@ -12,24 +12,35 @@ use JSON qw//;
 my $FILENAME_EXE_X64 = 'binaries/Dominions596k.exe';
 my $FILENAME_EPITHETS_OUT = 'src/lib/epithets.json';
 
-my $IMAGEBASE_OFFSET = 0x1600;
-my $EPITHETS_OFFSET = 0x2439234+12 - $IMAGEBASE_OFFSET; 
 my $EPITHET_LENGTH = 0x20;
 
 my $blob = read_binary( $FILENAME_EXE_X64 );
+
+# Find epithets array offset
+
+my $first_epithet_bytes = pack('H*', '200f444201000000120004000000000000000000340c0c000000000000000000' ); # maybe first 4 bytes (name offset) varies?
+my $EPITHETS_OFFSET = index $blob, $first_epithet_bytes;
+die 'first epithet not found' if $EPITHETS_OFFSET == -1;
+
+# Find strings offset ( image base 0x1400000000 + image base offset (0x1600 for 5.96k) )
+
+my $STRINGS_OFFSET = 0; 
+my $ix = -1;
+while(1) {
+	$ix = index( $blob, '! Who Stole the Fire', $ix + 1 );
+	last if $ix == -1;
+	$STRINGS_OFFSET = 0x142440f20 - $ix;
+}
 
 # Read all epithets
 
 my @epithets;
 for ( my $epithet_i = 0; ; $epithet_i++ ) {
 	my $epithet_bytes = substr( $blob, $EPITHETS_OFFSET + $epithet_i * $EPITHET_LENGTH, $EPITHET_LENGTH );
+	#say map { sprintf( "%02x", $_) } unpack 'C*', $epithet_bytes; # print epithet byte string
 	my ( $name_offset, @conditions_and_values ) = unpack 'Q<'.('s<'x12), $epithet_bytes;
-	my $name = get_cstring( $blob, $name_offset - $IMAGEBASE_OFFSET - 0x140000000 );
+	my $name = get_cstring( $blob, $name_offset - $STRINGS_OFFSET );
 	last if $name eq 'end';
-
-	#say $name;
-	#foreach (split //, $epithet_bytes) { printf("%02x ", ord ); }
-	#print "\n";
 
 	my @conditions = @conditions_and_values[0..5];
 	my @values = @conditions_and_values[6..11];
@@ -84,7 +95,7 @@ if(0){
 
 
 	# Ruler of Nothing: no epithets found after 10,000 tries
-	say get_cstring( $blob, 0x135f5e8 - $IMAGEBASE_OFFSET );
+	say get_cstring( $blob, 0x135f5e8 - 0x1600 );
 
 }
 
@@ -188,8 +199,8 @@ sub constraint_hash {
 
 sub get_titles {
 	my ( $blob, $start, $num_titles ) = @_;
-	my @title_offsets = unpack 'Q<'x5, substr($blob, $start - $IMAGEBASE_OFFSET, 8*$num_titles  );
-	my @titles = map { get_cstring( $blob, $_ - $IMAGEBASE_OFFSET - 0x140000000 ) } @title_offsets;
+	my @title_offsets = unpack 'Q<'x5, substr($blob, $start - 0x1600, 8*$num_titles  );
+	my @titles = map { get_cstring( $blob, $_ - 0x1600 - 0x140000000 ) } @title_offsets;
 	return @titles;
 }
 
