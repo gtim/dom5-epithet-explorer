@@ -146,6 +146,11 @@ sub constraint_hash {
 	if ( $con ==    6 ) { return {'type' => 'misc minimum', field => 'awe',               'value' => $val } }
 	if ( $con ==    7 ) { return {'type' => 'misc minimum', field => 'strength',          'value' => $val } }
 	if ( $con ==   20 ) { return {'type' => 'misc minimum', field => 'eyes',              'value' => $val+2 } }
+	if ( $con ==   21 ) {
+		# TODO
+		warn "unknown condition: $con=$val";
+		return {'type' => 'unknown'};
+	}
 
 	# Minimum magic path
 	if ( $con == 1000 ) { return {'type' => 'magic path', 'field' => 'F', 'value' => $val } }

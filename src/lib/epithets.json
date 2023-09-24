@@ -11533,7 +11533,9 @@
                "type" : "boolean",
                "value" : 1
             },
-            true
+            {
+               "type" : "unknown"
+            }
          ],
          "id" : 771,
          "string" : "the Beast of $"
